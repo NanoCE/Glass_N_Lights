@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AdvancedResearchDef>
+	
+	<defName>BuildColoredCeilingLamps</defName>
+	<Priority>1</Priority>
+	
+	<researchDefs>
+		<li>ColoredLights</li>
+		<li>GlassworksResearch</li>
+	</researchDefs>
+	
+	<buildingDefs>
+		<li>CeilingLampYellow</li>
+		<li>CeilingLampViolet</li>
+		<li>CeilingLampOrange</li>
+		<li>CeilingLampRed</li>
+		<li>CeilingLampGreen</li>
+		<li>CeilingLampBlue</li>
+	</buildingDefs>
+		
+	</AdvancedResearchDef>
+
+</Defs>

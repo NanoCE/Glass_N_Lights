@@ -1,0 +1,521 @@
+<Buildings>
+
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+  </ThingDef>
+  
+  <!--======================================CeilingLights======================================-->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>CeilingLampYellow</defName>
+    <label>ceiling lamp (yellow)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Lights/CeilingLamp_Yellow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowInfo>
+        <basewidth>0.3</basewidth>
+        <baseHeight>0.3</baseHeight>
+        <tallness>0.6</tallness>
+        <offset>(0,0,-0.1)</offset>
+      </shadowInfo>
+	  <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Flammability>1.0</Flammability>
+	  <Beauty>20</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <description>A yellow ceiling lamp that lights an area in a dull yellow color.</description>
+    <costList>
+		<LargeCircularGlass>1</LargeCircularGlass>
+        <Steel>8</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>13</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
+			<compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>CommunityCoreLibrary.PlaceWorker_OnlyUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>false</rotatable>
+    <designationHotKey></designationHotKey>
+	<filthLeaving>BrokenGlass</filthLeaving>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>CeilingLampViolet</defName>
+    <label>ceiling lamp (violet)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Lights/CeilingLamp_Violet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowInfo>
+        <basewidth>0.3</basewidth>
+        <baseHeight>0.3</baseHeight>
+        <tallness>0.6</tallness>
+        <offset>(0,0,-0.1)</offset>
+      </shadowInfo>
+	  <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Flammability>1.0</Flammability>
+	  <Beauty>20</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <description>A violet ceiling lamp that lights an area in a dull violet color.</description>
+    <costList>
+		<LargeCircularGlass>1</LargeCircularGlass>
+        <Steel>8</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>13</glowRadius>
+        <glowColor>(217,0,217,0)</glowColor>
+      </li>
+	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
+			<compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>CommunityCoreLibrary.PlaceWorker_OnlyUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>false</rotatable>
+    <designationHotKey></designationHotKey>
+	<filthLeaving>BrokenGlass</filthLeaving>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>CeilingLampOrange</defName>
+    <label>ceiling lamp (orange)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Lights/CeilingLamp_Orange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowInfo>
+        <basewidth>0.3</basewidth>
+        <baseHeight>0.3</baseHeight>
+        <tallness>0.6</tallness>
+        <offset>(0,0,-0.1)</offset>
+      </shadowInfo>
+	  <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Flammability>1.0</Flammability>
+	  <Beauty>20</Beauty>
+	  <Comfort>0.75</Comfort>
+    </statBases>
+    <selectable>true</selectable>
+    <description>An orange ceiling lamp that lights an area in a dull orange color.</description>
+    <costList>
+		<LargeCircularGlass>1</LargeCircularGlass>
+        <Steel>8</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>13</glowRadius>
+        <glowColor>(217,150,0,0)</glowColor>
+      </li>
+	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
+			<compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>CommunityCoreLibrary.PlaceWorker_OnlyUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>false</rotatable>
+    <designationHotKey></designationHotKey>
+	<filthLeaving>BrokenGlass</filthLeaving>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>CeilingLampRed</defName>
+    <label>ceiling lamp (red)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Lights/CeilingLamp_Red</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowInfo>
+        <basewidth>0.3</basewidth>
+        <baseHeight>0.3</baseHeight>
+        <tallness>0.6</tallness>
+        <offset>(0,0,-0.1)</offset>
+      </shadowInfo>
+	  <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Flammability>1.0</Flammability>
+	  <Beauty>20</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <description>A red ceiling lamp that lights an area in a dull red color.</description>
+    <costList>
+		<LargeCircularGlass>1</LargeCircularGlass>
+        <Steel>8</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>13</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
+			<compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>CommunityCoreLibrary.PlaceWorker_OnlyUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>false</rotatable>
+    <designationHotKey></designationHotKey>
+	<filthLeaving>BrokenGlass</filthLeaving>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>CeilingLampGreen</defName>
+    <label>ceiling lamp (green)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Lights/CeilingLamp_Green</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowInfo>
+        <basewidth>0.3</basewidth>
+        <baseHeight>0.3</baseHeight>
+        <tallness>0.6</tallness>
+        <offset>(0,0,-0.1)</offset>
+      </shadowInfo>
+	  <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <description>A green ceiling lamp that lights an area in a dull green color.</description>
+    <costList>
+		<LargeCircularGlass>1</LargeCircularGlass>
+		<Steel>8</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>13</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
+			<compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>CommunityCoreLibrary.PlaceWorker_OnlyUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>false</rotatable>
+    <designationHotKey></designationHotKey>
+	<filthLeaving>BrokenGlass</filthLeaving>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>CeilingLampBlue</defName>
+    <label>ceiling lamp (blue)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Lights/CeilingLamp_Blue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowInfo>
+        <basewidth>0.3</basewidth>
+        <baseHeight>0.3</baseHeight>
+        <tallness>0.6</tallness>
+        <offset>(0,0,-0.1)</offset>
+      </shadowInfo>
+	  <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Flammability>1.0</Flammability>
+	  <Beauty>20</Beauty>
+	  <Comfort>0.75</Comfort>
+    </statBases>
+    <selectable>true</selectable>
+    <description>A blue ceiling lamp that lights an area in a dull blue color.</description>
+    <costList>
+		<LargeCircularGlass>1</LargeCircularGlass>
+        <Steel>8</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>13</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
+			<compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>CommunityCoreLibrary.PlaceWorker_OnlyUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>false</rotatable>
+    <designationHotKey></designationHotKey>
+	<filthLeaving>BrokenGlass</filthLeaving>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>CeilingLamp</defName>
+    <label>ceiling lamp</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Lights/CeilingLamp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowInfo>
+        <basewidth>0.3</basewidth>
+        <baseHeight>0.3</baseHeight>
+        <tallness>0.6</tallness>
+        <offset>(0,0,-0.1)</offset>
+      </shadowInfo>
+	  <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Flammability>1.0</Flammability>
+	  <Beauty>20</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <description>Ceiling lamp that lights an area.</description>
+    <costList>
+      <Steel>7</Steel>
+	  <LargeCircularGlass>1</LargeCircularGlass>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>13</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
+          <compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>CommunityCoreLibrary.PlaceWorker_OnlyUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>false</rotatable>
+    <designationHotKey></designationHotKey>
+	<filthLeaving>BrokenGlass</filthLeaving>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<researchPrerequisite>GlassworksResearch</researchPrerequisite>
+  </ThingDef>
+  
+  <!--======================================WallLights======================================-->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>WallLamp</defName>
+    <label>wall lamp</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Lights/WallLamp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Flammability>1.0</Flammability>
+	  <Beauty>20</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <description>Wall lamp that lights an area is bigger glow than most lights.</description>
+    <costList>
+      <Steel>8</Steel>
+	  <Glass>1</Glass>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+      </li>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>13</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
+			<compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>CommunityCoreLibrary.PlaceWorker_WallAttachment</li>
+    </placeWorkers>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>true</rotatable>
+    <designationHotKey></designationHotKey>	
+	<researchPrerequisite>GlassworksResearch</researchPrerequisite><filthLeaving>BrokenGlass</filthLeaving>
+  </ThingDef>
+  
+  <!--======================================OutdoorLights======================================-->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>OutdoorGroundLamp</defName>
+    <label>outdoor ground lamp</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Lights/OutdoorGroundLamp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Flammability>1.0</Flammability>
+	  <Beauty>5</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <description>A small ground lamp, powered by the sun, that lights a small area or a path outdoors..</description>
+    <costList>
+      <Steel>6</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <comps>
+      <li>
+        <compClass>CompGlower</compClass>
+        <glowRadius>4</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>true</rotatable>
+    <designationHotKey></designationHotKey>
+	<filthLeaving>BrokenGlass</filthLeaving>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  </ThingDef>
+  
+</Buildings>

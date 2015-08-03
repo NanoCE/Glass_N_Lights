@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+  </ThingDef>
+
+  	<ThingDef ParentName="BuildingBase">
+		<defName>GlassMonitorLarge</defName>
+		<Label>Glassworks TV</Label>
+		<Description>A large TV screen showing old movies.</Description>
+		<graphicData>
+			<texPath>Things/Building/Other/GlassworkTV</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<AltitudeLayer>Waist</AltitudeLayer>
+		<rotatable>true</rotatable>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>4750</WorkToMake>
+			<Flammability>1.0</Flammability>
+			<Beauty>150</Beauty>
+		</statBases>
+		<Size>(2,1)</Size>
+		<CostList>
+			<Steel>10</Steel>
+			<Glass>1</Glass>
+		</CostList>
+		<DesignationCategory>Joy</DesignationCategory>
+		<pathCost>70</pathCost>
+		<Passability>PassThroughOnly</Passability>
+		<comps>
+			<li>
+				<compClass>CompPowerTrader</compClass>
+				<startElectricalFires>true</startElectricalFires>
+				<basePowerConsumption>10</basePowerConsumption>
+				<soundPowerOn>PowerOnSmall</soundPowerOn>
+				<soundPowerOff>PowerOffSmall</soundPowerOff>
+			</li>
+			<li>
+				<compClass>CompGlower</compClass>
+				<glowRadius>3</glowRadius>
+				<glowColor>(195,225,255,0)</glowColor>
+			</li>
+		</comps>
+		<researchPrerequisite>DecorativeGlassResearch</researchPrerequisite>
+	</ThingDef>
+
+</ThingDefs>

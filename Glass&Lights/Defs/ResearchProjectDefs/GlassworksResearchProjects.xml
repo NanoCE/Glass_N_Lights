@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResearchProjectDefs>
+
+	<ResearchProjectDef>
+		<defName>GlassworksResearch</defName>
+		<label>glassworks research</label>
+		<description>Makeing clear glass is harder than it seems but with some hard work you will find the right formula.</description>
+		<totalCost>600</totalCost>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>ReinforcedGlassResearch</defName>
+		<label>reinforced glass research</label>
+		<description>Glass is fragile but with the right tools you can make it stronger</description>
+		<totalCost>300</totalCost>
+		<prerequisites>
+			<li>GlassworksResearch</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>DecorativeGlassResearch</defName>
+		<label>decorative glass research</label>
+		<description>Glass can be used for more than just windows.</description>
+		<totalCost>200</totalCost>
+		<prerequisites>
+			<li>GlassworksResearch</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</ResearchProjectDefs>
