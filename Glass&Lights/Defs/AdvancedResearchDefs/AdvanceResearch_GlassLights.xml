@@ -4,7 +4,7 @@
 	<AdvancedResearchDef>
 	
 	<defName>BuildColoredCeilingLamps</defName>
-	<Priority>1</Priority>
+	<Priority>0</Priority>
 	
 	<researchDefs>
 		<li>ColoredLights</li>
