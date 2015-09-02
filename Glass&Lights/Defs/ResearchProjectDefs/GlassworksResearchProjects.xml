@@ -4,8 +4,8 @@
 	<ResearchProjectDef>
 		<defName>GlassworksResearch</defName>
 		<label>glassworks research</label>
-		<description>Makeing clear glass is harder than it seems but with some hard work you will find the right formula.</description>
-		<totalCost>600</totalCost>
+		<description>Making clear glass is harder than it seems but with some hard work you will find the right formula.</description>
+		<totalCost>500</totalCost>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
@@ -21,7 +21,7 @@
 	<ResearchProjectDef>
 		<defName>DecorativeGlassResearch</defName>
 		<label>decorative glass research</label>
-		<description>Glass can be used for more than just windows.</description>
+		<description>Glass can be used for more than just windows and lights.</description>
 		<totalCost>200</totalCost>
 		<prerequisites>
 			<li>GlassworksResearch</li>

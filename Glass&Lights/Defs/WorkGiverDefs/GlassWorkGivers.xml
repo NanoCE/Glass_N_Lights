@@ -15,6 +15,19 @@
   </WorkGiverDef>
   
   <WorkGiverDef>
+    <defName>DoBillsMakeLargeCircularGlass</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <singleBillGiverDef>ReinforcedGlassworkTable</singleBillGiverDef>
+    <verb>produce large circular glass</verb>
+    <gerund>producing large circular glass</gerund>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
     <defName>DoBillsMakeReinforcedGlass</defName>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>

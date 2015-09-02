@@ -4,21 +4,21 @@
 	<AdvancedResearchDef>
 	
 	<defName>BuildColoredCeilingLamps</defName>
-	<Priority>0</Priority>
+	<Priority>1</Priority>
 	
 	<researchDefs>
 		<li>ColoredLights</li>
 		<li>GlassworksResearch</li>
 	</researchDefs>
 	
-	<buildingDefs>
-		<li>CeilingLampYellow</li>
-		<li>CeilingLampViolet</li>
-		<li>CeilingLampOrange</li>
-		<li>CeilingLampRed</li>
-		<li>CeilingLampGreen</li>
-		<li>CeilingLampBlue</li>
-	</buildingDefs>
+	<thingDefs>
+		<li>CeilingLamp_Yellow</li>
+		<li>CeilingLamp_Violet</li>
+		<li>CeilingLamp_Orange</li>
+		<li>CeilingLamp_Red</li>
+		<li>CeilingLamp_Green</li>
+		<li>CeilingLamp_Blue</li>
+	</thingDefs>
 		
 	</AdvancedResearchDef>
 

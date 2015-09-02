@@ -34,6 +34,38 @@
 	</RecipeDef>
 	
 	<RecipeDef>
+		<defName>MakeCircularGlass</defName>
+		<label>make Circular Glass</label>
+		<description>Melt some sand into circular glass.</description>
+		<jobString>Making circular glass.</jobString>
+		<workAmount>1600</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<specialProducts>
+			<li>Smelted</li>
+		</specialProducts>
+		<products>
+			<LargeCircularGlass>3</LargeCircularGlass>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef>
 		<defName>MakeReinforcedGlass</defName>
 		<label>make Reinforced Glass</label>
 		<description>Turn some glass into reinforced glass.</description>
