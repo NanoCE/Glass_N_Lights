@@ -42,6 +42,12 @@
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>5</minLevel>
+			</li>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -90,6 +96,50 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Glass</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeMolotov</defName>
+		<label>make Molotov</label>
+		<description>Make weapon that burns your enemies into ashes!</description>
+		<jobString>Making molotov.</jobString>
+		<workAmount>850</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>Recipe_MakeClothes</soundWorking>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>5</minLevel>
+			</li>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Glass</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Weapon_GrenadeMolotov>1</Weapon_GrenadeMolotov>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Glass</li>
+				<li>Cloth</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>

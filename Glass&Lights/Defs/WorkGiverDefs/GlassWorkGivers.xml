@@ -19,7 +19,7 @@
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>100</priorityInType>
-    <singleBillGiverDef>ReinforcedGlassworkTable</singleBillGiverDef>
+    <singleBillGiverDef>GlassworkTable</singleBillGiverDef>
     <verb>produce large circular glass</verb>
     <gerund>producing large circular glass</gerund>
 	<requiredCapacities>
@@ -35,6 +35,19 @@
     <singleBillGiverDef>ReinforcedGlassworkTable</singleBillGiverDef>
     <verb>produce reinforced glass</verb>
     <gerund>producing reinforced glass</gerund>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+  </WorkGiverDef>
+  
+    <WorkGiverDef>
+    <defName>DoBillsMakeMolotov</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <singleBillGiverDef>GlassworkTable</singleBillGiverDef>
+    <verb>produce molotov</verb>
+    <gerund>producing molotov</gerund>
 	<requiredCapacities>
 		<li>Manipulation</li>
 	</requiredCapacities>

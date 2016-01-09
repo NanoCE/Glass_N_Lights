@@ -42,6 +42,7 @@
 		<recipes>
 			<li>MakeGlass</li>
 			<li>MakeCircularGlass</li>
+			<li>MakeMolotov</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -78,6 +79,7 @@
 		</graphicData>
 		<CostList>
 				<Steel>20</Steel>
+				<Glass>5</Glass>
 		</CostList>
 		<AltitudeLayer>Waist</AltitudeLayer>
 		<useHitPoints>True</useHitPoints>
