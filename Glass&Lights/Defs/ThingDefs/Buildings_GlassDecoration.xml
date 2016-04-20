@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-  <ThingDef Name="BuildingBase" Abstract="True">
+  <!--<ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
     <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
@@ -11,12 +11,12 @@
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <filthLeaving>BuildingRubble</filthLeaving>
-  </ThingDef>
+  </ThingDef>-->
 
   	<ThingDef ParentName="BuildingBase">
 		<defName>GlassMonitorLarge</defName>
 		<Label>Glassworks TV</Label>
-		<Description>A large TV screen showing old movies.</Description>
+		<Description>A higher-tech glass television with crystal-clear image and richer color. More entertaining than a grainy flatscreen TVs.</Description>
 		<graphicData>
 			<texPath>Things/Building/Other/GlassworkTV</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -41,20 +41,19 @@
 		<pathCost>70</pathCost>
 		<Passability>PassThroughOnly</Passability>
 		<comps>
-			<li>
+			<li Class="CompProperties_Power" >
 				<compClass>CompPowerTrader</compClass>
 				<startElectricalFires>true</startElectricalFires>
-				<basePowerConsumption>10</basePowerConsumption>
-				<soundPowerOn>PowerOnSmall</soundPowerOn>
-				<soundPowerOff>PowerOffSmall</soundPowerOff>
+				<basePowerConsumption>50</basePowerConsumption>
+				<!--<soundPowerOn>PowerOnSmall</soundPowerOn>
+				<soundPowerOff>PowerOffSmall</soundPowerOff>-->
 			</li>
-			<li>
-				<compClass>CompGlower</compClass>
+			<li Class="CompProperties_Glower">
 				<glowRadius>3</glowRadius>
 				<glowColor>(195,225,255,0)</glowColor>
 			</li>
 		</comps>
-		<researchPrerequisite>DecorativeGlassResearch</researchPrerequisite>
+		<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
 	</ThingDef>
 
 </ThingDefs>

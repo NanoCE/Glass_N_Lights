@@ -2,7 +2,7 @@
 <Buildings>
 
 
-  <ThingDef Name="BuildingBase" Abstract="True">
+  <!--<ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
     <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
@@ -12,7 +12,7 @@
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <filthLeaving>BuildingRubble</filthLeaving>
-  </ThingDef>
+  </ThingDef>-->
   
 <!--================================================Ceiling Lights=====================================-->
 
@@ -38,18 +38,18 @@
 	  <shaderType>Transparent</shaderType>
     </graphicData>
     <comps>
-      <li>
+      <li Class="CompProperties_Power" >
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>150</basePowerConsumption>
         <shortCircuitInRain>false</shortCircuitInRain>
-        <soundPowerOn>PowerOnSmall</soundPowerOn>
-        <soundPowerOff>PowerOffSmall</soundPowerOff>
+        <!--<soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>-->
       </li>
       <li>
         <compClass>CompQuality</compClass>
       </li>
-	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
-          <compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+	  <li Class="CommunityCoreLibrary.CompProperties_RestrictedPlacement">
+          <compClass>CommunityCoreLibrary.CompRestrictedPlacement</compClass>
       </li>
     </comps>
         <statBases>
@@ -72,13 +72,12 @@
     <description>Ceiling lamp that lights an area.</description>
     <designationHotKey></designationHotKey>
     <comps>
-      <li>
-        <compClass>CompGlower</compClass>
+      <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
         <glowColor>(217,217,208,0)</glowColor>
       </li>
     </comps>
-	<researchPrerequisite>GlassworksResearch</researchPrerequisite>
+	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
   
   <ThingDef ParentName="CeilingLampBase">
@@ -91,8 +90,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
-      <li>
-        <compClass>CompGlower</compClass>
+      <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
         <glowColor>(217,0,0,0)</glowColor>
       </li>
@@ -109,8 +107,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
-      <li>
-        <compClass>CompGlower</compClass>
+      <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
         <glowColor>(0,0,217,0)</glowColor>
       </li>
@@ -130,8 +127,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
-      <li>
-        <compClass>CompGlower</compClass>
+      <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
         <glowColor>(0,217,0,0)</glowColor>
       </li>
@@ -148,8 +144,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
-      <li>
-        <compClass>CompGlower</compClass>
+      <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
         <glowColor>(217,0,217,0)</glowColor>
       </li>
@@ -170,8 +165,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
-      <li>
-        <compClass>CompGlower</compClass>
+      <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
         <glowColor>(217,217,0,0)</glowColor>
       </li>
@@ -191,8 +185,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
-      <li>
-        <compClass>CompGlower</compClass>
+      <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
         <glowColor>(217,150,0,0)</glowColor>
       </li>
@@ -226,18 +219,18 @@
       <li>
         <compClass>CompQuality</compClass>
       </li>
-	  <li Class="CommunityCoreLibrary.RestrictedPlacement_Properties">
-			<compClass>CommunityCoreLibrary.RestrictedPlacement_Comp</compClass>
+	  <li Class="CommunityCoreLibrary.CompProperties_RestrictedPlacement">
+			<compClass>CommunityCoreLibrary.CompRestrictedPlacement</compClass>
       </li>
     </comps>
-        <statBases>
+    <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>170</WorkToMake>
       <Flammability>1.0</Flammability>
     </statBases>
 	<tickerType>Rare</tickerType>
 	<!--Needs a reason to tick!-->
-	<researchPrerequisite>GlassworksResearch</researchPrerequisite>
+	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
  
    <ThingDef ParentName="StandingLampBase">
@@ -251,15 +244,14 @@
     </graphicData>
 	<rotatable>true</rotatable>
     <comps>
-	  <li>
+	  <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>150</basePowerConsumption>
         <shortCircuitInRain>false</shortCircuitInRain>
-        <soundPowerOn>PowerOnSmall</soundPowerOn>
-        <soundPowerOff>PowerOffSmall</soundPowerOff>
+        <!--<soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>-->
       </li>
-      <li>
-        <compClass>CompGlower</compClass>
+      <li Class="CompProperties_Glower">
         <glowRadius>15</glowRadius>
         <glowColor>(217,217,208,0)</glowColor>
       </li>
@@ -280,8 +272,7 @@
     </graphicData>
 	<rotatable>true</rotatable>
     <comps>
-      <li>
-        <compClass>CompGlower</compClass>
+      <li Class="CompProperties_Glower">
         <glowRadius>15</glowRadius>
         <glowColor>(217,217,208,0)</glowColor>
       </li>

@@ -2,7 +2,7 @@
 <Buildings>
 
 
-	<ThingDef Name="BuildingBase" Abstract="True">
+	<!--<ThingDef Name="BuildingBase" Abstract="True">
 		<category>Building</category>
 		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
 		<selectable>true</selectable>
@@ -11,7 +11,7 @@
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<filthLeaving>BuildingRubble</filthLeaving>
-	</ThingDef>
+	</ThingDef>-->
   
   
 	<!--========================= Doors =============================-->
@@ -80,13 +80,13 @@
 			<Steel>15</Steel>
 		</costList>
 		<comps>
-			<li>
+			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>25</basePowerConsumption>
 			</li>
 		</comps>
 		<filthLeaving>BrokenGlass</filthLeaving>
-		<researchPrerequisite>GlassworksResearch</researchPrerequisite>
+		<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
 	</ThingDef>
   
 	<!--========================= Walls =============================-->
@@ -154,7 +154,7 @@
       </li>
     </damageMultipliers>
     <filthLeaving>BrokenGlass</filthLeaving>
-	<researchPrerequisite>GlassworksResearch</researchPrerequisite>
+	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
   
 </Buildings>

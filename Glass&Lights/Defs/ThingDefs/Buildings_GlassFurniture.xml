@@ -2,7 +2,7 @@
 <Buildings>
 
 
-  <ThingDef Name="BuildingBase" Abstract="True">
+  <!--<ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
     <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
@@ -12,7 +12,7 @@
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <filthLeaving>BuildingRubble</filthLeaving>
-  </ThingDef>
+  </ThingDef>-->
 
     <!-- ======================== Furniture ======================= -->
 
@@ -20,9 +20,6 @@
     <thingClass>Building</thingClass>
     <altitudeLayer>Waist</altitudeLayer>
     <description>People eat off tables when chairs are placed facing them.</description>
-	<!--<graphicData>
-		<graphicOverdraw>false</graphicOverdraw>
-	</graphicData>-->
     <passability>PassThroughOnly</passability>
     <castEdgeShadows>true</castEdgeShadows>
     <pathCost>60</pathCost>
@@ -65,7 +62,7 @@
     <rotatable>false</rotatable>
     <filthLeaving>BrokenGlass</filthLeaving>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-	<researchPrerequisite>DecorativeGlassResearch</researchPrerequisite>
+	<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
   </ThingDef>
 
 </Buildings>

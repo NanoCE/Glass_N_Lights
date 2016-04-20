@@ -3,6 +3,7 @@
 
   <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
+	<thingClass>Building</thingClass>
     <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -48,23 +49,34 @@
 			<li>ITab_Bills</li>
 		</inspectorTabs>
 		<comps>
-			<li>
+			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<startElectricalFires>true</startElectricalFires>
 				<basePowerConsumption>200</basePowerConsumption>
-				<soundPowerOn>PowerOnSmall</soundPowerOn>
-				<soundPowerOff>PowerOffSmall</soundPowerOff>
+				<!--<soundPowerOn>PowerOnSmall</soundPowerOn>
+				<soundPowerOff>PowerOffSmall</soundPowerOff>-->
 			</li>
-			<li>
-				<compClass>CompGlower</compClass>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Glower">
 				<glowRadius>2</glowRadius>
-				<glowColor>(217,112,33,0)</glowColor>
+				<glowColor>(210,112,33,0)</glowColor>
 			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>11</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.5</heatPerTickWhileWorking>
 		</building>
-		<researchPrerequisite>GlassworksResearch</researchPrerequisite>
+		<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
 	</ThingDef>
   
   	<ThingDef ParentName="BuildingBase">
@@ -102,18 +114,34 @@
 			<li>ITab_Bills</li>
 		</inspectorTabs>
 		<comps>
-			<li>
+			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<startElectricalFires>true</startElectricalFires>
-				<basePowerConsumption>50</basePowerConsumption>
-				<soundPowerOn>PowerOnSmall</soundPowerOn>
-				<soundPowerOff>PowerOffSmall</soundPowerOff>
+				<basePowerConsumption>100</basePowerConsumption>
+				<!--<soundPowerOn>PowerOnSmall</soundPowerOn>
+				<soundPowerOff>PowerOffSmall</soundPowerOff>-->
 			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(210,112,33,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>12</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.2</heatPerTickWhileWorking>
 		</building>
-		<researchPrerequisite>ReinforcedGlassResearch</researchPrerequisite>
+		<researchPrerequisites><li>ReinforcedGlassResearch</li></researchPrerequisites>
 	</ThingDef>
 
 </ThingDefs>
