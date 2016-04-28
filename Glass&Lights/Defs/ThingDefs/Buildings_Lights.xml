@@ -95,6 +95,10 @@
         <glowColor>(217,0,0,0)</glowColor>
       </li>
     </comps>
+	<researchPrerequisites>
+		<li>ColoredLights</li>
+		<li>GlassworksResearch</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="CeilingLampBase">
@@ -115,6 +119,10 @@
 	<statBases>
 		<Comfort>0.75</Comfort>
 	</statBases>
+	<researchPrerequisites>
+		<li>ColoredLights</li>
+		<li>GlassworksResearch</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="CeilingLampBase">
@@ -132,6 +140,10 @@
         <glowColor>(0,217,0,0)</glowColor>
       </li>
     </comps>
+	<researchPrerequisites>
+		<li>ColoredLights</li>
+		<li>GlassworksResearch</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="CeilingLampBase">
@@ -153,6 +165,10 @@
 		<Beauty>25</Beauty>
 		<Comfort>0.15</Comfort>
 	</statBases>
+	<researchPrerequisites>
+		<li>ColoredLights</li>
+		<li>GlassworksResearch</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="CeilingLampBase">
@@ -173,6 +189,10 @@
 	<statBases>
 		<Comfort>0.75</Comfort>
 	</statBases>
+	<researchPrerequisites>
+		<li>ColoredLights</li>
+		<li>GlassworksResearch</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="CeilingLampBase">
@@ -190,6 +210,10 @@
         <glowColor>(217,150,0,0)</glowColor>
       </li>
     </comps>
+	<researchPrerequisites>
+		<li>ColoredLights</li>
+		<li>GlassworksResearch</li>
+	</researchPrerequisites>
   </ThingDef>
   
  <!--========================================Special Lights==================================-->
@@ -270,7 +294,6 @@
       <texPath>Things/Building/Lights/OutdoorGroundLamp</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	<rotatable>true</rotatable>
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>15</glowRadius>

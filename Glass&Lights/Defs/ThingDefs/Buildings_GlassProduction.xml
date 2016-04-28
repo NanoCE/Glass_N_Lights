@@ -10,7 +10,7 @@
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
+    <filthLeaving>BrokenGlass</filthLeaving>
   </ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -22,9 +22,16 @@
 			<texPath>Things/Building/Production/GlassworkTable</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,1)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 		</graphicData>
 		<CostList>
 				<Steel>60</Steel>
+				<Components>2</Components>
 		</CostList>
 		<AltitudeLayer>Waist</AltitudeLayer>
 		<useHitPoints>True</useHitPoints>
@@ -90,8 +97,9 @@
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
 		<CostList>
-				<Steel>20</Steel>
-				<Glass>5</Glass>
+				<Steel>40</Steel>
+				<Glass>8</Glass>
+				<Components>10</Components>
 		</CostList>
 		<AltitudeLayer>Waist</AltitudeLayer>
 		<useHitPoints>True</useHitPoints>
@@ -118,8 +126,6 @@
 				<compClass>CompPowerTrader</compClass>
 				<startElectricalFires>true</startElectricalFires>
 				<basePowerConsumption>100</basePowerConsumption>
-				<!--<soundPowerOn>PowerOnSmall</soundPowerOn>
-				<soundPowerOff>PowerOffSmall</soundPowerOff>-->
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AffectedByFacilities">
