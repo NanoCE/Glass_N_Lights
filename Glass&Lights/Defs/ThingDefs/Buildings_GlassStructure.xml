@@ -77,6 +77,7 @@
 		</stuffCategories>
 		<costStuffCount>1</costStuffCount>
 		<costList>
+			<Component>1</Component>
 			<Steel>15</Steel>
 		</costList>
 		<comps>
@@ -121,7 +122,7 @@
     </statBases>
     <costStuffCount>1</costStuffCount>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <altitudeLayer>BuildingTall</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>1</fillPercent>

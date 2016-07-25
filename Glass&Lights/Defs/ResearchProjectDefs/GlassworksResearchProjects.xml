@@ -5,27 +5,44 @@
 		<defName>GlassworksResearch</defName>
 		<label>glassworks research</label>
 		<description>Making clear glass is harder than it seems but with some hard work you will find the right formula.</description>
-		<totalCost>500</totalCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<baseCost>550</baseCost>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>ReinforcedGlassResearch</defName>
 		<label>reinforced glass research</label>
 		<description>Glass is fragile but with the right tools you can make it stronger</description>
-		<totalCost>300</totalCost>
+		<techLevel>Industrial</techLevel>
+		<baseCost>600</baseCost>
 		<prerequisites>
+			<li>Electricity</li>
 			<li>GlassworksResearch</li>
 		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>DecorativeGlassResearch</defName>
 		<label>decorative glass research</label>
 		<description>Glass can be used for more than just windows and lights.</description>
-		<totalCost>200</totalCost>
+		<techLevel>Industrial</techLevel>
+		<baseCost>700</baseCost>
 		<prerequisites>
+			<li>Electricity</li>
 			<li>GlassworksResearch</li>
 		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
 	</ResearchProjectDef>
 
 </ResearchProjectDefs>

@@ -18,7 +18,7 @@
 
   <ThingDef Abstract="True" ParentName="BuildingBase" Name="TableBase">
     <thingClass>Building</thingClass>
-    <altitudeLayer>Waist</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <description>People eat off tables when chairs are placed facing them.</description>
     <passability>PassThroughOnly</passability>
     <castEdgeShadows>true</castEdgeShadows>

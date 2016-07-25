@@ -22,7 +22,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,1)</drawSize>
 		</graphicData>
-		<AltitudeLayer>Waist</AltitudeLayer>
+		<AltitudeLayer>Building</AltitudeLayer>
 		<rotatable>true</rotatable>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -37,7 +37,7 @@
 		</statBases>
 		<costList>
 			<Steel>80</Steel>
-			<Components>10</Components>
+			<Component>10</Component>
 			<Glass>4</Glass>
 		</costList>
 		<Size>(2,1)</Size>

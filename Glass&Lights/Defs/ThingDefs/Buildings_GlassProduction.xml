@@ -31,14 +31,15 @@
 		</graphicData>
 		<CostList>
 				<Steel>60</Steel>
-				<Components>2</Components>
+				<Component>2</Component>
 		</CostList>
-		<AltitudeLayer>Waist</AltitudeLayer>
+		<AltitudeLayer>Building</AltitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToMake>1300</WorkToMake>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
+			<Cleanliness>-6</Cleanliness>
 		</statBases>
 		<Size>(2,1)</Size>
 		<surfaceType>Item</surfaceType>
@@ -83,6 +84,9 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.5</heatPerTickWhileWorking>
 		</building>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
 		<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
 	</ThingDef>
   
@@ -99,9 +103,9 @@
 		<CostList>
 				<Steel>40</Steel>
 				<Glass>8</Glass>
-				<Components>10</Components>
+				<Component>10</Component>
 		</CostList>
-		<AltitudeLayer>Waist</AltitudeLayer>
+		<AltitudeLayer>Building</AltitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToMake>900</WorkToMake>
@@ -148,6 +152,9 @@
 			<heatPerTickWhileWorking>0.2</heatPerTickWhileWorking>
 		</building>
 		<researchPrerequisites><li>ReinforcedGlassResearch</li></researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
 	</ThingDef>
 
 </ThingDefs>

@@ -20,7 +20,7 @@
     <thingClass>Building</thingClass>
     <category>Building</category>
     <minifiedDef>MinifiedFurniture</minifiedDef>
-    <altitudeLayer>Waist</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
@@ -70,7 +70,6 @@
     <defName>CeilingLamp</defName>
     <label>ceiling lamp</label>
     <description>Ceiling lamp that lights an area.</description>
-    <designationHotKey></designationHotKey>
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
@@ -83,7 +82,6 @@
   <ThingDef ParentName="CeilingLampBase">
     <defName>CeilingLamp_Red</defName>
     <label>ceiling lamp (red)</label>
-    <designationHotKey></designationHotKey>
     <description>Ceiling lamp that lights an area in a dull red color.</description>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Red</texPath>
@@ -104,7 +102,6 @@
   <ThingDef ParentName="CeilingLampBase">
     <defName>CeilingLamp_Blue</defName>
     <label>ceiling lamp (blue)</label>
-    <designationHotKey></designationHotKey>
     <description>Ceiling lamp that lights an area in a dull blue color. Also has a calming affect.</description>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Blue</texPath>
@@ -128,7 +125,6 @@
   <ThingDef ParentName="CeilingLampBase">
     <defName>CeilingLamp_Green</defName>
     <label>ceiling lamp (green)</label>
-    <designationHotKey></designationHotKey>
     <description>Ceiling lamp that lights an area in a dull green color.</description>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Green</texPath>
@@ -149,7 +145,6 @@
   <ThingDef ParentName="CeilingLampBase">
     <defName>CeilingLamp_Violet</defName>
     <label>ceiling lamp (violet)</label>
-    <designationHotKey></designationHotKey>
     <description>Ceiling lamp that lights an area in a violet color.</description>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Violet</texPath>
@@ -174,7 +169,6 @@
   <ThingDef ParentName="CeilingLampBase">
     <defName>CeilingLamp_Yellow</defName>
     <label>ceiling lamp (yellow)</label>
-    <designationHotKey></designationHotKey>
     <description>Ceiling lamp that lights an area in a dull yellow color.</description>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Yellow</texPath>
@@ -198,7 +192,6 @@
   <ThingDef ParentName="CeilingLampBase">
     <defName>CeilingLamp_Orange</defName>
     <label>ceiling lamp (orange)</label>
-    <designationHotKey></designationHotKey>
     <description>Ceiling lamp that lights an area in a dull Orange color.</description>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Orange</texPath>
@@ -222,7 +215,7 @@
     <thingClass>Building</thingClass>
     <category>Building</category>
     <minifiedDef>MinifiedFurniture</minifiedDef>
-    <altitudeLayer>Waist</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
 	<filthLeaving>BrokenGlass</filthLeaving>
     <passability>PassThroughOnly</passability>
     <selectable>true</selectable>
@@ -253,14 +246,12 @@
       <Flammability>1.0</Flammability>
     </statBases>
 	<tickerType>Rare</tickerType>
-	<!--Needs a reason to tick!-->
 	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
  
    <ThingDef ParentName="StandingLampBase">
     <defName>WallLamp</defName>
     <label>wall lamp</label>
-    <designationHotKey></designationHotKey>
     <description>A lamp only placeable on a wall. Produces more light than average.</description>
 	<graphicData>
       <texPath>Things/Building/Lights/WallLamp</texPath>
@@ -288,7 +279,6 @@
 <ThingDef ParentName="StandingLampBase">
     <defName>OutdoorGroundLamp</defName>
     <label>outdoor groundlamp</label>
-    <designationHotKey></designationHotKey>
     <description>A lamp only placeable outdoors. Requires no external energy to run..</description>
 	<graphicData>
       <texPath>Things/Building/Lights/OutdoorGroundLamp</texPath>

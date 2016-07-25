@@ -102,7 +102,7 @@
 		<workAmount>850</workAmount>
 		<workSkill>Crafting</workSkill>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<soundWorking>Recipe_MakeClothes</soundWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
 		<skillRequirements>
 			<li>
 				<skill>Crafting</skill>
