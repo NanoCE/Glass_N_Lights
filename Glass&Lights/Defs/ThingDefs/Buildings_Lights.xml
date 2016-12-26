@@ -48,9 +48,9 @@
       <li>
         <compClass>CompQuality</compClass>
       </li>
-	  <li Class="CommunityCoreLibrary.CompProperties_RestrictedPlacement">
+	  <!--<li Class="CommunityCoreLibrary.CompProperties_RestrictedPlacement">
           <compClass>CommunityCoreLibrary.CompRestrictedPlacement</compClass>
-      </li>
+      </li>-->
     </comps>
         <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -59,9 +59,9 @@
 	  <Beauty>20</Beauty>
     </statBases>
 	<tickerType>Rare</tickerType>
-	<placeWorkers>
+	<!--<placeWorkers>
       <li>CommunityCoreLibrary.PlaceWorker_OnlyUnderRoof</li>
-    </placeWorkers>
+    </placeWorkers>-->
 	<filthLeaving>BrokenGlass</filthLeaving>
   </ThingDef>
   
@@ -236,9 +236,9 @@
       <li>
         <compClass>CompQuality</compClass>
       </li>
-	  <li Class="CommunityCoreLibrary.CompProperties_RestrictedPlacement">
+	  <!--<li Class="CommunityCoreLibrary.CompProperties_RestrictedPlacement">
 			<compClass>CommunityCoreLibrary.CompRestrictedPlacement</compClass>
-      </li>
+      </li>-->
     </comps>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -271,9 +271,9 @@
         <glowColor>(217,217,208,0)</glowColor>
       </li>
     </comps>
-	<placeWorkers>
+	<!--<placeWorkers>
       <li>CommunityCoreLibrary.PlaceWorker_WallAttachment</li>
-    </placeWorkers>
+    </placeWorkers>-->
   </ThingDef>
 
 <ThingDef ParentName="StandingLampBase">
