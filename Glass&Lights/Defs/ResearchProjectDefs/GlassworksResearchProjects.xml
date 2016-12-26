@@ -3,37 +3,55 @@
 
 	<ResearchProjectDef>
 		<defName>GlassworksResearch</defName>
-		<label>glassworks research</label>
+		<label>glassworks</label>
 		<description>Making clear glass is harder than it seems but with some hard work you will find the right formula.</description>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>Electricity</li>
+			<li>ElectricSmelting</li>
+			<li>Refining</li>
 		</prerequisites>
 		<baseCost>500</baseCost>
+		<researchViewX>5</researchViewX>
+		<researchViewY>.5</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>ReinforcedGlassResearch</defName>
-		<label>reinforced glass research</label>
+		<label>reinforced glass</label>
 		<description>Glass is fragile but with the right tools you can make it stronger</description>
 		<techLevel>Industrial</techLevel>
 		<baseCost>600</baseCost>
 		<prerequisites>
-			<li>Electricity</li>
 			<li>GlassworksResearch</li>
 		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>.15</researchViewY>		
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>DecorativeGlassResearch</defName>
-		<label>decorative glass research</label>
+		<label>decorative glass</label>
 		<description>Glass can be used for more than just windows and lights.</description>
 		<techLevel>Industrial</techLevel>
 		<baseCost>300</baseCost>
 		<prerequisites>
-			<li>Electricity</li>
 			<li>GlassworksResearch</li>
 		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>.65</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>ElectricCremation</defName>
+		<label>electric cremation</label>
+		<description>Build crematoriums which can vaporize unwanted corpses.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ElectricSmelting</li>
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
 
 </ResearchProjectDefs>
