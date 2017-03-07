@@ -25,12 +25,12 @@
     <pathCost>60</pathCost>
     <fillPercent>0.4</fillPercent>
     <stuffCategories>
-      <li>Glassy</li>
+      <li>Glass</li>
     </stuffCategories>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <designationCategory>Furniture</designationCategory>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <itemSurface>true</itemSurface>
+    <!--<itemSurface>true</itemSurface>-->
     <comps>
       <li>
         <compClass>CompGatherSpot</compClass>
@@ -38,12 +38,13 @@
     </comps>
   </ThingDef>
 	
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="TableBase">
     <defName>GlassTableShort</defName>
     <label>table</label>
 	<graphicData>
 		<texPath>Things/Building/Other/GlassTableShort</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(3,3)</drawSize>
 	</graphicData>
     <statBases>
 		<MaxHitPoints>60</MaxHitPoints>
@@ -52,9 +53,9 @@
 		<Beauty>100</Beauty>
     </statBases>
     <size>(1,1)</size>
-	<stuffCategories>
-		<li>Glassy</li>
-	</stuffCategories>
+	<!--<stuffCategories>
+		<li>Glass</li>
+	</stuffCategories>-->
 	<costStuffCount>1</costStuffCount>
 	<CostList>
 		<Steel>5</Steel>

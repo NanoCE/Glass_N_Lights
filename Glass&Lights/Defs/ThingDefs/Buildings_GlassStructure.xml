@@ -53,12 +53,15 @@
       <ignoreNeedsPower>true</ignoreNeedsPower>
       <canPlaceOverWall>true</canPlaceOverWall>
     </building>
+	<comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
   </ThingDef>
 
 	<ThingDef ParentName="DoorGlassBase">
-		<defName>DoorGlass</defName>
-		<label>door</label>
-		<description>Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
+		<defName>AutoDoorGlass</defName>
+		<label>auto glass door</label>
+		<description>Divides rooms. Powered operation allows people to move through the door without slowing down. Allows light to pass through.</description>
 		<blockLight>false</blockLight>
 		<GraphicData>
 			<texPath>Things/Building/Other/DoorGlass_Mover</texPath>
@@ -68,9 +71,9 @@
 		<statBases>
 			<MaxHitPoints>280</MaxHitPoints>
 			<MarketValue>10</MarketValue>
-			<WorkToMake>350</WorkToMake>
+			<WorkToBuild>350</WorkToBuild>
 			<Flammability>1.0</Flammability>
-			<Beauty>100</Beauty>
+			<Beauty>5</Beauty>
 		</statBases>
 		<stuffCategories>
 			<li>Glass</li>
@@ -78,16 +81,51 @@
 		<costStuffCount>1</costStuffCount>
 		<costList>
 			<Component>1</Component>
-			<Steel>15</Steel>
+			<Steel>10</Steel>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>25</basePowerConsumption>
+				<basePowerConsumption>22</basePowerConsumption>
 			</li>
 		</comps>
 		<filthLeaving>BrokenGlass</filthLeaving>
-		<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>GlassworksResearch</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="DoorGlassBase">
+		<defName>DoorGlass</defName>
+		<label>glass door</label>
+		<description>Divides rooms. Allows light to pass through.</description>
+		<blockLight>false</blockLight>
+		<GraphicData>
+			<texPath>Things/Building/Other/DoorGlass_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</GraphicData>
+		<uiIconPath>Things/Building/Other/DoorGlass_Icon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>280</MaxHitPoints>
+			<MarketValue>10</MarketValue>
+			<WorkToBuild>350</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<stuffCategories>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>1</costStuffCount>
+		<costList>
+			<Steel>9</Steel>
+		</costList>
+		<filthLeaving>BrokenGlass</filthLeaving>
+		<researchPrerequisites>
+			<li>GlassworksResearch</li>
+		</researchPrerequisites>
+		
 	</ThingDef>
   
 	<!--========================= Walls =============================-->
@@ -116,11 +154,11 @@
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
 	  <MarketValue>10</MarketValue>
-      <WorkToMake>150</WorkToMake>
+      <WorkToBuild>150</WorkToBuild>
       <Flammability>1.0</Flammability>
-	  <Beauty>80</Beauty>
+	  <Beauty>4</Beauty>
     </statBases>
-    <costStuffCount>1</costStuffCount>
+    <costStuffCount>2</costStuffCount>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
@@ -141,7 +179,7 @@
       <li>Glass</li>
     </stuffCategories>
 	<costList>
-		<Steel>10</Steel>
+		<Steel>2</Steel>
 	</costList>
     <building>
       <isInert>true</isInert>

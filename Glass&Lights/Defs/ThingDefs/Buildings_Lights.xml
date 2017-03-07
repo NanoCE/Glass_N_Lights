@@ -40,13 +40,10 @@
     <comps>
       <li Class="CompProperties_Power" >
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>150</basePowerConsumption>
+        <basePowerConsumption>65</basePowerConsumption>
         <shortCircuitInRain>false</shortCircuitInRain>
         <!--<soundPowerOn>PowerOnSmall</soundPowerOn>
         <soundPowerOff>PowerOffSmall</soundPowerOff>-->
-      </li>
-      <li>
-        <compClass>CompQuality</compClass>
       </li>
 	  <!--<li Class="CommunityCoreLibrary.CompProperties_RestrictedPlacement">
           <compClass>CommunityCoreLibrary.CompRestrictedPlacement</compClass>
@@ -56,7 +53,7 @@
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>170</WorkToMake>
       <Flammability>1.0</Flammability>
-	  <Beauty>20</Beauty>
+	  <Beauty>4</Beauty>
     </statBases>
 	<tickerType>Rare</tickerType>
 	<!--<placeWorkers>
@@ -244,8 +241,9 @@
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>170</WorkToMake>
       <Flammability>1.0</Flammability>
+	  <Beauty>3</Beauty>
     </statBases>
-	<tickerType>Rare</tickerType>
+	<!--<tickerType>Rare</tickerType>-->
 	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
  
@@ -261,11 +259,12 @@
     <comps>
 	  <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>150</basePowerConsumption>
+        <basePowerConsumption>70</basePowerConsumption>
         <shortCircuitInRain>false</shortCircuitInRain>
         <!--<soundPowerOn>PowerOnSmall</soundPowerOn>
         <soundPowerOff>PowerOffSmall</soundPowerOff>-->
       </li>
+      <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Glower">
         <glowRadius>15</glowRadius>
         <glowColor>(217,217,208,0)</glowColor>
@@ -280,6 +279,7 @@
     <defName>OutdoorGroundLamp</defName>
     <label>outdoor groundlamp</label>
     <description>A lamp only placeable outdoors. Requires no external energy to run..</description>
+	<!--<altitudeLayer>Item</altitudeLayer>-->
 	<graphicData>
       <texPath>Things/Building/Lights/OutdoorGroundLamp</texPath>
       <graphicClass>Graphic_Single</graphicClass>

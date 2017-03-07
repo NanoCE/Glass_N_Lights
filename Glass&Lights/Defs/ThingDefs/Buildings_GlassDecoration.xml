@@ -33,11 +33,11 @@
 			<MarketValue>1400</MarketValue>
 			<Flammability>1.0</Flammability>
 			<EntertainmentStrengthFactor>1.3</EntertainmentStrengthFactor>
-			<Beauty>150</Beauty>
+			<Beauty>11</Beauty>
 		</statBases>
 		<costList>
 			<Steel>80</Steel>
-			<Component>10</Component>
+			<Component>19</Component>
 			<Glass>4</Glass>
 		</costList>
 		<Size>(2,1)</Size>
@@ -69,7 +69,11 @@
 		<tradeTags>
 			<li>Television</li>
 		</tradeTags>
-		<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>DecorativeGlassResearch</li>
+			<li>TubeTelevision</li>
+			<li>ComponentAssembly</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 </ThingDefs>
