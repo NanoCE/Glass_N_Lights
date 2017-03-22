@@ -48,7 +48,7 @@
 	</graphicData>
     <statBases>
 		<MaxHitPoints>60</MaxHitPoints>
-		<WorkToMake>100</WorkToMake>
+		<WorkToBuild>100</WorkToBuild>
 		<Flammability>1.0</Flammability>
 		<Beauty>100</Beauty>
     </statBases>

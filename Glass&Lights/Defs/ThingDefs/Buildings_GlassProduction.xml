@@ -36,7 +36,7 @@
 		<AltitudeLayer>Building</AltitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToMake>1300</WorkToMake>
+			<WorkToBuild>1300</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<Cleanliness>-6</Cleanliness>
@@ -108,7 +108,7 @@
 		<AltitudeLayer>Building</AltitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToMake>900</WorkToMake>
+			<WorkToBuild>900</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>

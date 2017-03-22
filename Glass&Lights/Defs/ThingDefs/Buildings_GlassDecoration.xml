@@ -28,7 +28,7 @@
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<fillPercent>0.25</fillPercent>
 		<statBases>
-			<WorkToMake>9000</WorkToMake>
+			<WorkToBuild>9000</WorkTobuild>
 			<MaxHitPoints>10</MaxHitPoints>
 			<MarketValue>1400</MarketValue>
 			<Flammability>1.0</Flammability>
