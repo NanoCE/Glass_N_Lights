@@ -6,6 +6,7 @@
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
 	<fixedBillGiverDefs>
 	<li>GlassworkTable</li>
 	</fixedBillGiverDefs>
@@ -21,6 +22,7 @@
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
     <fixedBillGiverDefs>
 	<li>GlassworkTable</li>
 	</fixedBillGiverDefs>
@@ -36,6 +38,7 @@
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
 	<fixedBillGiverDefs>
 	<li>ReinforcedGlassworkTable</li>
 	</fixedBillGiverDefs>
@@ -51,6 +54,7 @@
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
 	<fixedBillGiverDefs>
 	<li>GlassworkTable</li>
 	</fixedBillGiverDefs>
