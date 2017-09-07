@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+  </ThingDef> -->
+
+  <GlassMonitorLarge.label>玻璃电视</GlassMonitorLarge.label>
+  <GlassMonitorLarge.description>一台在高端技术支持下用玻璃制造的电视，拥有水晶般澄净的画面与更为丰富的色彩。能够提供比液晶平板电视更多的娱乐。</GlassMonitorLarge.description>
+  <GlassMonitorLarge_Blueprint.label>玻璃电视（蓝图）</GlassMonitorLarge_Blueprint.label>
+  <GlassMonitorLarge_Blueprint_Install.label>玻璃电视（蓝图）</GlassMonitorLarge_Blueprint_Install.label>
+  <GlassMonitorLarge_Frame.label>玻璃电视（建造中）</GlassMonitorLarge_Frame.label>
+
+
+</LanguageData>

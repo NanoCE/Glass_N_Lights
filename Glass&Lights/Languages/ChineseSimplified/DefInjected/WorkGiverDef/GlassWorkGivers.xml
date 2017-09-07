@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsMakeGlass.verb>生产玻璃</DoBillsMakeGlass.verb>
+  <DoBillsMakeGlass.gerund>进行玻璃生产于</DoBillsMakeGlass.gerund>
+
+  <DoBillsMakeLargeCircularGlass.verb>生产球面玻璃</DoBillsMakeLargeCircularGlass.verb>
+  <DoBillsMakeLargeCircularGlass.gerund>进行球面玻璃生产于</DoBillsMakeLargeCircularGlass.gerund>
+
+  <DoBillsMakeReinforcedGlass.verb>生产钢化玻璃</DoBillsMakeReinforcedGlass.verb>
+  <DoBillsMakeReinforcedGlass.gerund>进行钢化玻璃生产于</DoBillsMakeReinforcedGlass.gerund>
+
+  <DoBillsMakeMolotov.verb>制作莫洛托夫鸡尾酒瓶</DoBillsMakeMolotov.verb>
+  <DoBillsMakeMolotov.gerund>制作莫洛托夫鸡尾酒瓶于</DoBillsMakeMolotov.gerund>
+
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Furniture -->
+
+  <GlassTableShort.label>玻璃方桌</GlassTableShort.label>
+  <GlassTableShort.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</GlassTableShort.description>
+  <GlassTableShort_Blueprint.label>玻璃方桌（蓝图）</GlassTableShort_Blueprint.label>
+  <GlassTableShort_Frame.label>玻璃方桌（建造中）</GlassTableShort_Frame.label>
+
+
+</LanguageData>

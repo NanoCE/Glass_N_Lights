@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlassworkTable.label>玻璃制作台</GlassworkTable.label>
+  <GlassworkTable.description>配备了玻璃制作设备的工作台。</GlassworkTable.description>
+  <GlassworkTable_Blueprint.label>玻璃制作台（蓝图）</GlassworkTable_Blueprint.label>
+  <GlassworkTable_Frame.label>玻璃制作台（建造中）</GlassworkTable_Frame.label>
+
+  <ReinforcedGlassworkTable.label>钢化玻璃制作台</ReinforcedGlassworkTable.label>
+  <ReinforcedGlassworkTable.description>配备了钢化玻璃制作设备的工作台。</ReinforcedGlassworkTable.description>
+  <ReinforcedGlassworkTable_Blueprint.label>钢化玻璃制作台（蓝图）</ReinforcedGlassworkTable_Blueprint.label>
+  <ReinforcedGlassworkTable_Frame.label>钢化玻璃制作台（建造中）</ReinforcedGlassworkTable_Frame.label>
+
+
+</LanguageData>
