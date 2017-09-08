@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Doors -->
+
+  <AutoDoorGlass.label>自动门</AutoDoorGlass.label>
+  <AutoDoorGlass.description>分隔房间。电力运转，人穿过门不会减速。允许光照通过。</AutoDoorGlass.description>
+  <AutoDoorGlass_Blueprint.label>自动门（蓝图）</AutoDoorGlass_Blueprint.label>
+  <AutoDoorGlass_Frame.label>自动门（建造中）</AutoDoorGlass_Frame.label>
+
+  <DoorGlass.label>门</DoorGlass.label>
+  <DoorGlass.description>分隔房间。允许光照通过。</DoorGlass.description>
+  <DoorGlass_Blueprint.label>门（蓝图）</DoorGlass_Blueprint.label>
+  <DoorGlass_Frame.label>门（建造中）</DoorGlass_Frame.label>
+
+
+  <!-- Walls -->
+
+  <Window.label>窗</Window.label>
+  <Window.description>和墙没什么区别。允许光照通过。</Window.description>
+  <Window_Blueprint.label>窗（蓝图）</Window_Blueprint.label>
+  <Window_Frame.label>窗（建造中）</Window_Frame.label>
+
+
+</LanguageData>

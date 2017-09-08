@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ceiling Lights -->
+
+  <CeilingLamp.label>吸顶灯</CeilingLamp.label>
+  <CeilingLamp.description>将一片区域照亮的吸顶灯。</CeilingLamp.description>
+  <CeilingLamp_Blueprint.label>吸顶灯（蓝图）</CeilingLamp_Blueprint.label>
+  <CeilingLamp_Blueprint_Install.label>吸顶灯（蓝图）</CeilingLamp_Blueprint_Install.label>
+  <CeilingLamp_Frame.label>吸顶灯（建造中）</CeilingLamp_Frame.label>
+
+  <CeilingLamp_Red.label>吸顶灯（红）</CeilingLamp_Red.label>
+  <CeilingLamp_Red.description>将一片区域照亮成暗红色的吸顶灯。</CeilingLamp_Red.description>
+  <CeilingLamp_Red_Blueprint.label>吸顶灯（红）（蓝图）</CeilingLamp_Red_Blueprint.label>
+  <CeilingLamp_Red_Blueprint_Install.label>吸顶灯（红）（蓝图）</CeilingLamp_Red_Blueprint_Install.label>
+  <CeilingLamp_Red_Frame.label>吸顶灯（红）（建造中）</CeilingLamp_Red_Frame.label>
+
+  <CeilingLamp_Blue.label>吸顶灯（蓝）</CeilingLamp_Blue.label>
+  <CeilingLamp_Blue.description>将一片区域照亮成暗蓝色的吸顶灯。也有一些镇静效果。</CeilingLamp_Blue.description>
+  <CeilingLamp_Blue_Blueprint.label>吸顶灯（蓝）（蓝图）</CeilingLamp_Blue_Blueprint.label>
+  <CeilingLamp_Blue_Blueprint_Install.label>吸顶灯（蓝）（蓝图）</CeilingLamp_Blue_Blueprint_Install.label>
+  <CeilingLamp_Blue_Frame.label>吸顶灯（蓝）（建造中）</CeilingLamp_Blue_Frame.label>
+
+  <CeilingLamp_Green.label>吸顶灯（绿）</CeilingLamp_Green.label>
+  <CeilingLamp_Green.description>将一片区域照亮成暗绿色的吸顶灯。</CeilingLamp_Green.description>
+  <CeilingLamp_Green_Blueprint.label>吸顶灯（绿）（蓝图）</CeilingLamp_Green_Blueprint.label>
+  <CeilingLamp_Green_Blueprint_Install.label>吸顶灯（绿）（蓝图）</CeilingLamp_Green_Blueprint_Install.label>
+  <CeilingLamp_Green_Frame.label>吸顶灯（绿）（建造中）</CeilingLamp_Green_Frame.label>
+
+  <CeilingLamp_Violet.label>吸顶灯（紫）</CeilingLamp_Violet.label>
+  <CeilingLamp_Violet.description>将一片区域照亮成紫色的吸顶灯。</CeilingLamp_Violet.description>
+  <CeilingLamp_Violet_Blueprint.label>吸顶灯（紫）（蓝图）</CeilingLamp_Violet_Blueprint.label>
+  <CeilingLamp_Violet_Blueprint_Install.label>吸顶灯（紫）（蓝图）</CeilingLamp_Violet_Blueprint_Install.label>
+  <CeilingLamp_Violet_Frame.label>吸顶灯（紫）（建造中）</CeilingLamp_Violet_Frame.label>
+
+  <CeilingLamp_Yellow.label>吸顶灯（黄）</CeilingLamp_Yellow.label>
+  <CeilingLamp_Yellow.description>将一片区域照亮成暗黄色的吸顶灯。</CeilingLamp_Yellow.description>
+  <CeilingLamp_Yellow_Blueprint.label>吸顶灯（黄）（蓝图）</CeilingLamp_Yellow_Blueprint.label>
+  <CeilingLamp_Yellow_Blueprint_Install.label>吸顶灯（黄）（蓝图）</CeilingLamp_Yellow_Blueprint_Install.label>
+  <CeilingLamp_Yellow_Frame.label>吸顶灯（黄）（建造中）</CeilingLamp_Yellow_Frame.label>
+
+  <CeilingLamp_Orange.label>吸顶灯（橙）</CeilingLamp_Orange.label>
+  <CeilingLamp_Orange.description>将一片区域照亮成暗橙色的吸顶灯。</CeilingLamp_Orange.description>
+  <CeilingLamp_Orange_Blueprint.label>吸顶灯（橙）（蓝图）</CeilingLamp_Orange_Blueprint.label>
+  <CeilingLamp_Orange_Blueprint_Install.label>吸顶灯（橙）（蓝图）</CeilingLamp_Orange_Blueprint_Install.label>
+  <CeilingLamp_Orange_Frame.label>吸顶灯（橙）（建造中）</CeilingLamp_Orange_Frame.label>
+
+
+  <!-- Special Lights -->
+
+  <WallLamp.label>壁灯</WallLamp.label>
+  <WallLamp.description>一盏挂在墙上的灯。提供高于平均的光照。</WallLamp.description>
+  <WallLamp_Blueprint.label>壁灯（蓝图）</WallLamp_Blueprint.label>
+  <WallLamp_Blueprint_Install.label>壁灯（蓝图）</WallLamp_Blueprint_Install.label>
+  <WallLamp_Frame.label>壁灯（建造中）</WallLamp_Frame.label>
+
+  <OutdoorGroundLamp.label>户外地灯</OutdoorGroundLamp.label>
+  <OutdoorGroundLamp.description>只能安装在户外的灯具。不需要外部能源即可运转。</OutdoorGroundLamp.description>
+  <OutdoorGroundLamp_Blueprint.label>户外地灯（蓝图）</OutdoorGroundLamp_Blueprint.label>
+  <OutdoorGroundLamp_Blueprint_Install.label>户外地灯（蓝图）</OutdoorGroundLamp_Blueprint_Install.label>
+  <OutdoorGroundLamp_Frame.label>户外地灯（建造中）</OutdoorGroundLamp_Frame.label>
+
+
+</LanguageData>

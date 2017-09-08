@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlassworksResearch.label>玻璃制品</GlassworksResearch.label>
+  <GlassworksResearch.description>制作澄净的玻璃要比预想来的困难，但只要足够努力你终究是能找对路的。</GlassworksResearch.description>
+
+  <ReinforcedGlassResearch.label>钢化玻璃</ReinforcedGlassResearch.label>
+  <ReinforcedGlassResearch.description>只要用合适的工具加以处理，你就能让脆弱的玻璃更加结实。</ReinforcedGlassResearch.description>
+
+  <DecorativeGlassResearch.label>装饰玻璃</DecorativeGlassResearch.label>
+  <DecorativeGlassResearch.description>玻璃的用途不应该局限于窗户和灯泡。</DecorativeGlassResearch.description>
+
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Glass.label>玻璃</Glass.label>
+  <Glass.description>尽管相当脆弱，玻璃仍然是时下流行的透光材料。</Glass.description>
+  <Glass.stuffProps.stuffAdjective>玻璃</Glass.stuffProps.stuffAdjective>
+
+  <ReinforcedGlass.label>钢化玻璃</ReinforcedGlass.label>
+  <ReinforcedGlass.description>比普通玻璃结实，但也更加难以处理。</ReinforcedGlass.description>
+  <ReinforcedGlass.stuffProps.stuffAdjective>钢化玻璃</ReinforcedGlass.stuffProps.stuffAdjective>
+
+  <LargeCircularGlass.label>大型球面玻璃</LargeCircularGlass.label>
+  <LargeCircularGlass.description>一大块球面玻璃，从吸顶灯到艺术品，其适用范围非常广泛。</LargeCircularGlass.description>
+  <LargeCircularGlass.stuffProps.stuffAdjective>大型球面玻璃</LargeCircularGlass.stuffProps.stuffAdjective>
+
+
+</LanguageData>
