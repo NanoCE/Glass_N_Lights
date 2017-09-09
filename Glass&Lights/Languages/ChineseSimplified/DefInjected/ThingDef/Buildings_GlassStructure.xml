@@ -17,7 +17,7 @@
   <!-- Walls -->
 
   <Window.label>窗</Window.label>
-  <Window.description>和墙没什么区别。允许光照通过。</Window.description>
+  <Window.description>和墙没什么区别，但允许光照通过。</Window.description>
   <Window_Blueprint.label>窗（蓝图）</Window_Blueprint.label>
   <Window_Frame.label>窗（建造中）</Window_Frame.label>
 

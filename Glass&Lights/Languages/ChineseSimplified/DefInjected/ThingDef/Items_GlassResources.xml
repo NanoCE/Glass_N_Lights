@@ -2,7 +2,7 @@
 <LanguageData>
 
   <Glass.label>玻璃</Glass.label>
-  <Glass.description>尽管相当脆弱，玻璃仍然是时下流行的透光材料。</Glass.description>
+  <Glass.description>尽管相当脆弱，玻璃仍然是时下流行的透明材料。</Glass.description>
   <Glass.stuffProps.stuffAdjective>玻璃</Glass.stuffProps.stuffAdjective>
 
   <ReinforcedGlass.label>钢化玻璃</ReinforcedGlass.label>
