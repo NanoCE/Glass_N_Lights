@@ -1,2 +1,1 @@
-# Glass_N_Lights
-Adds glass and lights to rimworld.
+# Glass_N_Lights Simplified Chinese Translation
