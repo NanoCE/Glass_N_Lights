@@ -5,27 +5,25 @@
 		<defName>GlassworksResearch</defName>
 		<label>glassworks</label>
 		<description>Making clear glass is harder than it seems but with some hard work you will find the right formula.</description>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>ElectricSmelting</li>
-			<li>Refining</li>
-		</prerequisites>
+		<techLevel>Medieval</techLevel>
 		<baseCost>500</baseCost>
-		<researchViewX>5</researchViewX>
-		<researchViewY>.5</researchViewY>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3.25</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>ReinforcedGlassResearch</defName>
 		<label>reinforced glass</label>
-		<description>Glass is fragile but with the right tools you can make it stronger</description>
+		<description>Glass is fragile but with the right tools you can make it stronger.</description>
 		<techLevel>Industrial</techLevel>
-		<baseCost>600</baseCost>
+		<baseCost>700</baseCost>
 		<prerequisites>
+			<li>ElectricSmelting</li>
 			<li>GlassworksResearch</li>
+			<li>MicroelectronicsBasics</li>
 		</prerequisites>
-		<researchViewX>6</researchViewX>
-		<researchViewY>.15</researchViewY>		
+		<researchViewX>7</researchViewX>
+		<researchViewY>3.25</researchViewY>		
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
@@ -35,13 +33,14 @@
 		<techLevel>Industrial</techLevel>
 		<baseCost>300</baseCost>
 		<prerequisites>
+			<li>ElectricSmelting</li>
 			<li>GlassworksResearch</li>
 		</prerequisites>
 		<researchViewX>6</researchViewX>
-		<researchViewY>.65</researchViewY>
+		<researchViewY>3.25</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef>
+	<!--<ResearchProjectDef>
 		<defName>ElectricCremation</defName>
 		<label>electric cremation</label>
 		<description>Build crematoriums which can vaporize unwanted corpses.</description>
@@ -52,6 +51,6 @@
 		</prerequisites>
 		<researchViewX>6</researchViewX>
 		<researchViewY>1.25</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef>-->
 
 </ResearchProjectDefs>

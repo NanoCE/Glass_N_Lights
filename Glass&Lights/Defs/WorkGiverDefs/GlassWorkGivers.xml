@@ -8,7 +8,8 @@
     <priorityInType>100</priorityInType>
 	<prioritizeSustains>true</prioritizeSustains>
 	<fixedBillGiverDefs>
-	<li>GlassworkTable</li>
+		<li>GlassworkTable</li>
+		<li>FueledGlassworkTable</li>
 	</fixedBillGiverDefs>
     <verb>produce glass from</verb>
     <gerund>producing glass at</gerund>
@@ -24,7 +25,7 @@
     <priorityInType>100</priorityInType>
 	<prioritizeSustains>true</prioritizeSustains>
     <fixedBillGiverDefs>
-	<li>GlassworkTable</li>
+		<li>GlassworkTable</li>
 	</fixedBillGiverDefs>
     <verb>produce large circular glass</verb>
     <gerund>producing large circular glass</gerund>
@@ -40,7 +41,7 @@
     <priorityInType>100</priorityInType>
 	<prioritizeSustains>true</prioritizeSustains>
 	<fixedBillGiverDefs>
-	<li>ReinforcedGlassworkTable</li>
+		<li>ReinforcedGlassworkTable</li>
 	</fixedBillGiverDefs>
     <verb>produce reinforced glass</verb>
     <gerund>producing reinforced glass</gerund>
@@ -56,10 +57,11 @@
     <priorityInType>100</priorityInType>
 	<prioritizeSustains>true</prioritizeSustains>
 	<fixedBillGiverDefs>
-	<li>GlassworkTable</li>
+		<li>GlassworkTable</li>
+	<li>FueledGlassworkTable</li>
 	</fixedBillGiverDefs>
-    <verb>produce molotov</verb>
-    <gerund>producing molotov</gerund>
+    <verb>produce molotov from</verb>
+    <gerund>producing molotov at</gerund>
 	<requiredCapacities>
 		<li>Manipulation</li>
 	</requiredCapacities>

@@ -20,7 +20,7 @@
     <thingClass>Building</thingClass>
     <category>Building</category>
     <minifiedDef>MinifiedFurniture</minifiedDef>
-    <altitudeLayer>Building</altitudeLayer>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
@@ -42,8 +42,6 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>65</basePowerConsumption>
         <shortCircuitInRain>false</shortCircuitInRain>
-        <!--<soundPowerOn>PowerOnSmall</soundPowerOn>
-        <soundPowerOff>PowerOffSmall</soundPowerOff>-->
       </li>
 	  <!--<li Class="CommunityCoreLibrary.CompProperties_RestrictedPlacement">
           <compClass>CommunityCoreLibrary.CompRestrictedPlacement</compClass>

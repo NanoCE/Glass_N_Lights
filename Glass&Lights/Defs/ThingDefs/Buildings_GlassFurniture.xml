@@ -30,7 +30,7 @@
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <designationCategory>Furniture</designationCategory>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <!--<itemSurface>true</itemSurface>-->
+    <surfaceType>Eat</surfaceType>
     <comps>
       <li>
         <compClass>CompGatherSpot</compClass>

@@ -146,6 +146,16 @@
         <li>Wall</li>
         <li>Rock</li>
       </linkFlags>
+	  <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
     </graphicData>
     <blueprintGraphicData>
       <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
@@ -153,7 +163,7 @@
     <uiIconPath>Things/Building/Other/Window</uiIconPath>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
-	  <MarketValue>10</MarketValue>
+	  <MarketValue>15.2</MarketValue>
       <WorkToBuild>150</WorkToBuild>
       <Flammability>1.0</Flammability>
 	  <Beauty>4</Beauty>
@@ -161,6 +171,7 @@
     <costStuffCount>2</costStuffCount>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
     <passability>Impassable</passability>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>1</fillPercent>
@@ -175,8 +186,10 @@
     <designationCategory>Structure</designationCategory>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>false</blockLight>
+	<canOverlapZones>false</canOverlapZones>
     <stuffCategories>
       <li>Glass</li>
+	  <li>Stony</li>
     </stuffCategories>
 	<costList>
 		<Steel>2</Steel>

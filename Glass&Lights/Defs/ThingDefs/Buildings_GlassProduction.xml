@@ -15,9 +15,9 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>GlassworkTable</defName>
-		<Label>glassworks</Label>
+		<Label>electric glassworks</Label>
 		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>A table with all the tools you need to make glass.</Description>
+		<Description>A table with all the tools you need to make glass, and it runs off of electricity.</Description>
 		<graphicData>
 			<texPath>Things/Building/Production/GlassworkTable</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -76,13 +76,94 @@
 			</li>
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
-				<heatPerSecond>11</heatPerSecond>
+				<heatPerSecond>10</heatPerSecond>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.5</heatPerTickWhileWorking>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>GlassworksResearch</li>
+			<li>ElectricSmelting</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+		<ThingDef ParentName="BuildingBase">
+		<defName>FueledGlassworkTable</defName>
+		<Label>fueled glassworks</Label>
+		<ThingClass>Building_WorkTable</ThingClass>
+		<Description>A table with all the tools you need to make glass. Uses fuel instead of electricity.</Description>
+		<graphicData>
+			<texPath>Things/Building/Production/GlassworkTableFueled</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<CostList>
+				<Steel>60</Steel>
+				<Component>2</Component>
+		</CostList>
+		<AltitudeLayer>Building</AltitudeLayer>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>1300</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-6</Cleanliness>
+		</statBases>
+		<Size>(3,1)</Size>
+		<surfaceType>Item</surfaceType>
+		<DesignationCategory>Production</DesignationCategory>
+		<Passability>PassThroughOnly</Passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<recipes>
+			<li>MakeGlass</li>
+			<li>MakeMolotov</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelCapacity>100.0</fuelCapacity>
+				<fuelFilter>
+				  <thingDefs>
+					<li>WoodLog</li>
+				  </thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(210,112,33,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>14</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.7</heatPerTickWhileWorking>
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>

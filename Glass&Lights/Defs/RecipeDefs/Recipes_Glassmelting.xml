@@ -10,6 +10,12 @@
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>3</minLevel>
+			</li>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
