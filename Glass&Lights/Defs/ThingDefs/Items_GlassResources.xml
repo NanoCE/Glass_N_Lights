@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Resources>
+<Defs>
 
   <ThingDef Name="ResourceBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
@@ -33,6 +33,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<statBases>
 			<MarketValue>7</MarketValue>
+			<Mass>3</Mass>
 			<!--<MeleeWeapon_SharpDamageMultiplier>2</MeleeWeapon_SharpDamageMultiplier>
 			<MeleeWeapon_BluntDamageMultiplier>0.1</MeleeWeapon_BluntDamageMultiplier>-->
 		</statBases>
@@ -51,7 +52,6 @@
 			<statFactors>
 				<MaxHitPoints>0.2</MaxHitPoints>
 				<Flammability>1</Flammability>
-				<MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -68,6 +68,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<statBases>
 			<MarketValue>18</MarketValue>
+			<Mass>4</Mass>
 			<!--<MeleeWeapon_SharpDamageMultiplier>2</MeleeWeapon_SharpDamageMultiplier>
 			<MeleeWeapon_BluntDamageMultiplier>0.5</MeleeWeapon_BluntDamageMultiplier> -->
 		</statBases>
@@ -86,7 +87,6 @@
 			<statFactors>
 				<MaxHitPoints>1</MaxHitPoints>
 				<Flammability>0</Flammability>
-				<MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -103,6 +103,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<statBases>
 			<MarketValue>10</MarketValue>
+			<Mass>4</Mass>
 			<!--<MeleeWeapon_SharpDamageMultiplier>2</MeleeWeapon_SharpDamageMultiplier>
 			<MeleeWeapon_BluntDamageMultiplier>0.5</MeleeWeapon_BluntDamageMultiplier> -->
 		</statBases>
@@ -121,9 +122,8 @@
 			<statFactors>
 				<MaxHitPoints>1</MaxHitPoints>
 				<Flammability>0</Flammability>
-				<MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
 
-</Resources>
+</Defs>

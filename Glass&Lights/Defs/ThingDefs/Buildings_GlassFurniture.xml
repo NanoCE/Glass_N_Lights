@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 
   <!--<ThingDef Name="BuildingBase" Abstract="True">
@@ -53,17 +53,14 @@
 		<Beauty>100</Beauty>
     </statBases>
     <size>(1,1)</size>
-	<!--<stuffCategories>
-		<li>Glass</li>
-	</stuffCategories>-->
 	<costStuffCount>1</costStuffCount>
-	<CostList>
+	<costList>
 		<Steel>5</Steel>
-	</CostList>
+	</costList>
     <rotatable>false</rotatable>
     <filthLeaving>BrokenGlass</filthLeaving>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
   </ThingDef>
 
-</Buildings>
+</Defs>

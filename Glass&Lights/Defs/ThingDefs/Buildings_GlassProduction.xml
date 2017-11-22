@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
@@ -15,9 +15,9 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>GlassworkTable</defName>
-		<Label>electric glassworks</Label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>A table with all the tools you need to make glass, and it runs off of electricity.</Description>
+		<label>electric glassworks</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A table with all the tools you need to make glass, and it runs off of electricity.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/GlassworkTable</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -29,11 +29,11 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<CostList>
+		<costList>
 				<Steel>60</Steel>
 				<Component>2</Component>
-		</CostList>
-		<AltitudeLayer>Building</AltitudeLayer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>1300</WorkToBuild>
@@ -41,10 +41,10 @@
 			<Flammability>1.0</Flammability>
 			<Cleanliness>-6</Cleanliness>
 		</statBases>
-		<Size>(2,1)</Size>
+		<size>(2,1)</size>
 		<surfaceType>Item</surfaceType>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>PassThroughOnly</Passability>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -61,8 +61,6 @@
 				<compClass>CompPowerTrader</compClass>
 				<startElectricalFires>true</startElectricalFires>
 				<basePowerConsumption>200</basePowerConsumption>
-				<!--<soundPowerOn>PowerOnSmall</soundPowerOn>
-				<soundPowerOff>PowerOffSmall</soundPowerOff>-->
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -95,9 +93,9 @@
 	
 		<ThingDef ParentName="BuildingBase">
 		<defName>FueledGlassworkTable</defName>
-		<Label>fueled glassworks</Label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>A table with all the tools you need to make glass. Uses fuel instead of electricity.</Description>
+		<label>fueled glassworks</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A table with all the tools you need to make glass. Uses fuel instead of electricity.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/GlassworkTableFueled</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -109,11 +107,11 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<CostList>
+		<costList>
 				<Steel>60</Steel>
 				<Component>2</Component>
-		</CostList>
-		<AltitudeLayer>Building</AltitudeLayer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>1300</WorkToBuild>
@@ -121,10 +119,10 @@
 			<Flammability>1.0</Flammability>
 			<Cleanliness>-6</Cleanliness>
 		</statBases>
-		<Size>(3,1)</Size>
+		<size>(3,1)</size>
 		<surfaceType>Item</surfaceType>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>PassThroughOnly</Passability>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -173,30 +171,30 @@
   
   	<ThingDef ParentName="BuildingBase">
 		<defName>ReinforcedGlassworkTable</defName>
-		<Label>reinforced glassworks</Label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>A table used for turning normal glass into safety glass.</Description>
+		<label>reinforced glassworks</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A table used for turning normal glass into safety glass.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/ReinforcedGlassworkTable</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		<CostList>
+		<costList>
 				<Steel>40</Steel>
 				<Glass>8</Glass>
 				<Component>10</Component>
-		</CostList>
-		<AltitudeLayer>Building</AltitudeLayer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>900</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<Size>(1,1)</Size>
+		<size>(1,1)</size>
 		<surfaceType>Item</surfaceType>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>PassThroughOnly</Passability>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -238,4 +236,4 @@
 		</placeWorkers>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

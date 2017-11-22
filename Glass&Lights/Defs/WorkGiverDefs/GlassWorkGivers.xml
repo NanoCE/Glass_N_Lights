@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<WorkGivers>
+<Defs>
 
   <WorkGiverDef>
     <defName>DoBillsMakeGlass</defName>
@@ -67,4 +67,4 @@
 	</requiredCapacities>
   </WorkGiverDef>
 
-</WorkGivers>
+</Defs>

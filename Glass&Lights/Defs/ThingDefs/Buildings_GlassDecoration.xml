@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <!--<ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
@@ -15,14 +15,14 @@
 
   	<ThingDef ParentName="BuildingBase">
 		<defName>GlassMonitorLarge</defName>
-		<Label>Glassworks TV</Label>
-		<Description>A higher-tech glass television with crystal-clear image and richer color. More entertaining than a grainy flatscreen TV.</Description>
+		<label>Glassworks TV</label>
+		<description>A higher-tech glass television with crystal-clear image and richer color. More entertaining than a grainy flatscreen TV.</description>
 		<graphicData>
 			<texPath>Things/Building/Other/GlassworkTV</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,1)</drawSize>
 		</graphicData>
-		<AltitudeLayer>Building</AltitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -40,7 +40,7 @@
 			<Component>19</Component>
 			<Glass>4</Glass>
 		</costList>
-		<Size>(2,1)</Size>
+		<size>(2,1)</size>
 		<building>
 			<spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
 			<boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
@@ -53,9 +53,9 @@
 		<placeWorkers>
 			<li>PlaceWorker_WatchArea</li>
 		</placeWorkers>
-		<DesignationCategory>Joy</DesignationCategory>
+		<designationCategory>Joy</designationCategory>
 		<pathCost>70</pathCost>
-		<Passability>PassThroughOnly</Passability>
+		<passability>PassThroughOnly</passability>
 		<comps>
 			<li Class="CompProperties_Power" >
 				<compClass>CompPowerTrader</compClass>
@@ -76,4 +76,4 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

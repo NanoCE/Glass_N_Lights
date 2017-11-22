@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef>
 		<defName>MakeGlass</defName>
@@ -11,10 +11,11 @@
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<skillRequirements>
-			<li>
+			<Crafting>3</Crafting>
+			<!--<li>
 				<skill>Crafting</skill>
 				<minLevel>3</minLevel>
-			</li>
+			</li>-->
 		</skillRequirements>
 		<ingredients>
 			<li>
@@ -46,10 +47,11 @@
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<skillRequirements>
-			<li>
+			<Crafting>5</Crafting>
+			<!--<li>
 				<skill>Crafting</skill>
 				<minLevel>5</minLevel>
-			</li>
+			</li>-->
 		</skillRequirements>
 		<ingredients>
 			<li>
@@ -110,10 +112,11 @@
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<skillRequirements>
-			<li>
+			<Crafting>5</Crafting>
+			<!--<li>
 				<skill>Crafting</skill>
 				<minLevel>5</minLevel>
-			</li>
+			</li>-->
 		</skillRequirements>
 		<ingredients>
 			<li>
@@ -144,4 +147,4 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

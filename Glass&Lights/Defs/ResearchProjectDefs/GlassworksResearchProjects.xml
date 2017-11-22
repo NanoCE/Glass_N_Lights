@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ResearchProjectDefs>
+<Defs>
 
 	<ResearchProjectDef>
 		<defName>GlassworksResearch</defName>
 		<label>glassworks</label>
+		<tab>GlassWorks</tab>
 		<description>Making clear glass is harder than it seems but with some hard work you will find the right formula.</description>
 		<techLevel>Medieval</techLevel>
 		<baseCost>500</baseCost>
-		<researchViewX>3</researchViewX>
-		<researchViewY>3.25</researchViewY>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>ReinforcedGlassResearch</defName>
 		<label>reinforced glass</label>
+		<tab>GlassWorks</tab>
 		<description>Glass is fragile but with the right tools you can make it stronger.</description>
 		<techLevel>Industrial</techLevel>
 		<baseCost>700</baseCost>
@@ -22,13 +24,14 @@
 			<li>GlassworksResearch</li>
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>
-		<researchViewX>7</researchViewX>
-		<researchViewY>3.25</researchViewY>		
+		<researchViewX>2</researchViewX>
+		<researchViewY>1.5</researchViewY>		
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>DecorativeGlassResearch</defName>
 		<label>decorative glass</label>
+		<tab>GlassWorks</tab>
 		<description>Glass can be used for more than just windows and lights.</description>
 		<techLevel>Industrial</techLevel>
 		<baseCost>300</baseCost>
@@ -36,21 +39,8 @@
 			<li>ElectricSmelting</li>
 			<li>GlassworksResearch</li>
 		</prerequisites>
-		<researchViewX>6</researchViewX>
-		<researchViewY>3.25</researchViewY>
+		<researchViewX>2</researchViewX>
+		<researchViewY>.5</researchViewY>
 	</ResearchProjectDef>
-	
-	<!--<ResearchProjectDef>
-		<defName>ElectricCremation</defName>
-		<label>electric cremation</label>
-		<description>Build crematoriums which can vaporize unwanted corpses.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>ElectricSmelting</li>
-		</prerequisites>
-		<researchViewX>6</researchViewX>
-		<researchViewY>1.25</researchViewY>
-	</ResearchProjectDef>-->
 
-</ResearchProjectDefs>
+</Defs>

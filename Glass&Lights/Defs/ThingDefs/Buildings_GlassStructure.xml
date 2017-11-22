@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 
 	<!--<ThingDef Name="BuildingBase" Abstract="True">
@@ -50,7 +50,6 @@
       <soundDoorClosePowered>DoorClosePowered</soundDoorClosePowered>
       <soundDoorOpenManual>DoorOpenManual</soundDoorOpenManual>
       <soundDoorCloseManual>DoorCloseManual</soundDoorCloseManual>
-      <ignoreNeedsPower>true</ignoreNeedsPower>
       <canPlaceOverWall>true</canPlaceOverWall>
     </building>
 	<comps>
@@ -63,10 +62,10 @@
 		<label>auto glass door</label>
 		<description>Divides rooms. Powered operation allows people to move through the door without slowing down. Allows light to pass through.</description>
 		<blockLight>false</blockLight>
-		<GraphicData>
+		<graphicData>
 			<texPath>Things/Building/Other/DoorGlass_Mover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-		</GraphicData>
+		</graphicData>
 		<uiIconPath>Things/Building/Other/DoorGlass_Icon</uiIconPath>
 		<statBases>
 			<MaxHitPoints>280</MaxHitPoints>
@@ -102,10 +101,10 @@
 		<label>glass door</label>
 		<description>Divides rooms. Allows light to pass through.</description>
 		<blockLight>false</blockLight>
-		<GraphicData>
+		<graphicData>
 			<texPath>Things/Building/Other/DoorGlass_Mover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-		</GraphicData>
+		</graphicData>
 		<uiIconPath>Things/Building/Other/DoorGlass_Icon</uiIconPath>
 		<statBases>
 			<MaxHitPoints>280</MaxHitPoints>
@@ -188,15 +187,13 @@
     <blockLight>false</blockLight>
 	<canOverlapZones>false</canOverlapZones>
     <stuffCategories>
-      <li>Glass</li>
-	  <li>Stony</li>
+      <li>Glass</li>	  
     </stuffCategories>
 	<costList>
 		<Steel>2</Steel>
 	</costList>
     <building>
       <isInert>true</isInert>
-      <ignoreNeedsPower>true</ignoreNeedsPower>
 	  <canPlaceOverWall>true</canPlaceOverWall>
     </building>
     <damageMultipliers>
@@ -209,4 +206,4 @@
 	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
   
-</Buildings>
+</Defs>
