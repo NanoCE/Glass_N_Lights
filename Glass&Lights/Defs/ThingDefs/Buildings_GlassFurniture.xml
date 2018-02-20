@@ -62,5 +62,6 @@
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
   </ThingDef>
-
+  
+  
 </Defs>
