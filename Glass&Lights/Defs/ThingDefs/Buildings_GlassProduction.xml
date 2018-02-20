@@ -95,7 +95,7 @@
 		<defName>FueledGlassworkTable</defName>
 		<label>fueled glassworks</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A table with all the tools you need to make glass. Uses fuel instead of electricity.</description>
+		<description>A fueled glassworks table with all the tools you need to make most glass. Due to inconsistencies with the fuel, round glass can only be made with the electric glassworks table. </description>
 		<graphicData>
 			<texPath>Things/Building/Production/GlassworkTableFueled</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
