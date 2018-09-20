@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
-  <!--<ThingDef Name="BuildingBase" Abstract="True">
-    <category>Building</category>
-    <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <repairEffect>Repair</repairEffect>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
-  </ThingDef>-->
-  
 <!--================================================Ceiling Lights=====================================-->
 
   <ThingDef Abstract="True" Name="CeilingLampBase" ParentName="BuildingBase">
     <thingClass>Building</thingClass>
     <category>Building</category>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <passability>Standable</passability>
     <selectable>true</selectable>
@@ -29,9 +16,12 @@
       <Steel>10</Steel>
     </costList>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <designationCategory>Furniture</designationCategory>
     <rotatable>false</rotatable>
+	<thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
     <graphicData>
       <texPath>Things/Building/Lights/CeilingLamp</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -40,24 +30,20 @@
     <comps>
       <li Class="CompProperties_Power" >
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>65</basePowerConsumption>
+        <basePowerConsumption>25</basePowerConsumption>
         <shortCircuitInRain>false</shortCircuitInRain>
       </li>
-	  <!--<li Class="CommunityCoreLibrary.CompProperties_RestrictedPlacement">
-          <compClass>CommunityCoreLibrary.CompRestrictedPlacement</compClass>
-      </li>-->
     </comps>
-        <statBases>
+    <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>170</WorkToMake>
       <Flammability>1.0</Flammability>
 	  <Beauty>4</Beauty>
+	  <Mass>3</Mass>
     </statBases>
 	<tickerType>Rare</tickerType>
-	<!--<placeWorkers>
-      <li>CommunityCoreLibrary.PlaceWorker_OnlyUnderRoof</li>
-    </placeWorkers>-->
-	<filthLeaving>BrokenGlass</filthLeaving>
+	<canOverlapZones>true</canOverlapZones>
+	<!--filthLeaving>BrokenGlass</filthLeaving-->
   </ThingDef>
   
   
@@ -209,9 +195,9 @@
 	<ThingDef Abstract="True" Name="StandingLampBase" ParentName="BuildingBase">
     <thingClass>Building</thingClass>
     <category>Building</category>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
-	<filthLeaving>BrokenGlass</filthLeaving>
+	<!--filthLeaving>BrokenGlass</filthLeaving-->
     <passability>Standable</passability>
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
@@ -220,8 +206,11 @@
 	  <Glass>1</Glass>
     </costList>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <designationCategory>Furniture</designationCategory>    
+	<thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
     <graphicData>
       <texPath>Things/Building/Furniture/LampStanding</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -236,6 +225,7 @@
       <WorkToMake>170</WorkToMake>
       <Flammability>1.0</Flammability>
 	  <Beauty>3</Beauty>
+	  <Mass>2.5</Mass>
     </statBases>
 	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
@@ -252,7 +242,7 @@
     <comps>
 	  <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>70</basePowerConsumption>
+        <basePowerConsumption>25</basePowerConsumption>
         <shortCircuitInRain>false</shortCircuitInRain>
         <!--<soundPowerOn>PowerOnSmall</soundPowerOn>
         <soundPowerOff>PowerOffSmall</soundPowerOff>-->
@@ -279,7 +269,7 @@
     </graphicData>
     <comps>
       <li Class="CompProperties_Glower">
-        <glowRadius>15</glowRadius>
+        <glowRadius>9</glowRadius>
         <glowColor>(217,217,208,0)</glowColor>
       </li>
     </comps>

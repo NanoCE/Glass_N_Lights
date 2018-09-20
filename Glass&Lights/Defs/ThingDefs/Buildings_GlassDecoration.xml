@@ -1,18 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--<ThingDef Name="BuildingBase" Abstract="True">
-    <category>Building</category>
-    <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <repairEffect>Repair</repairEffect>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
-  </ThingDef>-->
-
   	<ThingDef ParentName="BuildingBase">
 		<defName>GlassMonitorLarge</defName>
 		<label>Glassworks TV</label>
@@ -20,28 +8,40 @@
 		<graphicData>
 			<texPath>Things/Building/Other/GlassworkTV</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+			<volume>(1.6, 0.6, 0.1)</volume>
+			<offset>(0, 0, 0.35)</offset>
+		</shadowData>
 			<drawSize>(2,1)</drawSize>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<rotatable>true</rotatable>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+          <li>BuildingsFurniture</li>
+        </thingCategories>
 		<socialPropernessMatters>true</socialPropernessMatters>
-		<fillPercent>0.25</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<fillPercent>0.3</fillPercent>
 		<statBases>
-			<WorkToBuild>9000</WorkToBuild>
-			<MaxHitPoints>10</MaxHitPoints>
-			<MarketValue>1400</MarketValue>
+			<WorkToBuild>45000</WorkToBuild>
+			<MaxHitPoints>50</MaxHitPoints>
+			<!--<MarketValue>1400</MarketValue>-->
 			<Flammability>1.0</Flammability>
-			<EntertainmentStrengthFactor>1.3</EntertainmentStrengthFactor>
-			<Beauty>11</Beauty>
+			 <JoyGainFactor>1.8</JoyGainFactor>
+			<Beauty>140</Beauty>
+			<!--<Mass>13</Mass>-->
 		</statBases>
 		<costList>
 			<Steel>80</Steel>
-			<Component>19</Component>
-			<Glass>4</Glass>
+			<ComponentIndustrial>19</ComponentIndustrial>
+			<Glass>8</Glass>
 		</costList>
 		<size>(2,1)</size>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 		<building>
+			<joyKind>Television</joyKind>
 			<spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
 			<boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
 			<watchBuildingStandDistanceRange>
@@ -59,12 +59,15 @@
 		<comps>
 			<li Class="CompProperties_Power" >
 				<compClass>CompPowerTrader</compClass>
-				<startElectricalFires>true</startElectricalFires>
 				<basePowerConsumption>50</basePowerConsumption>
-				<!--<soundPowerOn>PowerOnSmall</soundPowerOn>
+				<!--<startElectricalFires>true</startElectricalFires>				
+				<soundPowerOn>PowerOnSmall</soundPowerOn>
 				<soundPowerOff>PowerOffSmall</soundPowerOff>-->
 			</li>
 			<li Class="CompProperties_Flickable"/>
+				<li Class="CompProperties_RoomIdentifier">
+					<roomStat>Impressiveness</roomStat>
+				</li>
 		</comps>
 		<tradeTags>
 			<li>Television</li>
@@ -72,7 +75,7 @@
 		<researchPrerequisites>
 			<li>DecorativeGlassResearch</li>
 			<li>TubeTelevision</li>
-			<li>ComponentAssembly</li>
+			<!--li>ComponentAssembly</li-->
 		</researchPrerequisites>
 	</ThingDef>
 

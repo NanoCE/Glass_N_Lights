@@ -20,7 +20,7 @@
 		<techLevel>Industrial</techLevel>
 		<baseCost>700</baseCost>
 		<prerequisites>
-			<li>ElectricSmelting</li>
+			<li>Electricity</li>
 			<li>GlassworksResearch</li>
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>
@@ -36,7 +36,7 @@
 		<techLevel>Industrial</techLevel>
 		<baseCost>300</baseCost>
 		<prerequisites>
-			<li>ElectricSmelting</li>
+			<li>Electricity</li>
 			<li>GlassworksResearch</li>
 		</prerequisites>
 		<researchViewX>2</researchViewX>
