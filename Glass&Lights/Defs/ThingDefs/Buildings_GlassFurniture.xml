@@ -1,19 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
-  <!--<ThingDef Name="BuildingBase" Abstract="True">
-    <category>Building</category>
-    <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <repairEffect>Repair</repairEffect>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
-  </ThingDef>-->
-
     <!-- ======================== Furniture ======================= -->
 
   <ThingDef Abstract="True" ParentName="BuildingBase" Name="TableBase">
@@ -50,7 +37,7 @@
 		<MaxHitPoints>60</MaxHitPoints>
 		<WorkToBuild>100</WorkToBuild>
 		<Flammability>1.0</Flammability>
-		<Beauty>100</Beauty>
+		<Beauty>4</Beauty>
     </statBases>
     <size>(1,1)</size>
 	<costStuffCount>1</costStuffCount>
@@ -58,7 +45,7 @@
 		<Steel>5</Steel>
 	</costList>
     <rotatable>false</rotatable>
-    <filthLeaving>BrokenGlass</filthLeaving>
+    <!--filthLeaving>BrokenGlass</filthLeaving-->
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
   </ThingDef>

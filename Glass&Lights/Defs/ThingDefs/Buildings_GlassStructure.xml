@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-
-
-	<!--<ThingDef Name="BuildingBase" Abstract="True">
-		<category>Building</category>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-		<selectable>true</selectable>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<repairEffect>Repair</repairEffect>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
-	</ThingDef>-->
-  
+<Defs>  
   
 	<!--========================= Doors =============================-->
 	
 	<ThingDef ParentName="BuildingBase" Name="DoorGlassBase" Abstract="True">
     <thingClass>Building_Door</thingClass>
-    <blueprintClass>Blueprint_Door</blueprintClass>
-    <category>Building</category>
-	<blueprintGraphicData>
-		<texPath>Things/Building/Door/Door_Blueprint</texPath>
-	</blueprintGraphicData>
+	<category>Building</category>
     <altitudeLayer>DoorMoveable</altitudeLayer>
     <fillPercent>1</fillPercent>
     <useHitPoints>true</useHitPoints>
@@ -38,7 +21,7 @@
     <tickerType>Normal</tickerType>
     <size>(1,1)</size>
     <rotatable>false</rotatable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Structure</designationCategory>
     <holdsRoof>true</holdsRoof>
@@ -46,11 +29,16 @@
     <blockLight>false</blockLight>
     <drawerType>RealtimeOnly</drawerType>
     <building>
-      <soundDoorOpenPowered>DoorOpenPowered</soundDoorOpenPowered>
-      <soundDoorClosePowered>DoorClosePowered</soundDoorClosePowered>
-      <soundDoorOpenManual>DoorOpenManual</soundDoorOpenManual>
-      <soundDoorCloseManual>DoorCloseManual</soundDoorCloseManual>
+      <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+      <soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+      <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+      <soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
       <canPlaceOverWall>true</canPlaceOverWall>
+	  <ai_chillDestination>false</ai_chillDestination>
+	  <blueprintClass>Blueprint_Door</blueprintClass>    
+	  <blueprintGraphicData>
+		<texPath>Things/Building/Door/Door_Blueprint</texPath>
+	  </blueprintGraphicData>
     </building>
 	<comps>
       <li Class="CompProperties_Forbiddable"/>
@@ -79,7 +67,7 @@
 		</stuffCategories>
 		<costStuffCount>1</costStuffCount>
 		<costList>
-			<Component>1</Component>
+			<ComponentIndustrial>1</ComponentIndustrial>
 			<Steel>10</Steel>
 		</costList>
 		<comps>
@@ -88,7 +76,7 @@
 				<basePowerConsumption>22</basePowerConsumption>
 			</li>
 		</comps>
-		<filthLeaving>BrokenGlass</filthLeaving>
+		<!--filthLeaving>BrokenGlass</filthLeaving-->
 		<researchPrerequisites>
 			<li>GlassworksResearch</li>
 			<li>Autodoors</li>
@@ -120,7 +108,7 @@
 		<costList>
 			<Steel>9</Steel>
 		</costList>
-		<filthLeaving>BrokenGlass</filthLeaving>
+		<!--filthLeaving>BrokenGlass</filthLeaving-->
 		<researchPrerequisites>
 			<li>GlassworksResearch</li>
 		</researchPrerequisites>
@@ -156,9 +144,6 @@
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
     </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-    </blueprintGraphicData>
     <uiIconPath>Things/Building/Other/Window</uiIconPath>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
@@ -180,7 +165,7 @@
     <rotatable>false</rotatable>
     <selectable>true</selectable>
     <neverMultiSelect>true</neverMultiSelect>
-    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <holdsRoof>true</holdsRoof>
     <designationCategory>Structure</designationCategory>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
@@ -195,6 +180,10 @@
     <building>
       <isInert>true</isInert>
 	  <canPlaceOverWall>true</canPlaceOverWall>
+	  <ai_chillDestination>false</ai_chillDestination>
+	  <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
     </building>
     <damageMultipliers>
       <li>
@@ -202,7 +191,7 @@
         <multiplier>3</multiplier>
       </li>
     </damageMultipliers>
-    <filthLeaving>BrokenGlass</filthLeaving>
+    <!--filthLeaving>BrokenGlass</filthLeaving-->
 	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
   

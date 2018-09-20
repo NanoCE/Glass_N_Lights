@@ -8,7 +8,7 @@
     <joyDuration>4000</joyDuration>
     <joyMaxParticipants>8</joyMaxParticipants>
     <joyGainRate>1.2</joyGainRate>
-    <joyKind>Passive</joyKind>
+    <joyKind>Television</joyKind>
   </JobDef>
   
 </Defs>

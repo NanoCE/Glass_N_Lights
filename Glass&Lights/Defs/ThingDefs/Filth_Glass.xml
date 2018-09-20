@@ -9,7 +9,6 @@
     <useHitPoints>false</useHitPoints>
     <drawerType>MapMeshOnly</drawerType>
 	<graphicData>
-		<!--<graphicShaderType>Transparent</graphicShaderType>-->
 		<graphicClass>Graphic_Random</graphicClass>
 	</graphicData>
   </ThingDef>

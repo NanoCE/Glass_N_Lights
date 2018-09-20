@@ -4,13 +4,29 @@
   <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
 	<thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BrokenGlass</filthLeaving>
+    <!--filthLeaving>BrokenGlass</filthLeaving-->
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+	<statBases>
+      <Mass>20</Mass>
+    </statBases>
+	<building>
+      <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+      <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+    </building>
+    <interactionCellIcon>DiningChair</interactionCellIcon>
+	<comps><li><compClass>CompReportWorkSpeed</compClass></li></comps>
+	<placeWorkers>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
   </ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -31,13 +47,13 @@
 		</graphicData>
 		<costList>
 				<Steel>60</Steel>
-				<Component>2</Component>
+				<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>1300</WorkToBuild>
-			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>160</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<Cleanliness>-6</Cleanliness>
 		</statBases>
@@ -59,7 +75,7 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<startElectricalFires>true</startElectricalFires>
+				<!--<startElectricalFires>true</startElectricalFires>-->
 				<basePowerConsumption>200</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
@@ -87,7 +103,7 @@
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>GlassworksResearch</li>
-			<li>ElectricSmelting</li>
+			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
@@ -95,7 +111,7 @@
 		<defName>FueledGlassworkTable</defName>
 		<label>fueled glassworks</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A fueled glassworks table with all the tools you need to make most glass. Due to inconsistencies with the fuel, round glass can only be made with the electric glassworks table. </description>
+		<description>A fueled glassworks table with all the tools you need to make most glass. Due to inconsistencies with the fuel, round glass can only be made with the electric glassworks table.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/GlassworkTableFueled</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -109,7 +125,7 @@
 		</graphicData>
 		<costList>
 				<Steel>60</Steel>
-				<Component>2</Component>
+				<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<useHitPoints>True</useHitPoints>
@@ -166,7 +182,9 @@
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
-		<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>GlassworksResearch</li>
+		</researchPrerequisites>
 	</ThingDef>
   
   	<ThingDef ParentName="BuildingBase">
@@ -182,7 +200,7 @@
 		<costList>
 				<Steel>40</Steel>
 				<Glass>8</Glass>
-				<Component>10</Component>
+				<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<useHitPoints>True</useHitPoints>
@@ -207,7 +225,7 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<startElectricalFires>true</startElectricalFires>
+				<!--<startElectricalFires>true</startElectricalFires>-->
 				<basePowerConsumption>100</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
@@ -230,10 +248,12 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.2</heatPerTickWhileWorking>
 		</building>
-		<researchPrerequisites><li>ReinforcedGlassResearch</li></researchPrerequisites>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
+		<researchPrerequisites>
+			<li>ReinforcedGlassResearch</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 </Defs>

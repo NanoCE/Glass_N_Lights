@@ -5,24 +5,22 @@
 
   <AutoDoorGlass.label>自動ドア</AutoDoorGlass.label>
   <AutoDoorGlass.description>部屋を隔てる自動扉です。自動で開閉するので通過はスムーズになります。光を透過します。</AutoDoorGlass.description>
-  <AutoDoorGlass_Blueprint.label>自動ドア(設計)</AutoDoorGlass_Blueprint.label>
-  <AutoDoorGlass_Frame.label>自動ドア(施工)</AutoDoorGlass_Frame.label>
-  <AutoDoorGlass_Frame.description>部屋を隔てる自動扉です。自動で開閉するので通過はスムーズになります。光を透過します。</AutoDoorGlass_Frame.description>
+  <Blueprint_AutoDoorGlass.label>自動ドア(設計)</Blueprint_AutoDoorGlass.label>
+  <Frame_AutoDoorGlass.label>自動ドア(施工)</Frame_AutoDoorGlass.label>
+  <Frame_AutoDoorGlass.description>部屋を隔てる自動扉です。自動で開閉するので通過はスムーズになります。光を透過します。</Frame_AutoDoorGlass.description>
 
   <DoorGlass.label>ドア</DoorGlass.label>
   <DoorGlass.description>部屋を隔てる手動扉です。光を透過します。</DoorGlass.description>
-  <DoorGlass_Blueprint.label>ドア(設計)</DoorGlass_Blueprint.label>
-  <DoorGlass_Frame.label>ドア(施工)</DoorGlass_Frame.label>
-  <DoorGlass_Frame.description>部屋を隔てる手動扉です。光を透過します。</DoorGlass_Frame.description>
-
+  <Blueprint_DoorGlass.label>ドア(設計)</Blueprint_DoorGlass.label>
+  <Frame_DoorGlass.label>ドア(施工)</Frame_DoorGlass.label>
+  <Frame_DoorGlass.description>部屋を隔てる手動扉です。光を透過します。</Frame_DoorGlass.description>
 
   <!-- Walls -->
 
   <Window.label>窓</Window.label>
   <Window.description>壁として機能しますが、光を透過させます。</Window.description>
-  <Window_Blueprint.label>窓(設計)</Window_Blueprint.label>
-  <Window_Frame.label>窓(施工)</Window_Frame.label>
-  <Window_Frame.description>壁として機能しますが、光を透過させます。</Window_Frame.description>
-
+  <Blueprint_Window.label>窓(設計)</Blueprint_Window.label>
+  <Frame_Window.label>窓(施工)</Frame_Window.label>
+  <Frame_Window.description>壁として機能しますが、光を透過させます。</Frame_Window.description>
 
 </LanguageData>

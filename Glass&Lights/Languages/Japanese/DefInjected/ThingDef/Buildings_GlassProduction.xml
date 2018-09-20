@@ -3,21 +3,20 @@
 
   <GlassworkTable.label>ガラス制作台(電気)</GlassworkTable.label>
   <GlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台で、大量の電気を消費します。</GlassworkTable.description>
-  <GlassworkTable_Blueprint.label>ガラス制作台(電気)(設計)</GlassworkTable_Blueprint.label>
-  <GlassworkTable_Frame.label>ガラス制作台(電気)(施工)</GlassworkTable_Frame.label>
-  <GlassworkTable_Frame.description>ガラスを作るのに必要な道具を揃えた作業台で、大量の電気を消費します。</GlassworkTable_Frame.description>
+  <Blueprint_GlassworkTable.label>ガラス制作台(電気)(設計)</Blueprint_GlassworkTable.label>
+  <Frame_GlassworkTable.label>ガラス制作台(電気)(施工)</Frame_GlassworkTable.label>
+  <Frame_GlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台で、大量の電気を消費します。</Frame_GlassworkTable.description>
 
   <FueledGlassworkTable.label>ガラス制作台(薪式)</FueledGlassworkTable.label>
-  <FueledGlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台です。電気の代わりに薪(燃料)を使用します。円形ガラスはガラス制作台(電気)でのみ作ることができます。</FueledGlassworkTable.description>
-  <FueledGlassworkTable_Blueprint.label>ガラス制作台(薪式)(設計)</FueledGlassworkTable_Blueprint.label>
-  <FueledGlassworkTable_Frame.label>ガラス制作台(薪式)(施工)</FueledGlassworkTable_Frame.label>
-  <FueledGlassworkTable_Frame.description>ガラスを作るのに必要な道具を揃えた作業台です。電気の代わりに薪(燃料)を使用します。円形ガラスはガラス制作台(電気)でのみ作ることができます。</FueledGlassworkTable_Frame.description>
+  <FueledGlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台です。電気の代わりに薪(燃料)を使用します。</FueledGlassworkTable.description>
+  <Blueprint_FueledGlassworkTable.label>ガラス制作台(薪式)(設計)</Blueprint_FueledGlassworkTable.label>
+  <Frame_FueledGlassworkTable.label>ガラス制作台(薪式)(施工)</Frame_FueledGlassworkTable.label>
+  <Frame_FueledGlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台です。電気の代わりに薪(燃料)を使用します。</Frame_FueledGlassworkTable.description>
 
   <ReinforcedGlassworkTable.label>強化ガラス製作台</ReinforcedGlassworkTable.label>
-  <ReinforcedGlassworkTable.description>通常のガラスから安全(強化)ガラスを製作する作業台です。円形ガラスはガラス制作台(電気)でのみ作ることができます。</ReinforcedGlassworkTable.description>
-  <ReinforcedGlassworkTable_Blueprint.label>強化ガラス製作台(設計)</ReinforcedGlassworkTable_Blueprint.label>
-  <ReinforcedGlassworkTable_Frame.label>強化ガラス製作台(施工)</ReinforcedGlassworkTable_Frame.label>
-  <ReinforcedGlassworkTable_Frame.description>通常のガラスから安全(強化)ガラスを製作する作業台です。円形ガラスはガラス制作台(電気)でのみ作ることができます。</ReinforcedGlassworkTable_Frame.description>
-
+  <ReinforcedGlassworkTable.description>通常のガラスから安全(強化)ガラスを製作する作業台です。</ReinforcedGlassworkTable.description>
+  <Blueprint_ReinforcedGlassworkTable.label>強化ガラス製作台(設計)</Blueprint_ReinforcedGlassworkTable.label>
+  <Frame_ReinforcedGlassworkTable.label>強化ガラス製作台(施工)</Frame_ReinforcedGlassworkTable.label>
+  <Frame_ReinforcedGlassworkTable.description>通常のガラスから安全(強化)ガラスを製作する作業台です。</Frame_ReinforcedGlassworkTable.description>
 
 </LanguageData>
