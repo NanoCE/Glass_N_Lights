@@ -27,9 +27,6 @@
 				<count>1</count>
 			</li>
 		</ingredients>
-		<specialProducts>
-			<li>Smelted</li>
-		</specialProducts>
 		<products>
 			<Glass>4</Glass>
 		</products>
@@ -66,9 +63,6 @@
 				<count>1</count>
 			</li>
 		</ingredients>
-		<specialProducts>
-			<li>Smelted</li>
-		</specialProducts>
 		<products>
 			<LargeCircularGlass>3</LargeCircularGlass>
 		</products>
