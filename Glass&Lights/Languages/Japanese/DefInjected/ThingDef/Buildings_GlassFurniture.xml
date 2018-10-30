@@ -5,8 +5,9 @@
 
   <GlassTableShort.label>テーブル</GlassTableShort.label>
   <GlassTableShort.description>イスを向き合うように配置すると、ここで食事を摂るようになります。</GlassTableShort.description>
-  <Blueprint_GlassTableShort.label>テーブル(blueprint)</Blueprint_GlassTableShort.label>
-  <Frame_GlassTableShort.label>テーブル(building)</Frame_GlassTableShort.label>
+  <Blueprint_GlassTableShort.label>テーブル(設計)</Blueprint_GlassTableShort.label>
+  <Blueprint_Install_GlassTableShort.label>テーブル(移動先)</Blueprint_Install_GlassTableShort.label>
+  <Frame_GlassTableShort.label>テーブル(施工)</Frame_GlassTableShort.label>
   <Frame_GlassTableShort.description>イスを向き合うように配置すると、ここで食事を摂るようになります。</Frame_GlassTableShort.description>
 
 </LanguageData>
