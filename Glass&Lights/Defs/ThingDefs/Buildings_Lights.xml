@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <DesignatorDropdownGroupDef>
+    <defName>Ceiling_Lights</defName>
+  </DesignatorDropdownGroupDef>
+
 <!--================================================Ceiling Lights=====================================-->
 
   <ThingDef Abstract="True" Name="CeilingLampBase" ParentName="BuildingBase">
@@ -84,6 +88,7 @@
     <defName>CeilingLamp_Blue</defName>
     <label>ceiling lamp (blue)</label>
     <description>Ceiling lamp that lights an area in a dull blue color. Also has a calming affect.</description>
+    <designatorDropdown>Ceiling_Lights</designatorDropdown>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Blue</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -107,6 +112,7 @@
     <defName>CeilingLamp_Green</defName>
     <label>ceiling lamp (green)</label>
     <description>Ceiling lamp that lights an area in a dull green color.</description>
+    <designatorDropdown>Ceiling_Lights</designatorDropdown>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Green</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -127,6 +133,7 @@
     <defName>CeilingLamp_Violet</defName>
     <label>ceiling lamp (violet)</label>
     <description>Ceiling lamp that lights an area in a violet color.</description>
+    <designatorDropdown>Ceiling_Lights</designatorDropdown>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Violet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -151,6 +158,7 @@
     <defName>CeilingLamp_Yellow</defName>
     <label>ceiling lamp (yellow)</label>
     <description>Ceiling lamp that lights an area in a dull yellow color.</description>
+    <designatorDropdown>Ceiling_Lights</designatorDropdown>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Yellow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -174,6 +182,7 @@
     <defName>CeilingLamp_Orange</defName>
     <label>ceiling lamp (orange)</label>
     <description>Ceiling lamp that lights an area in a dull Orange color.</description>
+    <designatorDropdown>Ceiling_Lights</designatorDropdown>
 	<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Orange</texPath>
       <graphicClass>Graphic_Single</graphicClass>
