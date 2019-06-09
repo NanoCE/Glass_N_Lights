@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="BuildingBase" Abstract="True">
+  <ThingDef Name="GlassWorksBenchBase" ParentName="BuildingBase" Abstract="True">
     <category>Building</category>
 	<thingClass>Building</thingClass>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -29,7 +29,7 @@
     </placeWorkers>
   </ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="GlassWorksBenchBase">
 		<defName>GlassworkTable</defName>
 		<label>electric glassworks</label>
 		<thingClass>Building_WorkTable</thingClass>
@@ -107,7 +107,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 	
-		<ThingDef ParentName="BuildingBase">
+		<ThingDef ParentName="GlassWorksBenchBase">
 		<defName>FueledGlassworkTable</defName>
 		<label>fueled glassworks</label>
 		<thingClass>Building_WorkTable</thingClass>
@@ -187,7 +187,7 @@
 		</researchPrerequisites>
 	</ThingDef>
   
-  	<ThingDef ParentName="BuildingBase">
+  	<ThingDef ParentName="GlassWorksBenchBase">
 		<defName>ReinforcedGlassworkTable</defName>
 		<label>reinforced glassworks</label>
 		<thingClass>Building_WorkTable</thingClass>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="BaseFilth" Abstract="True">
+  <!-- <ThingDef Name="BaseFilth" Abstract="True">
     <label>unspecified filth</label>
 	<thingClass>Filth</thingClass>
     <category>Filth</category>
@@ -11,7 +11,7 @@
 	<graphicData>
 		<graphicClass>Graphic_Random</graphicClass>
 	</graphicData>
-  </ThingDef>
+  </ThingDef> -->
 
 	<ThingDef ParentName="BaseFilth">
 		<defName>BrokenGlass</defName>
