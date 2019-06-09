@@ -126,12 +126,12 @@
     <category>Building</category>
     <description>It's like a wall but it lets light through.</description>
     <graphicData>
-      <texPath>Things/Building/Other/WallGlass_Atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/Linked/Wall</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
       <linkType>CornerFiller</linkType>
       <linkFlags>
         <li>Wall</li>
-        <li>Rock</li>
+		<li>Rock</li>
       </linkFlags>
 	  <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -143,10 +143,11 @@
         <edgeLeft>Damage/Edge</edgeLeft>
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
+	  <shaderType>Transparent</shaderType>
     </graphicData>
     <uiIconPath>Things/Building/Other/Window</uiIconPath>
     <statBases>
-      <MaxHitPoints>350</MaxHitPoints>
+      <MaxHitPoints>250</MaxHitPoints>
 	  <MarketValue>15.2</MarketValue>
       <WorkToBuild>150</WorkToBuild>
       <Flammability>1.0</Flammability>
@@ -168,7 +169,7 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <holdsRoof>true</holdsRoof>
     <designationCategory>Structure</designationCategory>
-    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <staticSunShadowHeight>9.0</staticSunShadowHeight>
     <blockLight>false</blockLight>
 	<canOverlapZones>false</canOverlapZones>
     <stuffCategories>
@@ -191,7 +192,6 @@
         <multiplier>3</multiplier>
       </li>
     </damageMultipliers>
-    <!--filthLeaving>BrokenGlass</filthLeaving-->
 	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
   

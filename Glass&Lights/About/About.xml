@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Glass+Lights</name>
-	<author>jacob814/Graphics-Kexici</author>
+	<author>NanoCE</author>
 	<url>https://ludeon.com/forums/index.php?topic=14870.0</url>
-	<targetVersion>1.0.2059</targetVersion>
-	<description>This mod introduces glass into the game and all the wonders that go with it including: walls of varring strengths, ceiling lamps of varring colors, wall lamps, and even outdoor lamps.</description>
+	<supportedVersions>
+        <li>1.0</li>
+	</supportedVersions>
+	<description>This mod introduces glass into the game and all the wonders that go with it including: walls of varring strengths, ceiling lamps of varring colors, wall lamps, and even outdoor lamps. Note, jacob814 and NanoCE are the same person if you where confused on why the author changed.</description>
 </ModMetaData>

@@ -18,27 +18,28 @@
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<rotatable>true</rotatable>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-          <li>BuildingsFurniture</li>
-        </thingCategories>
 		<socialPropernessMatters>true</socialPropernessMatters>
-		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-		<fillPercent>0.3</fillPercent>
+		<fillPercent>0.35</fillPercent>
+		<thingCategories>
+          <li>BuildingsJoy</li>
+        </thingCategories>
+		<costList>
+			<Steel>80</Steel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<Glass>8</Glass>
+		</costList>
 		<statBases>
 			<WorkToBuild>45000</WorkToBuild>
 			<MaxHitPoints>50</MaxHitPoints>
-			<!--<MarketValue>1400</MarketValue>-->
 			<Flammability>1.0</Flammability>
 			 <JoyGainFactor>1.8</JoyGainFactor>
 			<Beauty>140</Beauty>
-			<!--<Mass>13</Mass>-->
-		</statBases>
-		<costList>
-			<Steel>80</Steel>
-			<ComponentIndustrial>19</ComponentIndustrial>
-			<Glass>8</Glass>
-		</costList>
+			<Mass>10</Mass>
+		</statBases>	
+		<pathCost>70</pathCost>
+		<passability>PassThroughOnly</passability>
 		<size>(2,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 		<building>
 			<joyKind>Television</joyKind>
@@ -54,15 +55,11 @@
 			<li>PlaceWorker_WatchArea</li>
 		</placeWorkers>
 		<designationCategory>Joy</designationCategory>
-		<pathCost>70</pathCost>
-		<passability>PassThroughOnly</passability>
 		<comps>
 			<li Class="CompProperties_Power" >
 				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>50</basePowerConsumption>
-				<!--<startElectricalFires>true</startElectricalFires>				
-				<soundPowerOn>PowerOnSmall</soundPowerOn>
-				<soundPowerOff>PowerOffSmall</soundPowerOff>-->
 			</li>
 			<li Class="CompProperties_Flickable"/>
 				<li Class="CompProperties_RoomIdentifier">
@@ -75,7 +72,6 @@
 		<researchPrerequisites>
 			<li>DecorativeGlassResearch</li>
 			<li>TubeTelevision</li>
-			<!--li>ComponentAssembly</li-->
 		</researchPrerequisites>
 	</ThingDef>
 

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="ResourceBase" Abstract="True">
+  <!-- <ThingDef Name="ResourceBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <label>unspecified resource</label>
     <category>Item</category>
@@ -17,7 +17,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <rotatable>false</rotatable>
     <pathCost>15</pathCost>
-  </ThingDef>
+  </ThingDef> -->
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>Glass</defName>
@@ -25,7 +25,7 @@
 		<description>Transparent material that is quite popular despite being fragile.</description>
 		<graphicData>
 			<texPath>Things/Item/Glass</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
@@ -42,9 +42,13 @@
 			<categories>
 				<li>Glass</li>
 			</categories>
+			<commonality>0</commonality>
 			<color>(205,230,250)</color>
 			<constructEffect>ConstructMetal</constructEffect>
 			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<appearance>GlassGL</appearance>
 			<statFactors>
 				<MaxHitPoints>0.2</MaxHitPoints>
 				<Flammability>1</Flammability>
@@ -55,10 +59,10 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>ReinforcedGlass</defName>
 		<label>Reinforced Glass</label>
-		<description>Stronger than normal glass but harder to work with.</description>
+		<description>Stronger than normal glass but harder to work with. Good for strengthend walls without compromising security.</description>
 		<graphicData>
 			<texPath>Things/Item/ReinforcedGlass</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
@@ -77,6 +81,9 @@
 			<color>(240,240,245)</color>
 			<constructEffect>ConstructMetal</constructEffect>
 			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<appearance>GlassGL</appearance>
 			<statFactors>
 				<MaxHitPoints>1</MaxHitPoints>
 				<Flammability>0</Flammability>
@@ -89,8 +96,8 @@
 		<label>large circular glass</label>
 		<description>A large piece of circular glass designed for anything from ceiling lights to art pieces..</description>
 		<graphicData>
-			<texPath>Things/Item/LargeCircularGlass</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/CircularGlass</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>

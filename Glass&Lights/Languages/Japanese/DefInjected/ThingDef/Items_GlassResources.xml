@@ -6,7 +6,7 @@
   <Glass.stuffProps.stuffAdjective>ガラス</Glass.stuffProps.stuffAdjective>
 
   <ReinforcedGlass.label>強化ガラス</ReinforcedGlass.label>
-  <ReinforcedGlass.description>通常のガラスよりも頑丈ですが、加工が困難です。</ReinforcedGlass.description>
+  <ReinforcedGlass.description>通常のガラスよりも頑丈ですが、加工が困難です。安全性を犠牲にせずに壁を強化するのに適しています。</ReinforcedGlass.description>
   <ReinforcedGlass.stuffProps.stuffAdjective>強化ガラス</ReinforcedGlass.stuffProps.stuffAdjective>
 
   <LargeCircularGlass.label>円形ガラス</LargeCircularGlass.label>

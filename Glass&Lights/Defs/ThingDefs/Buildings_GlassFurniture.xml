@@ -3,7 +3,7 @@
 
     <!-- ======================== Furniture ======================= -->
 
-  <ThingDef Abstract="True" ParentName="BuildingBase" Name="TableBase">
+  <!-- <ThingDef Abstract="True" ParentName="BuildingBase" Name="TableBase">
     <thingClass>Building</thingClass>
     <altitudeLayer>Building</altitudeLayer>
     <description>People eat off tables when chairs are placed facing them.</description>
@@ -45,10 +45,44 @@
 		<Steel>5</Steel>
 	</costList>
     <rotatable>false</rotatable>
-    <!--filthLeaving>BrokenGlass</filthLeaving-->
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
+  </ThingDef> -->
+  
+  <ThingDef Abstract="True" ParentName="TableBase" Name="GlassTableBase">
+    <stuffCategories>
+      <li>Glass</li>
+    </stuffCategories>
+    <comps>
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+	
+  <ThingDef ParentName="GlassTableBase">
+    <defName>GlassTableShort</defName>
+    <label>table</label>
+	<graphicData>
+		<texPath>Things/Building/Other/GlassTableShort</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(3,3)</drawSize>
+	</graphicData>
+    <statBases>
+		<MaxHitPoints>60</MaxHitPoints>
+		<WorkToBuild>100</WorkToBuild>
+		<Flammability>1.0</Flammability>
+		<Beauty>4</Beauty>
+		<Mass>20</Mass>
+    </statBases>
+    <size>(1,1)</size>
+	<costStuffCount>15</costStuffCount>
+	<costList>		
+		<Glass>1</Glass>
+	</costList>
+    <rotatable>false</rotatable>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
   </ThingDef>
-  
   
 </Defs>
