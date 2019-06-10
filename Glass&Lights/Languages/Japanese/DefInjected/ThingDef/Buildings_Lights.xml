@@ -112,10 +112,10 @@
   <Blueprint_Install_WallLamp.label>壁灯(移動先)</Blueprint_Install_WallLamp.label>
 
   <OutdoorGroundLamp.label>屋外灯</OutdoorGroundLamp.label>
-  <OutdoorGroundLamp.description>廃止予定です。これの代用になるものはありませんが、それほど良いものでもありません。もしあなたがこれらを使い続けたいのであれば、私に知らせてください。(屋外にのみ設置できる電灯です。電力は不要です。)</OutdoorGroundLamp.description>
-  <!-- <Blueprint_OutdoorGroundLamp.label>屋外灯(設計)</Blueprint_OutdoorGroundLamp.label> -->
+  <OutdoorGroundLamp.description>屋外にのみ設置できる電灯です。電力は不要です。</OutdoorGroundLamp.description>
+  <Blueprint_OutdoorGroundLamp.label>屋外灯(設計)</Blueprint_OutdoorGroundLamp.label>
   <Blueprint_Install_OutdoorGroundLamp.label>屋外灯(移動先)</Blueprint_Install_OutdoorGroundLamp.label>
-  <!-- <Frame_OutdoorGroundLamp.label>屋外灯(施工)</Frame_OutdoorGroundLamp.label> -->
-  <Frame_OutdoorGroundLamp.description>廃止予定です。これの代用になるものはありませんが、それほど良いものでもありません。もしあなたがこれらを使い続けたいのであれば、私に知らせてください。(屋外にのみ設置できる電灯です。電力は不要です。)</Frame_OutdoorGroundLamp.description>
+  <Frame_OutdoorGroundLamp.label>屋外灯(施工)</Frame_OutdoorGroundLamp.label>
+  <Frame_OutdoorGroundLamp.description>屋外にのみ設置できる電灯です。電力は不要です。</Frame_OutdoorGroundLamp.description>
 
 </LanguageData>
