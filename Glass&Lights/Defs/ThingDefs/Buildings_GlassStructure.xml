@@ -143,6 +143,7 @@
         <edgeLeft>Damage/Edge</edgeLeft>
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
+	  <shaderType>Transparent</shaderType>
     </graphicData>
     <uiIconPath>Things/Building/Other/Window</uiIconPath>
     <statBases>
@@ -169,7 +170,7 @@
     <holdsRoof>true</holdsRoof>
     <designationCategory>Structure</designationCategory>
     <staticSunShadowHeight>9.0</staticSunShadowHeight>
-    <blockLight>false</blockLight><!--Important-->
+    <blockLight>false</blockLight>
 	<canOverlapZones>false</canOverlapZones>
     <stuffCategories>
       <li>Glass</li>	  
@@ -184,7 +185,13 @@
 	  <blueprintGraphicData>
         <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
-    </building>    
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>3</multiplier>
+      </li>
+    </damageMultipliers>
 	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
   

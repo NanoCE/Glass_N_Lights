@@ -105,48 +105,17 @@
   <Frame_GLWallLamp_Orange.description>壁に設置する明かりで範囲をオレンジ色で照らします。</Frame_GLWallLamp_Orange.description>
 
 
-  <!-- Ceiling Lights -->
-
-  <!-- <CeilingLamp.label>(旧)天井灯</CeilingLamp.label>
-  <CeilingLamp.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp.description>
-  <Blueprint_Install_CeilingLamp.label>(旧)天井灯(移動先)</Blueprint_Install_CeilingLamp.label>
-
-  <CeilingLamp_Red.label>(旧)天井灯(赤色)</CeilingLamp_Red.label>
-  <CeilingLamp_Red.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Red.description>
-  <Blueprint_Install_CeilingLamp_Red.label>(旧)天井灯(赤色)(移動先)</Blueprint_Install_CeilingLamp_Red.label>
-
-  <CeilingLamp_Blue.label>(旧)天井灯(青色)</CeilingLamp_Blue.label>
-  <CeilingLamp_Blue.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Blue.description>
-  <Blueprint_Install_CeilingLamp_Blue.label>(旧)天井灯(青色)(移動先)</Blueprint_Install_CeilingLamp_Blue.label>
-
-  <CeilingLamp_Green.label>(旧)天井灯(緑色)</CeilingLamp_Green.label>
-  <CeilingLamp_Green.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Green.description>
-  <Blueprint_Install_CeilingLamp_Green.label>(旧)天井灯(緑色)(移動先)</Blueprint_Install_CeilingLamp_Green.label>
-
-  <CeilingLamp_Violet.label>(旧)天井灯(紫色)</CeilingLamp_Violet.label>
-  <CeilingLamp_Violet.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Violet.description>
-  <Blueprint_Install_CeilingLamp_Violet.label>(旧)天井灯(紫色)(移動先)</Blueprint_Install_CeilingLamp_Violet.label>
-
-  <CeilingLamp_Yellow.label>(旧)天井灯(黄色)</CeilingLamp_Yellow.label>
-  <CeilingLamp_Yellow.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Yellow.description>
-  <Blueprint_Install_CeilingLamp_Yellow.label>(旧)天井灯(黄色)(移動先)</Blueprint_Install_CeilingLamp_Yellow.label>
-
-  <CeilingLamp_Orange.label>(旧)天井灯(橙色)</CeilingLamp_Orange.label>
-  <CeilingLamp_Orange.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Orange.description>
-  <Blueprint_Install_CeilingLamp_Orange.label>(旧)天井灯(橙色)(移動先)</Blueprint_Install_CeilingLamp_Orange.label> -->
-
-
   <!-- Special Lights -->
 
-  <WallLamp.label>(旧)壁灯</WallLamp.label>
+  <WallLamp.label>壁灯</WallLamp.label>
   <WallLamp.description>これは廃止予定です。取り外すか、または別の壁灯と交換してください。</WallLamp.description>
-  <Blueprint_Install_WallLamp.label>(旧)壁灯(移動先)</Blueprint_Install_WallLamp.label>
+  <Blueprint_Install_WallLamp.label>壁灯(移動先)</Blueprint_Install_WallLamp.label>
 
   <OutdoorGroundLamp.label>屋外灯</OutdoorGroundLamp.label>
-  <OutdoorGroundLamp.description>屋外にのみ設置できる電灯です。電力は不要です。</OutdoorGroundLamp.description>
-  <Blueprint_OutdoorGroundLamp.label>屋外灯(設計)</Blueprint_OutdoorGroundLamp.label>
+  <OutdoorGroundLamp.description>廃止予定です。これの代用になるものはありませんが、それほど良いものでもありません。もしあなたがこれらを使い続けたいのであれば、私に知らせてください。(屋外にのみ設置できる電灯です。電力は不要です。)</OutdoorGroundLamp.description>
+  <!-- <Blueprint_OutdoorGroundLamp.label>屋外灯(設計)</Blueprint_OutdoorGroundLamp.label> -->
   <Blueprint_Install_OutdoorGroundLamp.label>屋外灯(移動先)</Blueprint_Install_OutdoorGroundLamp.label>
-  <Frame_OutdoorGroundLamp.label>屋外灯(施工)</Frame_OutdoorGroundLamp.label>
-  <Frame_OutdoorGroundLamp.description>屋外にのみ設置できる電灯です。電力は不要です。</Frame_OutdoorGroundLamp.description>
+  <!-- <Frame_OutdoorGroundLamp.label>屋外灯(施工)</Frame_OutdoorGroundLamp.label> -->
+  <Frame_OutdoorGroundLamp.description>廃止予定です。これの代用になるものはありませんが、それほど良いものでもありません。もしあなたがこれらを使い続けたいのであれば、私に知らせてください。(屋外にのみ設置できる電灯です。電力は不要です。)</Frame_OutdoorGroundLamp.description>
 
 </LanguageData>

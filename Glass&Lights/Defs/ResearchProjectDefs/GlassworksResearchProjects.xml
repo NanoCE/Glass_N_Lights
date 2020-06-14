@@ -20,6 +20,7 @@
 		<techLevel>Industrial</techLevel>
 		<baseCost>700</baseCost>
 		<prerequisites>
+			<li>Electricity</li>
 			<li>GlassworksResearch</li>
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>

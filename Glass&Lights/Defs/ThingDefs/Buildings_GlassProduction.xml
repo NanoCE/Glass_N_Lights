@@ -10,6 +10,7 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <!--filthLeaving>BrokenGlass</filthLeaving-->
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<thingCategories>
       <li>BuildingsProduction</li>
@@ -34,9 +35,9 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<description>A table with all the tools you need to make glass, and it runs off of electricity.</description>
 		<graphicData>
-			<texPath>Things/Building/Production/GlassworkTable/GlassworkTable</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2.4,1.4)</drawSize>
+			<texPath>Things/Building/Production/GlassworkTable</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,1)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -62,7 +63,7 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<recipes>
 			<li>MakeGlass</li>
 			<li>MakeCircularGlass</li>
@@ -74,6 +75,7 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
+				<!--<startElectricalFires>true</startElectricalFires>-->
 				<basePowerConsumption>200</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
@@ -88,13 +90,13 @@
 			</li>
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
-				<heatPerSecond>8</heatPerSecond>
+				<heatPerSecond>10</heatPerSecond>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-			<heatPerTickWhileWorking>3</heatPerTickWhileWorking>
+			<heatPerTickWhileWorking>0.5</heatPerTickWhileWorking>
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -111,8 +113,8 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<description>A fueled glassworks table with all the tools you need to make most glass. Due to inconsistencies with the fuel, round glass can only be made with the electric glassworks table.</description>
 		<graphicData>
-			<texPath>Things/Building/Production/GlassworkTableFueled/GlassworkTableFueled</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Production/GlassworkTableFueled</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3.5,1.5)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
@@ -175,7 +177,7 @@
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-			<heatPerTickWhileWorking>10</heatPerTickWhileWorking>
+			<heatPerTickWhileWorking>0.7</heatPerTickWhileWorking>
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -191,8 +193,8 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<description>A table used for turning normal glass into safety glass.</description>
 		<graphicData>
-			<texPath>Things/Building/Production/ReinforcedGlassworkTable/ReinforcedGlassworkTable</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Production/ReinforcedGlassworkTable</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
 		<costList>
@@ -223,6 +225,7 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
+				<!--<startElectricalFires>true</startElectricalFires>-->
 				<basePowerConsumption>100</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>

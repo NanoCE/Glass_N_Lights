@@ -39,7 +39,6 @@
       </li>
     </comps>
 	<building>
-		<isInert>true</isInert>
 		<isEdifice>false</isEdifice>
 		<canPlaceOverWall>false</canPlaceOverWall>
 		<allowWireConnection>false</allowWireConnection>
@@ -47,14 +46,12 @@
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>170</WorkToMake>
-	  <WorkToBuild>100</WorkToBuild>
       <Flammability>1.0</Flammability>
 	  <Beauty>4</Beauty>
 	  <Mass>3</Mass>
     </statBases>
 	<tickerType>Rare</tickerType>
 	<canOverlapZones>true</canOverlapZones>
-	<clearBuildingArea>false</clearBuildingArea>
   </ThingDef>
   
   <ThingDef ParentName="GlCeilingLampBase" >
@@ -232,7 +229,7 @@
 		</placeWorkers>
 		<costList>
 			<Steel>20</Steel>
-		</costList>		
+		</costList>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -241,7 +238,7 @@
 			</li>
 			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Glower">
-				<glowRadius>13</glowRadius>
+				<glowRadius>11</glowRadius>
 				<glowColor>(217,217,208,0)</glowColor>
 			</li>
 		</comps>
@@ -255,9 +252,12 @@
 		<selectable>true</selectable>
 		<destroyable>true</destroyable>
 		<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
-		<defaultPlacingRot>North</defaultPlacingRot>
 		<clearBuildingArea>false</clearBuildingArea>
-	</ThingDef>	
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+	</ThingDef>
 	
 	<ThingDef Name="GLWallLight" ParentName="GLWallLightBase">
 		<defName>GLWallLamp</defName>
@@ -270,9 +270,6 @@
 		<uiIconPath>Things/Building/Lights/WallLamp/RoundWallLight_UI</uiIconPath>
 		<description>An electrical round light fixture designed to be mounted on a wall. Does not block workspace and can be placed on any wall as long as the area in front is not impassible, like another wall.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
-			<li>Electricity</li>
-		</researchPrerequisites>
 	</ThingDef>	
 	
 	<ThingDef Name="GLWallLightRed" ParentName="GLWallLightBase">
@@ -294,10 +291,6 @@
 		</comps>
 		<description>A wall light that lights an area in a red color.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
-			<li>ColoredLights</li>
-			<li>Electricity</li>
-		</researchPrerequisites>
 	</ThingDef>	
 	
 	<ThingDef Name="GLWallLightBlue" ParentName="GLWallLightBase">
@@ -322,10 +315,6 @@
 		</statBases>
 		<description>A wall light that lights an area in a blue color. It has a comforting effect.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
-			<li>ColoredLights</li>
-			<li>Electricity</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef Name="GLWallLightGreen" ParentName="GLWallLightBase">
@@ -350,10 +339,6 @@
 		</statBases>
 		<description>A wall light that lights an area in a green color. It has a comforting effect.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
-			<li>ColoredLights</li>
-			<li>Electricity</li>
-		</researchPrerequisites>
 	</ThingDef>
 	
 	<ThingDef Name="GLWallLightViolet" ParentName="GLWallLightBase">
@@ -375,10 +360,6 @@
 		</comps>
 		<description>A wall light that lights an area in a violet color.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
-			<li>ColoredLights</li>
-			<li>Electricity</li>
-		</researchPrerequisites>
 	</ThingDef>
 	
 	<ThingDef Name="GLWallLightYellow" ParentName="GLWallLightBase">
@@ -400,10 +381,6 @@
 		</comps>		
 		<description>A wall light that lights an area in a yellow color.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
-			<li>ColoredLights</li>
-			<li>Electricity</li>
-		</researchPrerequisites>
 	</ThingDef>
 	
 	<ThingDef Name="GLWallLightOrgange" ParentName="GLWallLightBase">
@@ -425,10 +402,6 @@
 		</comps>
 		<description>A wall light that lights an area in a orange color.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
-			<li>ColoredLights</li>
-			<li>Electricity</li>
-		</researchPrerequisites>
 	</ThingDef>
   
 	<!--========================================Old Lights==================================-->
@@ -439,7 +412,7 @@
     <thingClass>Building</thingClass>
     <category>Building</category>
 	<label>(old) ceiling lamp</label>
-	<description>deprecated! please replace with a new ceiling lamp. IF YOU FIND THIS BEING TRADED BY A TRADER, let the author know on the workshop/forum.</description>
+	<description>deprecated! please replace with a new ceiling lamp.</description>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <passability>Standable</passability>
     <selectable>true</selectable>
@@ -476,7 +449,6 @@
     </statBases>
 	<tickerType>Rare</tickerType>
 	<canOverlapZones>true</canOverlapZones>
-	<tradeability>None</tradeability>
   </ThingDef>
   
   <ThingDef ParentName="CeilingLampBase" >
@@ -649,7 +621,7 @@
  
    <ThingDef ParentName="GlassLightBase">
     <defName>WallLamp</defName>
-    <label>(old) wall lamp</label>
+    <label>wall lamp</label>
     <description>deprecated! please remove or replace with a different light.</description>
 	<graphicData>
       <texPath>Things/Building/Lights/WallLamp</texPath>
@@ -677,7 +649,6 @@
         <glowColor>(217,217,208,0)</glowColor>
       </li>
     </comps>
-	<tradeability>None</tradeability>
   </ThingDef>
 
 <ThingDef ParentName="GlassLightBase">

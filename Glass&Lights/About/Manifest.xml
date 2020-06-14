@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>Glass+Lights</identifier>
-    <version>0.1.1.2</version>
+    <version>0.1.0.1</version>
     <showCrossPromotions>true</showCrossPromotions>
-	<suggests>
-        <li>Dubs Bad Hygiene &gt;= 1.5</li>
-        <li>Rimefeller</li>
-		<li>Dubs Skylights</li>
-		<li>Dubs Skylights Glass+Lights Patch</li>
-    </suggests>
     <manifestUri></manifestUri>
     <downloadUri></downloadUri>
 </Manifest>
