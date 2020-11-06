@@ -17,14 +17,16 @@
 	<statBases>
       <Mass>20</Mass>
     </statBases>
-	<building>
-      <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
-      <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
-    </building>
     <interactionCellIcon>DiningChair</interactionCellIcon>
-	<comps><li><compClass>CompReportWorkSpeed</compClass></li></comps>
+	<comps>
+		<li>
+			<compClass>CompReportWorkSpeed</compClass>
+		</li>
+	</comps>
 	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
 
@@ -96,9 +98,6 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>3</heatPerTickWhileWorking>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
 		<researchPrerequisites>
 			<li>GlassworksResearch</li>
 			<li>Electricity</li>
@@ -122,24 +121,26 @@
 			</damageData>
 		</graphicData>
 		<costList>
-				<Steel>60</Steel>
-				<ComponentIndustrial>2</ComponentIndustrial>
+				<Steel>80</Steel>
 		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
 		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>1300</WorkToBuild>
+			<WorkToBuild>2500</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<Cleanliness>-6</Cleanliness>
+			<Cleanliness>-5</Cleanliness>
 		</statBases>
-		<size>(3,1)</size>
-		<surfaceType>Item</surfaceType>
+		<size>(3,1)</size>		
 		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>MakeGlass</li>
 			<li>MakeMolotov</li>
@@ -149,14 +150,15 @@
 		</inspectorTabs>
 		<comps>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>80.0</fuelConsumptionRate>
-				<fuelCapacity>100.0</fuelCapacity>
+				<fuelConsumptionRate>100.0</fuelConsumptionRate>
+				<fuelCapacity>90.0</fuelCapacity>
 				<fuelFilter>
 				  <thingDefs>
 					<li>WoodLog</li>
 				  </thingDefs>
 				</fuelFilter>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -171,15 +173,11 @@
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>14</heatPerSecond>
 			</li>
-			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>10</heatPerTickWhileWorking>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
 		<researchPrerequisites>
 			<li>GlassworksResearch</li>
 		</researchPrerequisites>
@@ -245,9 +243,6 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.2</heatPerTickWhileWorking>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
 		<researchPrerequisites>
 			<li>ReinforcedGlassResearch</li>
 		</researchPrerequisites>

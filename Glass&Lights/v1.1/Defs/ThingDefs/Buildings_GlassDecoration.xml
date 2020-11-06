@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	<ThingDef ParentName="BuildingBase">
+		<defName>GlassMonitorLarge</defName>
+		<label>Glassworks TV</label>
+		<description>A higher-tech glass television with crystal-clear image and richer color. More entertaining than a grainy flatscreen TV.</description>
+		<graphicData>
+			<texPath>Things/Building/Other/GlassworkTV</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+			<volume>(1.6, 0.6, 0.1)</volume>
+			<offset>(0, 0, 0.35)</offset>
+		</shadowData>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<rotatable>true</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<fillPercent>0.35</fillPercent>
+		<thingCategories>
+          <li>BuildingsJoy</li>
+        </thingCategories>
+		<costList>
+			<Steel>80</Steel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<Glass>8</Glass>
+		</costList>
+		<statBases>
+			<WorkToBuild>45000</WorkToBuild>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			 <JoyGainFactor>1.8</JoyGainFactor>
+			<Beauty>140</Beauty>
+			<Mass>10</Mass>
+		</statBases>	
+		<pathCost>70</pathCost>
+		<passability>PassThroughOnly</passability>
+		<size>(2,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<building>
+			<joyKind>Television</joyKind>
+			<spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
+			<boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
+			<watchBuildingStandDistanceRange>2~6</watchBuildingStandDistanceRange>
+			<watchBuildingStandRectWidth>6</watchBuildingStandRectWidth>
+			<watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_WatchArea</li>
+		</placeWorkers>
+		<designationCategory>Joy</designationCategory>
+		<comps>
+			<li Class="CompProperties_Power" >
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>150</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<tradeTags>
+			<li>Television</li>
+		</tradeTags>
+		<researchPrerequisites>
+			<li>DecorativeGlassResearch</li>
+			<li>TubeTelevision</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

@@ -257,7 +257,7 @@
 		<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
 		<defaultPlacingRot>North</defaultPlacingRot>
 		<clearBuildingArea>false</clearBuildingArea>
-	</ThingDef>	
+	</ThingDef>
 	
 	<ThingDef Name="GLWallLight" ParentName="GLWallLightBase">
 		<defName>GLWallLamp</defName>
