@@ -25,5 +25,10 @@
   <!-- <Blueprint_Install_Window.label>窓(移動先)</Blueprint_Install_Window.label> -->
   <Frame_Window.label>窓(施工)</Frame_Window.label>
   <Frame_Window.description>壁として機能しますが、光を透過させます。</Frame_Window.description>
+	
+	<!-- Hidden objects (See Glass&Lights_Patches.xml patch operations) -->
+
+  <GLWindowRimatomics.label>対放射線窓</GLWindowRimatomics.label>
+  <GLWindowRimatomics.description>劣化ウランで補強された非常に頑丈な窓で、向こう側が透けて見えますが放射線を完全に遮断します。</GLWindowRimatomics.description>
 
 </LanguageData>

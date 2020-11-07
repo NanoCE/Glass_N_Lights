@@ -47,7 +47,7 @@
 
 	<ThingDef ParentName="DoorGlassBase">
 		<defName>AutoDoorGlass</defName>
-		<label>auto glass door</label>
+		<label>auto door</label>
 		<description>Divides rooms. Powered operation allows people to move through the door without slowing down. Allows light to pass through.</description>
 		<blockLight>false</blockLight>
 		<graphicData>
@@ -86,7 +86,7 @@
 	
 	<ThingDef ParentName="DoorGlassBase">
 		<defName>DoorGlass</defName>
-		<label>glass door</label>
+		<label>door</label>
 		<description>Divides rooms. Allows light to pass through.</description>
 		<blockLight>false</blockLight>
 		<graphicData>
@@ -116,8 +116,6 @@
 	</ThingDef>
   
 	<!--========================= Walls =============================-->
-	
-	
 	
 	<ThingDef ParentName="BuildingBase" Name="Window">
     <defName>Window</defName>
@@ -172,7 +170,7 @@
     <blockLight>false</blockLight><!--Important-->
 	<canOverlapZones>false</canOverlapZones>
     <stuffCategories>
-      <li>Glass</li>	  
+      <li>Glass</li>
     </stuffCategories>
 	<costList>
 		<Steel>2</Steel>
@@ -187,5 +185,74 @@
     </building>    
 	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
-  
+	
+	<!-- Hidden objects (See Glass&Lights_Patches.xml patch operations) -->
+	
+	<ThingDef ParentName="BuildingBase" Name="GLWindowRimatomics">
+		<defName>GLWindowRimatomics</defName>
+		<label>DU Window</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>		
+		<description>A very strong window that is reinforced with depleted uranium, providing full shielding against radiation while still being see-through.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/Wall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Other/Window</uiIconPath>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>		
+		<staticSunShadowHeight>9.0</staticSunShadowHeight>
+		<blockLight>false</blockLight><!--Important-->
+		<canOverlapZones>false</canOverlapZones>
+		<costStuffCount>3</costStuffCount>
+		<stuffCategories>
+		  <li>RGlass</li>
+		</stuffCategories>
+		<costList>
+			<Steel>5</Steel>
+		</costList>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>    
+		<researchPrerequisites>
+			<li>ReinforcedGlassResearch</li>
+		</researchPrerequisites>
+	</ThingDef>
 </Defs>

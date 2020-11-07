@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>Glass+Lights</identifier>
-    <version>0.1.1.2</version>
+    <version>1.1.6</version>
     <showCrossPromotions>true</showCrossPromotions>
 	<suggests>
-        <li>Dubs Bad Hygiene &gt;= 1.5</li>
-        <li>Rimefeller</li>
-		<li>Dubs Skylights</li>
-		<li>Dubs Skylights Glass+Lights Patch</li>
-    </suggests>
-    <manifestUri></manifestUri>
-    <downloadUri></downloadUri>
+		<li>Aquarium</li>
+		<li>Ceramics</li>
+		<li>CoalExpanded</li>
+		<li>DocWorld</li>
+		<li>Real Fog of War Extended</li>
+  </suggests>
+  <manifestUri></manifestUri>
+  <downloadUri></downloadUri>
 </Manifest>

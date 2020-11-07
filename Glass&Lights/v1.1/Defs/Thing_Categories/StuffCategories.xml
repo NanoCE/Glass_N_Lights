@@ -1,14 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- Used for objects that use circular glass -->	
   <StuffCategoryDef>
     <defName>Glassy</defName>
     <label>glassy</label>
   </StuffCategoryDef>  
   
+	<!-- Used for objects that use normal and reinforced glass -->	
   <StuffCategoryDef>
     <defName>Glass</defName>
     <label>glass</label>
   </StuffCategoryDef>  
+  
+	<!-- Used for objects that only use reinforced glass -->	
+  <StuffCategoryDef>
+    <defName>RGlass</defName>
+	<label>rglass</label>
+  </StuffCategoryDef>
   
 </Defs>

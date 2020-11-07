@@ -77,6 +77,7 @@
 			<stuffAdjective>Reinforced Glass</stuffAdjective>
 			<categories>
 				<li>Glass</li>
+				<li>RGlass</li>
 			</categories>
 			<color>(240,240,245)</color>
 			<constructEffect>ConstructMetal</constructEffect>

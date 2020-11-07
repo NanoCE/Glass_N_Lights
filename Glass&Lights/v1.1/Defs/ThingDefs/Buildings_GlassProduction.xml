@@ -34,7 +34,7 @@
 		<defName>GlassworkTable</defName>
 		<label>electric glassworks</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A table with all the tools you need to make glass, and it runs off of electricity.</description>
+		<description>A table with all the tools you need to make glass, with the perk of that it runs off of electricity.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/GlassworkTable/GlassworkTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -108,7 +108,7 @@
 		<defName>FueledGlassworkTable</defName>
 		<label>fueled glassworks</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A fueled glassworks table with all the tools you need to make most glass. Due to inconsistencies with the fuel, round glass can only be made with the electric glassworks table.</description>
+		<description>A fueled glassworks table with all the tools you need to make of glass. Due to fluctuations in temperature from the fuel, round glass can only be made with the electric glassworks table.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/GlassworkTableFueled/GlassworkTableFueled</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -187,7 +187,7 @@
 		<defName>ReinforcedGlassworkTable</defName>
 		<label>reinforced glassworks</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A table used for turning normal glass into safety glass.</description>
+		<description>A table used for turning normal glass into reinforced glass.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/ReinforcedGlassworkTable/ReinforcedGlassworkTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

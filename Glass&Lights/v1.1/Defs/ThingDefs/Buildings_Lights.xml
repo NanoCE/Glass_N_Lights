@@ -218,8 +218,9 @@
 			<li>BuildingsFurniture</li>
 		</thingCategories>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<altitudeLayer>Item</altitudeLayer>
-		<passability>Standable</passability>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>		
+		<fillPercent>0.20</fillPercent>
 		<statBases>
 			  <MaxHitPoints>10</MaxHitPoints>
 			  <WorkToBuild>100</WorkToBuild>
@@ -246,6 +247,7 @@
 			</li>
 		</comps>
 		<building>
+			<isInert>true</isInert>
 			<isEdifice>false</isEdifice>
 			<canPlaceOverWall>true</canPlaceOverWall>
 			<allowWireConnection>false</allowWireConnection>
@@ -254,9 +256,8 @@
 		<rotatable>true</rotatable>
 		<selectable>true</selectable>
 		<destroyable>true</destroyable>
-		<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
-		<defaultPlacingRot>North</defaultPlacingRot>
 		<clearBuildingArea>false</clearBuildingArea>
+		<canOverlapZones>true</canOverlapZones>
 	</ThingDef>
 	
 	<ThingDef Name="GLWallLight" ParentName="GLWallLightBase">
