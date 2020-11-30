@@ -21,10 +21,10 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <designationCategory>Furniture</designationCategory>
     <rotatable>false</rotatable>
-	<placeWorkers>
-		<li>Glass_Lights.PlaceWorker_UnderRoof</li>
-	</placeWorkers>
-	<thingCategories>
+		<placeWorkers>
+			<li>Glass_Lights.PlaceWorker_UnderRoof</li>
+		</placeWorkers>
+		<thingCategories>
       <li>BuildingsFurniture</li>
     </thingCategories>
     <graphicData>
@@ -37,20 +37,21 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>25</basePowerConsumption>
       </li>
+			<li Class="CompProperties_Flickable"/>
     </comps>
-	<building>
-		<isInert>true</isInert>
-		<isEdifice>false</isEdifice>
-		<canPlaceOverWall>false</canPlaceOverWall>
-		<allowWireConnection>false</allowWireConnection>
-	</building>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>false</canPlaceOverWall>
+			<allowWireConnection>false</allowWireConnection>
+		</building>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>170</WorkToMake>
-	  <WorkToBuild>100</WorkToBuild>
-      <Flammability>1.0</Flammability>
-	  <Beauty>4</Beauty>
-	  <Mass>3</Mass>
+			<WorkToBuild>300</WorkToBuild>
+      <Flammability>0</Flammability>
+			<Beauty>4</Beauty>
+			<Mass>3</Mass>
     </statBases>
 	<tickerType>Rare</tickerType>
 	<canOverlapZones>true</canOverlapZones>

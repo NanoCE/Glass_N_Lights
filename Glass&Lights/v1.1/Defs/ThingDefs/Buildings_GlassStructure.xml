@@ -14,7 +14,7 @@
     </stuffCategories>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
-      <Flammability>1.0</Flammability>
+      <Flammability>0</Flammability>
     </statBases>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <selectable>true</selectable>
@@ -47,7 +47,7 @@
 
 	<ThingDef ParentName="DoorGlassBase">
 		<defName>AutoDoorGlass</defName>
-		<label>auto door</label>
+		<label>autodoor</label>
 		<description>Divides rooms. Powered operation allows people to move through the door without slowing down. Allows light to pass through.</description>
 		<blockLight>false</blockLight>
 		<graphicData>
@@ -56,38 +56,38 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Other/DoorGlass_Icon</uiIconPath>
 		<statBases>
-			<MaxHitPoints>280</MaxHitPoints>
+			<MaxHitPoints>320</MaxHitPoints>
 			<MarketValue>10</MarketValue>
-			<WorkToBuild>350</WorkToBuild>
-			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Flammability>0</Flammability>
 			<Beauty>5</Beauty>
 		</statBases>
 		<stuffCategories>
 			<li>Glass</li>
 		</stuffCategories>
-		<costStuffCount>1</costStuffCount>
+		<costStuffCount>2</costStuffCount>
 		<costList>
-			<ComponentIndustrial>1</ComponentIndustrial>
-			<Steel>10</Steel>
+			<Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>			
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>22</basePowerConsumption>
+				<basePowerConsumption>50</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<!--filthLeaving>BrokenGlass</filthLeaving-->
 		<researchPrerequisites>
 			<li>GlassworksResearch</li>
-			<li>Autodoors</li>
+			<li>Autodoors</li>			
 		</researchPrerequisites>
-		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
 	
 	<ThingDef ParentName="DoorGlassBase">
 		<defName>DoorGlass</defName>
 		<label>door</label>
-		<description>Divides rooms. Allows light to pass through.</description>
+		<description>Divides rooms. Simple doors must be manually opened, which slows people down. Allows light to pass through.</description>
 		<blockLight>false</blockLight>
 		<graphicData>
 			<texPath>Things/Building/Other/DoorGlass_Mover</texPath>
@@ -95,20 +95,19 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Other/DoorGlass_Icon</uiIconPath>
 		<statBases>
-			<MaxHitPoints>280</MaxHitPoints>
+			<MaxHitPoints>240</MaxHitPoints>
 			<MarketValue>10</MarketValue>
-			<WorkToBuild>350</WorkToBuild>
-			<Flammability>1.0</Flammability>
+			<WorkToBuild>850</WorkToBuild>
+			<Flammability>0</Flammability>
 			<Beauty>5</Beauty>
 		</statBases>
 		<stuffCategories>
 			<li>Glass</li>
 		</stuffCategories>
-		<costStuffCount>1</costStuffCount>
+		<costStuffCount>2</costStuffCount>
 		<costList>
-			<Steel>9</Steel>
+			<Steel>20</Steel>
 		</costList>
-		<!--filthLeaving>BrokenGlass</filthLeaving-->
 		<researchPrerequisites>
 			<li>GlassworksResearch</li>
 		</researchPrerequisites>
@@ -129,9 +128,9 @@
       <linkType>CornerFiller</linkType>
       <linkFlags>
         <li>Wall</li>
-		<li>Rock</li>
+				<li>Rock</li>
       </linkFlags>
-	  <damageData>
+			<damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
         <cornerBL>Damage/Corner</cornerBL>
@@ -144,16 +143,16 @@
     </graphicData>
     <uiIconPath>Things/Building/Other/Window</uiIconPath>
     <statBases>
-      <MaxHitPoints>250</MaxHitPoints>
-	  <MarketValue>15.2</MarketValue>
+      <MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>7.5</MarketValue>
       <WorkToBuild>150</WorkToBuild>
-      <Flammability>1.0</Flammability>
-	  <Beauty>4</Beauty>
+      <Flammability>0</Flammability>
+			<Beauty>4</Beauty>
     </statBases>
-    <costStuffCount>2</costStuffCount>
+    <costStuffCount>4</costStuffCount>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <altitudeLayer>Building</altitudeLayer>
-	<blockWind>true</blockWind>
+		<blockWind>true</blockWind>
     <passability>Impassable</passability>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>1</fillPercent>
@@ -167,19 +166,19 @@
     <holdsRoof>true</holdsRoof>
     <designationCategory>Structure</designationCategory>
     <staticSunShadowHeight>9.0</staticSunShadowHeight>
-    <blockLight>false</blockLight><!--Important-->
-	<canOverlapZones>false</canOverlapZones>
-    <stuffCategories>
-      <li>Glass</li>
-    </stuffCategories>
-	<costList>
-		<Steel>2</Steel>
-	</costList>
+    <blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+			<stuffCategories>
+				<li>Glass</li>
+			</stuffCategories>
+		<costList>
+			<Steel>2</Steel>
+		</costList>
     <building>
       <isInert>true</isInert>
-	  <canPlaceOverWall>true</canPlaceOverWall>
-	  <ai_chillDestination>false</ai_chillDestination>
-	  <blueprintGraphicData>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<ai_chillDestination>false</ai_chillDestination>
+			<blueprintGraphicData>
         <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
     </building>    

@@ -51,7 +51,7 @@
 			<appearance>GlassGL</appearance>
 			<statFactors>
 				<MaxHitPoints>0.2</MaxHitPoints>
-				<Flammability>1</Flammability>
+				<Flammability>0</Flammability>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>

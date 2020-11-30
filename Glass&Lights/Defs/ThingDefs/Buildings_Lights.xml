@@ -38,12 +38,13 @@
         <basePowerConsumption>25</basePowerConsumption>
       </li>
     </comps>
-	<building>
-		<isInert>true</isInert>
-		<isEdifice>false</isEdifice>
-		<canPlaceOverWall>false</canPlaceOverWall>
-		<allowWireConnection>false</allowWireConnection>
-	</building>
+		<li Class="CompProperties_Flickable"/>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>false</canPlaceOverWall>
+			<allowWireConnection>false</allowWireConnection>
+		</building>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>170</WorkToMake>

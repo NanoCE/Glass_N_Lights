@@ -1,5 +1,7 @@
 ﻿using HarmonyLib;
 using RimWorld;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Verse;
@@ -47,8 +49,8 @@ namespace Glass_Lights
 		private static class Patch_BuildingDestroy
 		{
 			private static void Prefix(Building __instance)
-			{
-				if (__instance.def.passability == Traversability.Impassable)
+			{				
+				if (__instance != null && __instance.def != null &&__instance.def.passability == Traversability.Impassable && __instance.Map != null)
 				{
 					//Log.Message(string.Format("{0} item is impassble, checking poof", __instance.def.defName));
 
@@ -94,6 +96,46 @@ namespace Glass_Lights
 		//		{
 		//			__result = false;
 		//		}
+		//	}
+		//}
+
+		//[HarmonyPatch(typeof(CostListCalculator), "CostListAdjusted", new Type[] { typeof(BuildableDef), typeof(ThingDef), typeof(bool) })]
+		//public static class Patch_CostListAdjusted
+		//{
+		//	public static void Postfix(ref BuildableDef entDef,ref  ThingDef stuff,ref bool errorOnNullStuff, ref List<ThingDefCountClass> __result)
+		//	{
+		//		int volumeMultiplier;
+
+		//		if (stuff != null && stuff.HasModExtension<Glass_LightsExtension>() && __result != null)
+		//		{
+		//			volumeMultiplier = stuff.GetModExtension<Glass_LightsExtension>().volumeMultiplier;
+
+		//			if(volumeMultiplier < 1)
+		//			{
+		//				Log.Warning("VolumeMultipler for thing: " + stuff.defName + " is 0 or a negative number. Unable to perform calculation. Defaulting to original stuff cost.");
+		//			}
+		//			else
+		//			{
+		//				int temp = __result.Last().count * volumeMultiplier;
+		//				Log.Message(temp.ToString());
+		//				__result.Last().count = temp;
+		//			}
+		//		}
+		//	}
+		//}
+
+		//[HarmonyPatch(typeof(ThingDef), "get_VolumePerUnit")]
+		//public static class Patch_ThingDef_VolumePerUnit
+		//{
+		//	//Defaults all ThingWithComp objects to return true if the special filter is called for Deadmans Apparel. Used for niche situations when
+		//	//an ThingWithComp is put in the Apparel Category which causes these items to appear in recipes that use the Apparel category tag. 
+		//	//ex: Recyling Apparel mods
+		//	public static void Postfix(ThingDef __instance, ref float __result)
+		//	{
+		//		if (!__instance.smallVolume && __instance != null && __instance.HasModExtension<Glass_LightsExtension>())
+		//		{
+		//			__result = __instance.GetModExtension<Glass_LightsExtension>().customVolume;
+		//		}				
 		//	}
 		//}
 	}
