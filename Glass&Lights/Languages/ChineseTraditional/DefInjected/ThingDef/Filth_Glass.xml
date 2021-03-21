@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef Name="BaseFilth" Abstract="True">
+    <label>unspecified filth</label>
+	<thingClass>Filth</thingClass>
+    <category>Filth</category>
+    <altitudeLayer>Filth</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <drawerType>MapMeshOnly</drawerType>
+	<graphicData>
+		<graphicClass>Graphic_Random</graphicClass>
+	</graphicData>
+  </ThingDef> -->
+
+  <BrokenGlass.label>碎玻璃</BrokenGlass.label>
+
+
+</LanguageData>

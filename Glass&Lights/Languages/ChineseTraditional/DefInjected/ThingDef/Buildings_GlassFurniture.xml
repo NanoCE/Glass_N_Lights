@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef Abstract="True" ParentName="BuildingBase" Name="TableBase">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <description>People eat off tables when chairs are placed facing them.</description>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>60</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <stuffCategories>
+      <li>Glass</li>
+    </stuffCategories>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <designationCategory>Furniture</designationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <surfaceType>Eat</surfaceType>
+    <comps>
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+	
+  <ThingDef ParentName="TableBase">
+    <defName>GlassTableShort</defName>
+    <label>table</label>
+	<graphicData>
+		<texPath>Things/Building/Other/GlassTableShort</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(3,3)</drawSize>
+	</graphicData>
+    <statBases>
+		<MaxHitPoints>60</MaxHitPoints>
+		<WorkToBuild>100</WorkToBuild>
+		<Flammability>1.0</Flammability>
+		<Beauty>4</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+	<costStuffCount>1</costStuffCount>
+	<costList>
+		<Steel>5</Steel>
+	</costList>
+    <rotatable>false</rotatable>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
+  </ThingDef> -->
+
+  <GlassTableShort.label>玻璃桌</GlassTableShort.label>
+
+
+</LanguageData>

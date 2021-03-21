@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Doors -->
+
+  <AutoDoorGlass.label>玻璃自動門</AutoDoorGlass.label>
+  <AutoDoorGlass.description>用來分隔房間。有電力運作時，讓人們可以在通行時不會減速。可以透光。</AutoDoorGlass.description>
+  <AutoDoorGlass_Blueprint.label>玻璃自動門(藍圖)</AutoDoorGlass_Blueprint.label>
+  <AutoDoorGlass_Frame.label>玻璃自動門(藍圖)</AutoDoorGlass_Frame.label>
+  <AutoDoorGlass_Frame.description>用來分隔房間。有電力運作時，讓人們可以在通行時不會減速。可以透光。</AutoDoorGlass_Frame.description>
+
+  <DoorGlass.label>玻璃門</DoorGlass.label>
+  <DoorGlass.description>用來分隔房間。可以透光。</DoorGlass.description>
+  <DoorGlass_Blueprint.label>玻璃門(藍圖)</DoorGlass_Blueprint.label>
+  <DoorGlass_Frame.label>玻璃門(藍圖)</DoorGlass_Frame.label>
+  <DoorGlass_Frame.description>用來分隔房間。可以透光。</DoorGlass_Frame.description>
+
+
+  <!-- Walls -->
+
+  <Window.label>玻璃窗</Window.label>
+  <Window.description>像一堵牆但是可以透光。</Window.description>
+  <Window_Blueprint.label>玻璃窗(藍圖)</Window_Blueprint.label>
+  <Window_Frame.label>玻璃窗(藍圖)</Window_Frame.label>
+  <Window_Frame.description>像一堵牆但是可以透光。</Window_Frame.description>
+
+
+</LanguageData>

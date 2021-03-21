@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsMakeGlass.verb>製作玻璃</DoBillsMakeGlass.verb>
+  <DoBillsMakeGlass.gerund>製作玻璃</DoBillsMakeGlass.gerund>
+
+  <DoBillsMakeLargeCircularGlass.verb>製作大型圓形玻璃</DoBillsMakeLargeCircularGlass.verb>
+  <DoBillsMakeLargeCircularGlass.gerund>製作大型圓形玻璃</DoBillsMakeLargeCircularGlass.gerund>
+
+  <DoBillsMakeReinforcedGlass.verb>製作強化玻璃</DoBillsMakeReinforcedGlass.verb>
+  <DoBillsMakeReinforcedGlass.gerund>製作強化玻璃</DoBillsMakeReinforcedGlass.gerund>
+
+  <DoBillsMakeMolotov.verb>製作莫洛托夫燃燒瓶</DoBillsMakeMolotov.verb>
+  <DoBillsMakeMolotov.gerund>製作莫洛托夫燃燒瓶</DoBillsMakeMolotov.gerund>
+
+
+</LanguageData>

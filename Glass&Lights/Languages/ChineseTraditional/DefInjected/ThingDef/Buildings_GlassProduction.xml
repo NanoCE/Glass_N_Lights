@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlassworkTable.label>電力玻璃工作台</GlassworkTable.label>
+  <GlassworkTable.description>一種用電力的工作台有製作玻璃需要的所有工具。</GlassworkTable.description>
+  <GlassworkTable_Blueprint.label>電力玻璃工作台(藍圖)</GlassworkTable_Blueprint.label>
+  <GlassworkTable_Blueprint_Install.label>電力玻璃工作台(藍圖)</GlassworkTable_Blueprint_Install.label>
+  <GlassworkTable_Frame.label>電力玻璃工作台(藍圖)</GlassworkTable_Frame.label>
+  <GlassworkTable_Frame.description>一種用電力的工作台有製作玻璃需要的所有工具。</GlassworkTable_Frame.description>
+
+  <FueledGlassworkTable.label>燃料玻璃工作台</FueledGlassworkTable.label>
+  <FueledGlassworkTable.description>一種用燃料的工作台有製作大部分玻璃的工具。由於燃料的不穩定，製作圓形玻璃只能用電力玻璃工作台。</FueledGlassworkTable.description>
+  <FueledGlassworkTable_Blueprint.label>燃料玻璃工作台(藍圖)</FueledGlassworkTable_Blueprint.label>
+  <FueledGlassworkTable_Blueprint_Install.label>燃料玻璃工作台(藍圖)</FueledGlassworkTable_Blueprint_Install.label>
+  <FueledGlassworkTable_Frame.label>燃料玻璃工作台(藍圖)</FueledGlassworkTable_Frame.label>
+  <FueledGlassworkTable_Frame.description>一種用燃料的工作台有製作大部分玻璃的工具。由於燃料的不穩定，製作圓形玻璃只能用電力玻璃工作台。</FueledGlassworkTable_Frame.description>
+
+  <ReinforcedGlassworkTable.label>強化玻璃工作台</ReinforcedGlassworkTable.label>
+  <ReinforcedGlassworkTable.description>將普通玻璃加工成強化玻璃的工作台。</ReinforcedGlassworkTable.description>
+  <ReinforcedGlassworkTable_Blueprint.label>強化玻璃工作台(藍圖)</ReinforcedGlassworkTable_Blueprint.label>
+  <ReinforcedGlassworkTable_Blueprint_Install.label>強化玻璃工作台(藍圖)</ReinforcedGlassworkTable_Blueprint_Install.label>
+  <ReinforcedGlassworkTable_Frame.label>強化玻璃工作台(藍圖)</ReinforcedGlassworkTable_Frame.label>
+  <ReinforcedGlassworkTable_Frame.description>將普通玻璃加工成強化玻璃的工作台。</ReinforcedGlassworkTable_Frame.description>
+
+
+</LanguageData>
