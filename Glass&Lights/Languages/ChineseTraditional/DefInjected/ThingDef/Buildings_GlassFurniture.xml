@@ -47,7 +47,7 @@
 	<researchPrerequisites><li>DecorativeGlassResearch</li></researchPrerequisites>
   </ThingDef> -->
 
-  <GlassTableShort.label>玻璃桌</GlassTableShort.label>
+  <GlassTableShort.label>桌子</GlassTableShort.label>
 
 
 </LanguageData>
