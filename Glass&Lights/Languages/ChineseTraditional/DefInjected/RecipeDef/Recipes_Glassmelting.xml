@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeGlass.label>製作玻璃</MakeGlass.label>
+  <MakeGlass.description>把一些沙子熔成玻璃</MakeGlass.description>
+  <MakeGlass.jobString>製作玻璃</MakeGlass.jobString>
+
+  <MakeCircularGlass.label>製作圓形玻璃</MakeCircularGlass.label>
+  <MakeCircularGlass.description>把一些沙子熔成圓形玻璃</MakeCircularGlass.description>
+  <MakeCircularGlass.jobString>製作圓形玻璃</MakeCircularGlass.jobString>
+
+  <MakeReinforcedGlass.label>製作強化玻璃</MakeReinforcedGlass.label>
+  <MakeReinforcedGlass.description>把一些玻璃製成強化玻璃</MakeReinforcedGlass.description>
+  <MakeReinforcedGlass.jobString>製作強化玻璃</MakeReinforcedGlass.jobString>
+
+  <MakeMolotov.label>製作莫洛托夫燃燒瓶</MakeMolotov.label>
+  <MakeMolotov.description>製作把你的敵人燒成灰燼的武器!</MakeMolotov.description>
+  <MakeMolotov.jobString>製作莫洛托夫燃燒瓶</MakeMolotov.jobString>
+
+
+</LanguageData>
