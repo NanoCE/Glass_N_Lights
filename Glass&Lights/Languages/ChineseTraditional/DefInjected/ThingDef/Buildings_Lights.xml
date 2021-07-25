@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ceiling Lights -->
+
+  <GLCeilingLamp.label>吸頂燈</GLCeilingLamp.label>
+  <GLCeilingLamp.description>將附近照亮的吸頂燈。</GLCeilingLamp.description>
+  <GLCeilingLamp_Blueprint.label>吸頂燈(藍圖)</GLCeilingLamp_Blueprint.label>
+  <GLCeilingLamp_Blueprint_Install.label>吸頂燈(藍圖)</GLCeilingLamp_Blueprint_Install.label>
+  <GLCeilingLamp_Frame.label>吸頂燈(藍圖)</GLCeilingLamp_Frame.label>
+  <GLCeilingLamp_Frame.description>將附近照亮的吸頂燈。</GLCeilingLamp_Frame.description>
+
+  <GLCeilingLamp_Red.label>吸頂燈(紅)</GLCeilingLamp_Red.label>
+  <GLCeilingLamp_Red.description>將附近照亮的黯紅色吸頂燈。</GLCeilingLamp_Red.description>
+  <GLCeilingLamp_Red_Blueprint.label>吸頂燈(紅)(藍圖)</GLCeilingLamp_Red_Blueprint.label>
+  <GLCeilingLamp_Red_Blueprint_Install.label>吸頂燈(紅)(藍圖)</GLCeilingLamp_Red_Blueprint_Install.label>
+  <GLCeilingLamp_Red_Frame.label>吸頂燈(紅)(藍圖)</GLCeilingLamp_Red_Frame.label>
+  <GLCeilingLamp_Red_Frame.description>將附近照亮的黯紅色吸頂燈。</GLCeilingLamp_Red_Frame.description>
+
+  <GLCeilingLamp_Blue.label>吸頂燈(藍)</GLCeilingLamp_Blue.label>
+  <GLCeilingLamp_Blue.description>將附近照亮的黯藍色吸頂燈。有讓人舒適的效果。</GLCeilingLamp_Blue.description>
+  <GLCeilingLamp_Blue_Blueprint.label>吸頂燈(藍)(藍圖)</GLCeilingLamp_Blue_Blueprint.label>
+  <GLCeilingLamp_Blue_Blueprint_Install.label>吸頂燈(藍)(藍圖)</GLCeilingLamp_Blue_Blueprint_Install.label>
+  <GLCeilingLamp_Blue_Frame.label>c吸頂燈(藍)(藍圖)</GLCeilingLamp_Blue_Frame.label>
+  <GLCeilingLamp_Blue_Frame.description>將附近照亮的黯藍色吸頂燈。有讓人舒適的效果。</GLCeilingLamp_Blue_Frame.description>
+
+  <GLCeilingLamp_Green.label>吸頂燈(綠)</GLCeilingLamp_Green.label>
+  <GLCeilingLamp_Green.description>將附近照亮的黯綠色吸頂燈。</GLCeilingLamp_Green.description>
+  <GLCeilingLamp_Green_Blueprint.label>吸頂燈(綠)(藍圖)</GLCeilingLamp_Green_Blueprint.label>
+  <GLCeilingLamp_Green_Blueprint_Install.label>吸頂燈(綠)(藍圖)</GLCeilingLamp_Green_Blueprint_Install.label>
+  <GLCeilingLamp_Green_Frame.label>吸頂燈(綠)(藍圖)</GLCeilingLamp_Green_Frame.label>
+  <GLCeilingLamp_Green_Frame.description>將附近照亮的黯綠色吸頂燈。</GLCeilingLamp_Green_Frame.description>
+
+  <GLCeilingLamp_Violet.label>吸頂燈(紫)</GLCeilingLamp_Violet.label>
+  <GLCeilingLamp_Violet.description>將附近照亮的紫色吸頂燈。</GLCeilingLamp_Violet.description>
+  <GLCeilingLamp_Violet_Blueprint.label>吸頂燈(紫)(藍圖)</GLCeilingLamp_Violet_Blueprint.label>
+  <GLCeilingLamp_Violet_Blueprint_Install.label>吸頂燈(紫)(藍圖)</GLCeilingLamp_Violet_Blueprint_Install.label>
+  <GLCeilingLamp_Violet_Frame.label>吸頂燈(紫)(藍圖)</GLCeilingLamp_Violet_Frame.label>
+  <GLCeilingLamp_Violet_Frame.description>將附近照亮的紫色吸頂燈。</GLCeilingLamp_Violet_Frame.description>
+
+  <GLCeilingLamp_Yellow.label>吸頂燈(黃)</GLCeilingLamp_Yellow.label>
+  <GLCeilingLamp_Yellow.description>將附近照亮的黯黃色吸頂燈。</GLCeilingLamp_Yellow.description>
+  <GLCeilingLamp_Yellow_Blueprint.label>吸頂燈(黃)(藍圖)</GLCeilingLamp_Yellow_Blueprint.label>
+  <GLCeilingLamp_Yellow_Blueprint_Install.label>吸頂燈(黃)(藍圖)</GLCeilingLamp_Yellow_Blueprint_Install.label>
+  <GLCeilingLamp_Yellow_Frame.label>吸頂燈(黃)(藍圖)</GLCeilingLamp_Yellow_Frame.label>
+  <GLCeilingLamp_Yellow_Frame.description>將附近照亮的黯黃色吸頂燈。</GLCeilingLamp_Yellow_Frame.description>
+
+  <GLCeilingLamp_Orange.label>吸頂燈(橙)</GLCeilingLamp_Orange.label>
+  <GLCeilingLamp_Orange.description>將附近照亮的黯橙色吸頂燈。</GLCeilingLamp_Orange.description>
+  <GLCeilingLamp_Orange_Blueprint.label>吸頂燈(橙)(藍圖)</GLCeilingLamp_Orange_Blueprint.label>
+  <GLCeilingLamp_Orange_Blueprint_Install.label>吸頂燈(橙)(藍圖)</GLCeilingLamp_Orange_Blueprint_Install.label>
+  <GLCeilingLamp_Orange_Frame.label>吸頂燈(橙)(藍圖)</GLCeilingLamp_Orange_Frame.label>
+  <GLCeilingLamp_Orange_Frame.description>將附近照亮的黯橙色吸頂燈。</GLCeilingLamp_Orange_Frame.description>
+
+
+  <!-- Wall Lights -->
+
+  <GLWallLamp.label>壁燈</GLWallLamp.label>
+  <GLWallLamp.description>設計為放在牆上的圓形電燈。不阻擋工作空間並且可以放在任何前方可以通行的牆上。</GLWallLamp.description>
+
+  <GLWallLamp_Red.label>壁燈(紅)</GLWallLamp_Red.label>
+  <GLWallLamp_Red.description>將附近照亮的紅色壁燈。</GLWallLamp_Red.description>
+
+  <GLWallLamp_Blue.label>壁燈(藍)</GLWallLamp_Blue.label>
+  <GLWallLamp_Blue.description>將附近照亮的藍色壁燈。有讓人舒適的效果。</GLWallLamp_Blue.description>
+
+  <GLWallLamp_Green.label>壁燈(綠)</GLWallLamp_Green.label>
+  <GLWallLamp_Green.description>將附近照亮的綠色壁燈。有讓人舒適的效果。</GLWallLamp_Green.description>
+
+  <GLWallLamp_Violet.label>壁燈(紫)</GLWallLamp_Violet.label>
+  <GLWallLamp_Violet.description>將附近照亮的紫色壁燈。</GLWallLamp_Violet.description>
+
+  <GLWallLamp_Yellow.label>壁燈(黃)</GLWallLamp_Yellow.label>
+  <GLWallLamp_Yellow.description>將附近照亮的黃色壁燈。</GLWallLamp_Yellow.description>
+
+  <GLWallLamp_Orange.label>壁燈(橙)</GLWallLamp_Orange.label>
+  <GLWallLamp_Orange.description>將附近照亮的橙色壁燈。</GLWallLamp_Orange.description>
+
+
+  <!-- Ceiling Lights -->
+
+  <CeilingLamp.label>(舊)吸頂燈</CeilingLamp.label>
+  <CeilingLamp.description>廢棄!請用新的吸頂燈取代。如果發現被商人拿出來交易，請在工作坊/論壇通知作者。</CeilingLamp.description>
+  <CeilingLamp_Blueprint_Install.label>(舊)吸頂燈(藍圖)</CeilingLamp_Blueprint_Install.label>
+
+  <CeilingLamp_Red.label>(舊)吸頂燈</CeilingLamp_Red.label>
+  <CeilingLamp_Red.description>廢棄!請用新的吸頂燈取代。如果發現被商人拿出來交易，請在工作坊/論壇通知作者。</CeilingLamp_Red.description>
+  <CeilingLamp_Red_Blueprint_Install.label>(舊)吸頂燈(藍圖)</CeilingLamp_Red_Blueprint_Install.label>
+
+  <CeilingLamp_Blue.label>(舊)吸頂燈</CeilingLamp_Blue.label>
+  <CeilingLamp_Blue.description>廢棄!請用新的吸頂燈取代。如果發現被商人拿出來交易，請在工作坊/論壇通知作者。</CeilingLamp_Blue.description>
+  <CeilingLamp_Blue_Blueprint_Install.label>(舊)吸頂燈(藍圖)</CeilingLamp_Blue_Blueprint_Install.label>
+
+  <CeilingLamp_Green.label>(舊)吸頂燈</CeilingLamp_Green.label>
+  <CeilingLamp_Green.description>廢棄!請用新的吸頂燈取代。如果發現被商人拿出來交易，請在工作坊/論壇通知作者。</CeilingLamp_Green.description>
+  <CeilingLamp_Green_Blueprint_Install.label>(舊)吸頂燈(藍圖)</CeilingLamp_Green_Blueprint_Install.label>
+
+  <CeilingLamp_Violet.label>(舊)吸頂燈</CeilingLamp_Violet.label>
+  <CeilingLamp_Violet.description>廢棄!請用新的吸頂燈取代。如果發現被商人拿出來交易，請在工作坊/論壇通知作者。</CeilingLamp_Violet.description>
+  <CeilingLamp_Violet_Blueprint_Install.label>(舊)吸頂燈(藍圖)</CeilingLamp_Violet_Blueprint_Install.label>
+
+  <CeilingLamp_Yellow.label>(舊)吸頂燈</CeilingLamp_Yellow.label>
+  <CeilingLamp_Yellow.description>廢棄!請用新的吸頂燈取代。如果發現被商人拿出來交易，請在工作坊/論壇通知作者。</CeilingLamp_Yellow.description>
+  <CeilingLamp_Yellow_Blueprint_Install.label>(舊)吸頂燈(藍圖)</CeilingLamp_Yellow_Blueprint_Install.label>
+
+  <CeilingLamp_Orange.label>(舊)吸頂燈</CeilingLamp_Orange.label>
+  <CeilingLamp_Orange.description>廢棄!請用新的吸頂燈取代。如果發現被商人拿出來交易，請在工作坊/論壇通知作者。</CeilingLamp_Orange.description>
+  <CeilingLamp_Orange_Blueprint_Install.label>(舊)吸頂燈(藍圖)</CeilingLamp_Orange_Blueprint_Install.label>
+
+
+  <!-- Special Lights -->
+
+  <WallLamp.label>(舊)壁燈</WallLamp.label>
+  <WallLamp.description>廢棄!請移除或用其他燈取代。</WallLamp.description>
+  <WallLamp_Blueprint_Install.label>(舊)壁燈(藍圖)</WallLamp_Blueprint_Install.label>
+
+  <OutdoorGroundLamp.label>室外埋地燈</OutdoorGroundLamp.label>
+  <OutdoorGroundLamp.description>只能放在室外的燈。不需要電力。</OutdoorGroundLamp.description>
+  <OutdoorGroundLamp_Blueprint.label>室外埋地燈(藍圖)</OutdoorGroundLamp_Blueprint.label>
+  <OutdoorGroundLamp_Blueprint_Install.label>室外埋地燈(藍圖)</OutdoorGroundLamp_Blueprint_Install.label>
+  <OutdoorGroundLamp_Frame.label>室外埋地燈(藍圖)</OutdoorGroundLamp_Frame.label>
+  <OutdoorGroundLamp_Frame.description>只能放在室外的燈。不需要電力。</OutdoorGroundLamp_Frame.description>
+
+
+</LanguageData>

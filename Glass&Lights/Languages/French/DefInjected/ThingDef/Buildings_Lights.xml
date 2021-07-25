@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ceiling Lights -->
+
+  <GLCeilingLamp.label>Plafonnier</GLCeilingLamp.label>
+  <GLCeilingLamp.description>Plafonnier qui illumine une zone.</GLCeilingLamp.description>
+
+  <GLCeilingLamp_Red.label>Plafonnier (rouge)</GLCeilingLamp_Red.label>
+  <GLCeilingLamp_Red.description>Plafonnier qui illumine une zone.</GLCeilingLamp_Red.description>
+
+  <GLCeilingLamp_Blue.label>Plafonnier (bleu)</GLCeilingLamp_Blue.label>
+  <GLCeilingLamp_Blue.description>Plafonnier qui illumine une zone.</GLCeilingLamp_Blue.description>
+
+  <GLCeilingLamp_Green.label>Plafonnier (vert)</GLCeilingLamp_Green.label>
+  <GLCeilingLamp_Green.description>Plafonnier qui illumine une zone.</GLCeilingLamp_Green.description>
+
+  <GLCeilingLamp_Violet.label>Plafonnier (violet)</GLCeilingLamp_Violet.label>
+  <GLCeilingLamp_Violet.description>Plafonnier qui illumine une zone.</GLCeilingLamp_Violet.description>
+
+  <GLCeilingLamp_Yellow.label>Plafonnier (jaune)</GLCeilingLamp_Yellow.label>
+  <GLCeilingLamp_Yellow.description>Plafonnier qui illumine une zone.</GLCeilingLamp_Yellow.description>
+
+  <GLCeilingLamp_Orange.label>Plafonnier (orange)</GLCeilingLamp_Orange.label>
+  <GLCeilingLamp_Orange.description>Plafonnier qui illumine une zone.</GLCeilingLamp_Orange.description>
+
+  <!-- Wall Lights -->
+
+  <GLWallLamp.label>Applique</GLWallLamp.label>
+  <GLWallLamp.description>Une lampe murale illumine la zone.</GLWallLamp.description>
+
+  <GLWallLamp_Red.label>Applique (rouge)</GLWallLamp_Red.label>
+  <GLWallLamp_Red.description>Une lampe murale illumine la zone.</GLWallLamp_Red.description>
+
+  <GLWallLamp_Blue.label>Applique (bleu)</GLWallLamp_Blue.label>
+  <GLWallLamp_Blue.description>Une lampe murale illumine la zone.</GLWallLamp_Blue.description>
+
+  <GLWallLamp_Green.label>Applique (vert)</GLWallLamp_Green.label>
+  <GLWallLamp_Green.description>Une lampe murale illumine la zone.</GLWallLamp_Green.description>
+
+  <GLWallLamp_Violet.label>Applique (violet)</GLWallLamp_Violet.label>
+  <GLWallLamp_Violet.description>Une lampe murale illumine la zone.</GLWallLamp_Violet.description>
+
+  <GLWallLamp_Yellow.label>Applique (jaune)</GLWallLamp_Yellow.label>
+  <GLWallLamp_Yellow.description>Une lampe murale illumine la zone.</GLWallLamp_Yellow.description>
+
+  <GLWallLamp_Orange.label>Applique (orange)</GLWallLamp_Orange.label>
+  <GLWallLamp_Orange.description>Une lampe murale illumine la zone en orange.</GLWallLamp_Orange.description>
+
+  <!-- Ceiling Lights -->
+
+  <CeilingLamp.label>Plafonnier</CeilingLamp.label>
+  <CeilingLamp.description>Plafonnier qui illumine une zone.</CeilingLamp.description>
+  <CeilingLamp_Blueprint.label>Plafonnier (plan)</CeilingLamp_Blueprint.label>
+  <CeilingLamp_Blueprint_Install.label>Plafonnier (installation)</CeilingLamp_Blueprint_Install.label>
+  <CeilingLamp_Frame.label>Plafonnier (construction)</CeilingLamp_Frame.label>
+
+  <CeilingLamp_Red.label>Plafonnier (rouge)</CeilingLamp_Red.label>
+  <CeilingLamp_Red.description>Illuminez une zone dans un plafonnier rouge foncé.</CeilingLamp_Red.description>
+  <CeilingLamp_Red_Blueprint.label>Plafonnier (rouge) (plan)</CeilingLamp_Red_Blueprint.label>
+  <CeilingLamp_Red_Blueprint_Install.label>Plafonnier (rouge) (installation)</CeilingLamp_Red_Blueprint_Install.label>
+  <CeilingLamp_Red_Frame.label>Plafonnier (rouge) (construction)</CeilingLamp_Red_Frame.label>
+
+  <CeilingLamp_Blue.label>Plafonnier (bleu)</CeilingLamp_Blue.label>
+  <CeilingLamp_Blue.description>Un plafonnier qui illumine une zone dans un bleu foncé. Il a aussi des effets calmants.</CeilingLamp_Blue.description>
+  <CeilingLamp_Blue_Blueprint.label>Plafonnier (bleu) (plan)</CeilingLamp_Blue_Blueprint.label>
+  <CeilingLamp_Blue_Blueprint_Install.label>Plafonnier (bleu) (installation)</CeilingLamp_Blue_Blueprint_Install.label>
+  <CeilingLamp_Blue_Frame.label>Plafonnier (bleu) (construction)</CeilingLamp_Blue_Frame.label>
+
+  <CeilingLamp_Green.label>Plafonnier (vert)</CeilingLamp_Green.label>
+  <CeilingLamp_Green.description>Illumine une zone avec un plafonnier vert foncé.</CeilingLamp_Green.description>
+  <CeilingLamp_Green_Blueprint.label>Plafonnier (vert) (plan)</CeilingLamp_Green_Blueprint.label>
+  <CeilingLamp_Green_Blueprint_Install.label>Plafonnier (vert) (installation)</CeilingLamp_Green_Blueprint_Install.label>
+  <CeilingLamp_Green_Frame.label>Plafonnier (vert) (construction)</CeilingLamp_Green_Frame.label>
+
+  <CeilingLamp_Violet.label>Plafonnier (violet)</CeilingLamp_Violet.label>
+  <CeilingLamp_Violet.description>Illuminez une zone avec un plafonnier violet.</CeilingLamp_Violet.description>
+  <CeilingLamp_Violet_Blueprint.label>Plafonnier (violet) (plan)</CeilingLamp_Violet_Blueprint.label>
+  <CeilingLamp_Violet_Blueprint_Install.label>Plafonnier (violet) (installation)</CeilingLamp_Violet_Blueprint_Install.label>
+  <CeilingLamp_Violet_Frame.label>Plafonnier (violet) (construction)</CeilingLamp_Violet_Frame.label>
+
+  <CeilingLamp_Yellow.label>Plafonnier (jaune)</CeilingLamp_Yellow.label>
+  <CeilingLamp_Yellow.description>Illuminez une zone avec un plafonnier jaune foncé.</CeilingLamp_Yellow.description>
+  <CeilingLamp_Yellow_Blueprint.label>Plafonnier (jaune) (plan)</CeilingLamp_Yellow_Blueprint.label>
+  <CeilingLamp_Yellow_Blueprint_Install.label>Plafonnier (jaune) (installation)</CeilingLamp_Yellow_Blueprint_Install.label>
+  <CeilingLamp_Yellow_Frame.label>Plafonnier (jaune) (construction)</CeilingLamp_Yellow_Frame.label>
+
+  <CeilingLamp_Orange.label>Plafonnier (orange)</CeilingLamp_Orange.label>
+  <CeilingLamp_Orange.description>Illuminez une zone avec un plafonnier orange foncé.</CeilingLamp_Orange.description>
+  <CeilingLamp_Orange_Blueprint.label>Plafonnier (orange) (plan)</CeilingLamp_Orange_Blueprint.label>
+  <CeilingLamp_Orange_Blueprint_Install.label>Plafonnier (orange) (installation)</CeilingLamp_Orange_Blueprint_Install.label>
+  <CeilingLamp_Orange_Frame.label>Plafonnier (orange) (construction)</CeilingLamp_Orange_Frame.label>
+
+
+  <!-- Special Lights -->
+
+  <WallLamp.label>Applique</WallLamp.label>
+  <WallLamp.description>Une lampe accrochée au mur. Fournit une lumière supérieure à la moyenne.</WallLamp.description>
+  <WallLamp_Blueprint.label>Applique (plan)）</WallLamp_Blueprint.label>
+  <WallLamp_Blueprint_Install.label>Applique (installation)</WallLamp_Blueprint_Install.label>
+  <WallLamp_Frame.label>Applique (construction)</WallLamp_Frame.label>
+
+  <OutdoorGroundLamp.label>Lampadaire extérieur</OutdoorGroundLamp.label>
+  <OutdoorGroundLamp.description>Lampes qui ne peuvent être installées qu'à l'extérieur. Il peut fonctionner sans énergie externe.</OutdoorGroundLamp.description>
+  <OutdoorGroundLamp_Blueprint.label>Lampadaire extérieur (plan)</OutdoorGroundLamp_Blueprint.label>
+  <OutdoorGroundLamp_Blueprint_Install.label>Lampadaire extérieur (installation)</OutdoorGroundLamp_Blueprint_Install.label>
+  <OutdoorGroundLamp_Frame.label>Lampadaire extérieur (construction)</OutdoorGroundLamp_Frame.label>
+
+
+</LanguageData>

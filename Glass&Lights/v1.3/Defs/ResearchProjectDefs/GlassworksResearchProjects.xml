@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>GlassworksResearch</defName>
+		<label>glassworks</label>
+		<tab>GlassWorks</tab>
+		<description>Making clear glass is harder than it seems but with some hard work you will find the right formula.</description>
+		<techLevel>Medieval</techLevel>
+		<baseCost>500</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>ReinforcedGlassResearch</defName>
+		<label>reinforced glass</label>
+		<tab>GlassWorks</tab>
+		<description>Glass is fragile but with the right tools you can make it stronger.</description>
+		<techLevel>Industrial</techLevel>
+		<baseCost>700</baseCost>
+		<prerequisites>
+			<li>Electricity</li>
+			<li>GlassworksResearch</li>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1.5</researchViewY>		
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>DecorativeGlassResearch</defName>
+		<label>decorative glass</label>
+		<tab>GlassWorks</tab>
+		<description>Glass can be used for more than just windows and lights.</description>
+		<techLevel>Industrial</techLevel>
+		<baseCost>300</baseCost>
+		<prerequisites>
+			<li>Electricity</li>
+			<li>GlassworksResearch</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

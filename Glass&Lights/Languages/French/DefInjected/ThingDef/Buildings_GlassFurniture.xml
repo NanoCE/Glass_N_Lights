@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Furniture -->
+
+  <GlassTableShort.label>Table carrée en verre</GlassTableShort.label>
+  <GlassTableShort.description>Lorsqu'il y a des chaises face à la table, les gens mangent sur la table.</GlassTableShort.description>
+  <GlassTableShort_Blueprint.label>Table carrée en verre (plan)</GlassTableShort_Blueprint.label>
+  <GlassTableShort_Frame.label>Table carrée en verre (construction)</GlassTableShort_Frame.label>
+
+
+</LanguageData>
