@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--================================================Ceiling Lights=====================================-->
+  
+  <ThingDef ParentName="GlCeilingLampBase" >
+    <defName>GLCeilingLampDark</defName>
+    <label>ceiling darklamp</label>
+    <description>An electrical light fixture that emits a dim light over a large area, designed to be mounted on the ceiling. People who prefer to work in darklight are happy with this light source.</description>
+		<designatorDropdown>CeilingLights</designatorDropdown>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(78, 226, 229, 0)</glowColor> <!-- This is a specific darklight color, make sure it matches DarklightUtility.IsDarklight -->
+      </li>
+    </comps>
+  </ThingDef>  
+
+<!--========================================Wall Lights==================================-->	
+
+	<ThingDef ParentName="GLWallLightBase">
+		<defName>GLWallLampDark</defName>
+		<label>Wall darklight</label>
+		<graphicData>
+			<texPath>Things/Building/Lights/WallLamp/RoundWallLight</texPath>
+			<drawSize>.75,.75</drawSize>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<comps>
+		    <li Class="CompProperties_Glower">
+			    <glowRadius>10</glowRadius>
+					<glowColor>(78, 226, 229, 0)</glowColor> <!-- This is a specific darklight color, make sure it matches DarklightUtility.IsDarklight -->
+		    </li>
+		</comps>
+		<description>An electrical round light fixture that emits a dim light over a large area, designed to be mounted on a wall. People who prefer to work in darklight are happy with this light source.</description>
+		<designatorDropdown>GLWallLights</designatorDropdown>
+	</ThingDef>
+	
+</Defs>

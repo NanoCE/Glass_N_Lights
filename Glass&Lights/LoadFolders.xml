@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <loadFolders>
 	<v1.1>
 		<li>/</li>
@@ -9,6 +10,12 @@
 	</v1.2>
 	<v1.3>
 		<li>/</li>
-		<li>v1.3</li>
+		<li>v1.3/Core</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">v1.3/Ideology</li>
 	</v1.3>
+	<v1.4>
+		<li>/</li>
+		<li>v1.4/Core</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">v1.4/Ideology</li>
+	</v1.4>
 </loadFolders>

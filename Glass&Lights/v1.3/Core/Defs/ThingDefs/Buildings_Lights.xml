@@ -30,7 +30,7 @@
     <graphicData>
       <texPath>Things/Building/Lights/CeilingLamp</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>Transparent</shaderType>
+			<shaderType>Transparent</shaderType>
     </graphicData>
     <comps>
       <li Class="CompProperties_Power" >
@@ -53,30 +53,34 @@
 			<Beauty>4</Beauty>
 			<Mass>3</Mass>
     </statBases>
-	<tickerType>Rare</tickerType>
-	<canOverlapZones>true</canOverlapZones>
-	<clearBuildingArea>false</clearBuildingArea>
+		<tickerType>Rare</tickerType>
+		<canOverlapZones>true</canOverlapZones>
+		<clearBuildingArea>false</clearBuildingArea>
+		<researchPrerequisites>
+      <li>Electricity</li>
+			<li>GlassworksResearch</li>
+    </researchPrerequisites>
   </ThingDef>
   
   <ThingDef ParentName="GlCeilingLampBase" >
     <defName>GLCeilingLamp</defName>
     <label>ceiling lamp</label>
     <description>Ceiling lamp that lights an area.</description>
+		<designatorDropdown>CeilingLights</designatorDropdown>
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
         <glowColor>(217,217,208,0)</glowColor>
       </li>
     </comps>
-	<researchPrerequisites><li>GlassworksResearch</li></researchPrerequisites>
   </ThingDef>
   
   <ThingDef ParentName="GlCeilingLampBase">
     <defName>GLCeilingLamp_Red</defName>
     <label>ceiling lamp (red)</label>
     <description>Ceiling lamp that lights an area in a dull red color.</description>
-	<designatorDropdown>CeilingLights</designatorDropdown>
-	<graphicData>
+		<designatorDropdown>CeilingLights</designatorDropdown>
+		<graphicData>
       <texPath>Things/Building/Lights/CeilingLamp_Red</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -86,9 +90,8 @@
         <glowColor>(217,0,0,0)</glowColor>
       </li>
     </comps>
-	<researchPrerequisites>
+	<researchPrerequisites Inherit="False">
 		<li>ColoredLights</li>
-		<li>GlassworksResearch</li>
 	</researchPrerequisites>
   </ThingDef>
 
@@ -104,15 +107,14 @@
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
-        <glowColor>(0,0,217,0)</glowColor>
+        <glowColor>(80,80,217,0)</glowColor>
       </li>
     </comps>
 	<statBases>
 		<Comfort>0.75</Comfort>
 	</statBases>
-	<researchPrerequisites>
+	<researchPrerequisites Inherit="False">
 		<li>ColoredLights</li>
-		<li>GlassworksResearch</li>
 	</researchPrerequisites>
   </ThingDef>
 
@@ -128,12 +130,11 @@
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>13</glowRadius>
-        <glowColor>(0,217,0,0)</glowColor>
+        <glowColor>(80,217,80,0)</glowColor>
       </li>
     </comps>
-	<researchPrerequisites>
+	<researchPrerequisites Inherit="False">
 		<li>ColoredLights</li>
-		<li>GlassworksResearch</li>
 	</researchPrerequisites>
   </ThingDef>
 
@@ -156,9 +157,8 @@
 		<Beauty>25</Beauty>
 		<Comfort>0.15</Comfort>
 	</statBases>
-	<researchPrerequisites>
+	<researchPrerequisites Inherit="False">
 		<li>ColoredLights</li>
-		<li>GlassworksResearch</li>
 	</researchPrerequisites>
   </ThingDef>
 
@@ -180,9 +180,8 @@
 	<statBases>
 		<Comfort>0.75</Comfort>
 	</statBases>
-	<researchPrerequisites>
+	<researchPrerequisites Inherit="False">
 		<li>ColoredLights</li>
-		<li>GlassworksResearch</li>
 	</researchPrerequisites>
   </ThingDef>
 
@@ -201,9 +200,8 @@
         <glowColor>(217,150,0,0)</glowColor>
       </li>
     </comps>
-	<researchPrerequisites>
+	<researchPrerequisites Inherit="False">
 		<li>ColoredLights</li>
-		<li>GlassworksResearch</li>
 	</researchPrerequisites>
   </ThingDef>
   
@@ -222,13 +220,14 @@
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>		
 		<fillPercent>0.20</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
 		<statBases>
 			  <MaxHitPoints>10</MaxHitPoints>
 			  <WorkToBuild>100</WorkToBuild>
 			  <Flammability>1.0</Flammability>
 			  <Mass>2</Mass>
 		</statBases>
-		<size>(1,2)</size>
+		<size>(1,2)</size>	
 		<placeWorkers>
 			<li>Glass_Lights.PlaceWorker_LongWall</li>
 		</placeWorkers>
@@ -236,16 +235,14 @@
 			<Steel>20</Steel>
 		</costList>		
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<uiIconScale>0.75</uiIconScale>
+		<uiIconPath>Things/Building/Lights/WallLamp/RoundWallLight_UI</uiIconPath>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>15</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable" />
-			<li Class="CompProperties_Glower">
-				<glowRadius>13</glowRadius>
-				<glowColor>(217,217,208,0)</glowColor>
-			</li>
 		</comps>
 		<building>
 			<isInert>true</isInert>
@@ -259,6 +256,9 @@
 		<destroyable>true</destroyable>
 		<clearBuildingArea>false</clearBuildingArea>
 		<canOverlapZones>true</canOverlapZones>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
 	</ThingDef>
 	
 	<ThingDef Name="GLWallLight" ParentName="GLWallLightBase">
@@ -266,15 +266,17 @@
 		<label>Wall light</label>
 		<graphicData>
 			<texPath>Things/Building/Lights/WallLamp/RoundWallLight</texPath>
-			<drawSize>1,2</drawSize>
+			<drawSize>.75,.75</drawSize>
 			<graphicClass>Graphic_Multi</graphicClass>
 		</graphicData>
-		<uiIconPath>Things/Building/Lights/WallLamp/RoundWallLight_UI</uiIconPath>
+		<comps>
+		    <li Class="CompProperties_Glower">
+			    <glowRadius>13</glowRadius>
+					<glowColor>(217,217,208,0)</glowColor>
+		    </li>
+		</comps>
 		<description>An electrical round light fixture designed to be mounted on a wall. Does not block workspace and can be placed on any wall as long as the area in front is not impassible, like another wall.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
-			<li>Electricity</li>
-		</researchPrerequisites>
 	</ThingDef>	
 	
 	<ThingDef Name="GLWallLightRed" ParentName="GLWallLightBase">
@@ -282,23 +284,21 @@
 		<label>Wall light (red)</label>
 		<graphicData>
 			<texPath>Things/Building/Lights/WallLamp/RoundWallLight</texPath>
-			<drawSize>1,2</drawSize>
+			<drawSize>.75,.75</drawSize>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>			
-			<color>(0.7,0.1,0.1)</color>
-		</graphicData>
-		<uiIconPath>Things/Building/Lights/WallLamp/RoundWallLight_UI</uiIconPath>
+			<color>(0.8,0.1,0.1)</color>
+		</graphicData>		
 		<comps>
 		    <li Class="CompProperties_Glower">
 			    <glowRadius>13</glowRadius>
-				<glowColor>(217,0,0,0)</glowColor>
+					<glowColor>(217,80,80,0)</glowColor>
 		    </li>
 		</comps>
 		<description>A wall light that lights an area in a red color.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
+		<researchPrerequisites Inherit="False">
 			<li>ColoredLights</li>
-			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>	
 	
@@ -307,26 +307,24 @@
 		<label>Wall light (blue)</label>
 		<graphicData>
 			<texPath>Things/Building/Lights/WallLamp/RoundWallLight</texPath>
-			<drawSize>1,2</drawSize>
+			<drawSize>.75,.75</drawSize>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>			
 			<color>(0.4,0.3,1)</color>
 		</graphicData>
-		<uiIconPath>Things/Building/Lights/WallLamp/RoundWallLight_UI</uiIconPath>
 		<comps>
-		    <li Class="CompProperties_Glower">
-			    <glowRadius>13</glowRadius>
-				<glowColor>(0,0,217,0)</glowColor>
-		    </li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>13</glowRadius>
+				<glowColor>(80,80,217,0)</glowColor>
+			</li>
 		</comps>
 		<statBases>
 			<Comfort>0.75</Comfort>
 		</statBases>
 		<description>A wall light that lights an area in a blue color. It has a comforting effect.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
+		<researchPrerequisites Inherit="False">
 			<li>ColoredLights</li>
-			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -335,16 +333,15 @@
 		<label>Wall light (green)</label>
 		<graphicData>
 			<texPath>Things/Building/Lights/WallLamp/RoundWallLight</texPath>
-			<drawSize>1,2</drawSize>
+			<drawSize>.75,.75</drawSize>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>			
 			<color>(0.4,0.7,0.1)</color>
 		</graphicData>
-		<uiIconPath>Things/Building/Lights/WallLamp/RoundWallLight_UI</uiIconPath>
 		<comps>
 		    <li Class="CompProperties_Glower">
 			    <glowRadius>13</glowRadius>
-				<glowColor>(0,217,0,0)</glowColor>
+					<glowColor>(80,217,80,0)</glowColor>
 		    </li>
 		</comps>
 		<statBases>
@@ -352,9 +349,8 @@
 		</statBases>
 		<description>A wall light that lights an area in a green color. It has a comforting effect.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
+		<researchPrerequisites Inherit="False">
 			<li>ColoredLights</li>
-			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
@@ -363,23 +359,21 @@
 		<label>Wall light (violet)</label>
 		<graphicData>
 			<texPath>Things/Building/Lights/WallLamp/RoundWallLight</texPath>
-			<drawSize>1,2</drawSize>
+			<drawSize>.75,.75</drawSize>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>			
 			<color>(1,0.3,0.6)</color>
 		</graphicData>
-		<uiIconPath>Things/Building/Lights/WallLamp/RoundWallLight_UI</uiIconPath>
 		<comps>
 		    <li Class="CompProperties_Glower">
 			    <glowRadius>13</glowRadius>
-				<glowColor>(217,0,217,0)</glowColor>
+					<glowColor>(217,0,217,0)</glowColor>
 		    </li>
 		</comps>
 		<description>A wall light that lights an area in a violet color.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
+		<researchPrerequisites Inherit="False">  
 			<li>ColoredLights</li>
-			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
@@ -388,23 +382,21 @@
 		<label>Wall light (yellow)</label>
 		<graphicData>
 			<texPath>Things/Building/Lights/WallLamp/RoundWallLight</texPath>
-			<drawSize>1,2</drawSize>
+			<drawSize>.75,.75</drawSize>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>			
 			<color>(1,0.9,0.3)</color>
 		</graphicData>
-		<uiIconPath>Things/Building/Lights/WallLamp/RoundWallLight_UI</uiIconPath>
 		<comps>
 		    <li Class="CompProperties_Glower">
 			    <glowRadius>13</glowRadius>
-				<glowColor>(217,217,0,0)</glowColor>
+					<glowColor>(217,217,0,0)</glowColor>
 		    </li>
 		</comps>		
 		<description>A wall light that lights an area in a yellow color.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
+		<researchPrerequisites Inherit="False">
 			<li>ColoredLights</li>
-			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
@@ -413,29 +405,25 @@
 		<label>Wall light (orange)</label>
 		<graphicData>
 			<texPath>Things/Building/Lights/WallLamp/RoundWallLight</texPath>
-			<drawSize>1,2</drawSize>
+			<drawSize>.75,.75</drawSize>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>			
 			<color>(1,0.7,0.2)</color>
 		</graphicData>
-		<uiIconPath>Things/Building/Lights/WallLamp/RoundWallLight_UI</uiIconPath>
 		<comps>
 		    <li Class="CompProperties_Glower">
 			    <glowRadius>13</glowRadius>
-				<glowColor>(217,150,0,0)</glowColor>
+					<glowColor>(217,150,0,0)</glowColor>
 		    </li>
 		</comps>
 		<description>A wall light that lights an area in a orange color.</description>
 		<designatorDropdown>GLWallLights</designatorDropdown>
-		<researchPrerequisites>
+		<researchPrerequisites Inherit="False">
 			<li>ColoredLights</li>
-			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>
   
 	<!--========================================Old Lights==================================-->
- 
-	<!--================================================Ceiling Lights=====================================-->
 
   <ThingDef Abstract="True" Name="CeilingLampBase" ParentName="BuildingBase">
     <thingClass>Building</thingClass>
