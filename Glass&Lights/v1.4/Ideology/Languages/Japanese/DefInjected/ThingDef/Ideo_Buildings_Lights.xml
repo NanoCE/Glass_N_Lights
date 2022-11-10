@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ceiling Lights -->
+
+  <GLCeilingLampDark.label>天井灯 (ダークライト)</GLCeilingLampDark.label>
+  <GLCeilingLampDark.description>天井に取り付けるように設計された,広範囲に柔らかなダークライトを放つ電気照明器具です.暗い場所での作業を好む人は,この照明に満足しています.</GLCeilingLampDark.description>
+  <Blueprint_GLCeilingLampDark.label>天井灯 (ダークライト)(設計)</Blueprint_GLCeilingLampDark.label>
+  <Blueprint_Install_GLCeilingLampDark.label>天井灯 (ダークライト)(移動先)</Blueprint_Install_GLCeilingLampDark.label>
+  <Frame_GLCeilingLampDark.label>天井灯 (ダークライト)(施工)</Frame_GLCeilingLampDark.label>
+  <Frame_GLCeilingLampDark.description>天井に取り付けるように設計された,広範囲に柔らかなダークライトを放つ電気照明器具です.暗い場所での作業を好む人は,この照明に満足しています.</Frame_GLCeilingLampDark.description>
+
+  <GLWallLampDark.label>壁灯 (ダークライト)</GLWallLampDark.label>
+  <GLWallLampDark.description>壁に取り付けるように設計された,広範囲に薄暗いダークライトを放つ電気丸型照明器具です.暗い場所での作業を好む人は,この照明に満足しています.</GLWallLampDark.description>
+  <Blueprint_GLWallLampDark.label>壁灯(ダークライト)(設計)</Blueprint_GLWallLampDark.label>
+  <Blueprint_Install_GLWallLampDark.label>壁灯(ダークライト)(移動先)</Blueprint_Install_GLWallLampDark.label>
+  <Frame_GLWallLampDark.label>壁灯(ダークライト)(施工)</Frame_GLWallLampDark.label>
+  <Frame_GLWallLampDark.description>壁に取り付けるように設計された,広範囲に薄暗いダークライトを放つ電気丸型照明器具です.暗い場所での作業を好む人は,この照明に満足しています.</Frame_GLWallLampDark.description>
+
+</LanguageData>
