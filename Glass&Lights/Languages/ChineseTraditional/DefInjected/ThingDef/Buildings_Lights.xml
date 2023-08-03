@@ -7,49 +7,49 @@
   <GLCeilingLamp.description>將附近照亮的吸頂燈。</GLCeilingLamp.description>
   <GLCeilingLamp_Blueprint.label>吸頂燈(藍圖)</GLCeilingLamp_Blueprint.label>
   <GLCeilingLamp_Blueprint_Install.label>吸頂燈(藍圖)</GLCeilingLamp_Blueprint_Install.label>
-  <GLCeilingLamp_Frame.label>吸頂燈(藍圖)</GLCeilingLamp_Frame.label>
+  <GLCeilingLamp_Frame.label>吸頂燈(建造中)</GLCeilingLamp_Frame.label>
   <GLCeilingLamp_Frame.description>將附近照亮的吸頂燈。</GLCeilingLamp_Frame.description>
 
   <GLCeilingLamp_Red.label>吸頂燈(紅)</GLCeilingLamp_Red.label>
   <GLCeilingLamp_Red.description>將附近照亮的黯紅色吸頂燈。</GLCeilingLamp_Red.description>
   <GLCeilingLamp_Red_Blueprint.label>吸頂燈(紅)(藍圖)</GLCeilingLamp_Red_Blueprint.label>
   <GLCeilingLamp_Red_Blueprint_Install.label>吸頂燈(紅)(藍圖)</GLCeilingLamp_Red_Blueprint_Install.label>
-  <GLCeilingLamp_Red_Frame.label>吸頂燈(紅)(藍圖)</GLCeilingLamp_Red_Frame.label>
+  <GLCeilingLamp_Red_Frame.label>吸頂燈(紅)(建造中)</GLCeilingLamp_Red_Frame.label>
   <GLCeilingLamp_Red_Frame.description>將附近照亮的黯紅色吸頂燈。</GLCeilingLamp_Red_Frame.description>
 
   <GLCeilingLamp_Blue.label>吸頂燈(藍)</GLCeilingLamp_Blue.label>
   <GLCeilingLamp_Blue.description>將附近照亮的黯藍色吸頂燈。有讓人舒適的效果。</GLCeilingLamp_Blue.description>
   <GLCeilingLamp_Blue_Blueprint.label>吸頂燈(藍)(藍圖)</GLCeilingLamp_Blue_Blueprint.label>
   <GLCeilingLamp_Blue_Blueprint_Install.label>吸頂燈(藍)(藍圖)</GLCeilingLamp_Blue_Blueprint_Install.label>
-  <GLCeilingLamp_Blue_Frame.label>c吸頂燈(藍)(藍圖)</GLCeilingLamp_Blue_Frame.label>
+  <GLCeilingLamp_Blue_Frame.label>c吸頂燈(藍)(建造中)</GLCeilingLamp_Blue_Frame.label>
   <GLCeilingLamp_Blue_Frame.description>將附近照亮的黯藍色吸頂燈。有讓人舒適的效果。</GLCeilingLamp_Blue_Frame.description>
 
   <GLCeilingLamp_Green.label>吸頂燈(綠)</GLCeilingLamp_Green.label>
   <GLCeilingLamp_Green.description>將附近照亮的黯綠色吸頂燈。</GLCeilingLamp_Green.description>
   <GLCeilingLamp_Green_Blueprint.label>吸頂燈(綠)(藍圖)</GLCeilingLamp_Green_Blueprint.label>
   <GLCeilingLamp_Green_Blueprint_Install.label>吸頂燈(綠)(藍圖)</GLCeilingLamp_Green_Blueprint_Install.label>
-  <GLCeilingLamp_Green_Frame.label>吸頂燈(綠)(藍圖)</GLCeilingLamp_Green_Frame.label>
+  <GLCeilingLamp_Green_Frame.label>吸頂燈(綠)(建造中)</GLCeilingLamp_Green_Frame.label>
   <GLCeilingLamp_Green_Frame.description>將附近照亮的黯綠色吸頂燈。</GLCeilingLamp_Green_Frame.description>
 
   <GLCeilingLamp_Violet.label>吸頂燈(紫)</GLCeilingLamp_Violet.label>
   <GLCeilingLamp_Violet.description>將附近照亮的紫色吸頂燈。</GLCeilingLamp_Violet.description>
   <GLCeilingLamp_Violet_Blueprint.label>吸頂燈(紫)(藍圖)</GLCeilingLamp_Violet_Blueprint.label>
   <GLCeilingLamp_Violet_Blueprint_Install.label>吸頂燈(紫)(藍圖)</GLCeilingLamp_Violet_Blueprint_Install.label>
-  <GLCeilingLamp_Violet_Frame.label>吸頂燈(紫)(藍圖)</GLCeilingLamp_Violet_Frame.label>
+  <GLCeilingLamp_Violet_Frame.label>吸頂燈(紫)(建造中)</GLCeilingLamp_Violet_Frame.label>
   <GLCeilingLamp_Violet_Frame.description>將附近照亮的紫色吸頂燈。</GLCeilingLamp_Violet_Frame.description>
 
   <GLCeilingLamp_Yellow.label>吸頂燈(黃)</GLCeilingLamp_Yellow.label>
   <GLCeilingLamp_Yellow.description>將附近照亮的黯黃色吸頂燈。</GLCeilingLamp_Yellow.description>
   <GLCeilingLamp_Yellow_Blueprint.label>吸頂燈(黃)(藍圖)</GLCeilingLamp_Yellow_Blueprint.label>
   <GLCeilingLamp_Yellow_Blueprint_Install.label>吸頂燈(黃)(藍圖)</GLCeilingLamp_Yellow_Blueprint_Install.label>
-  <GLCeilingLamp_Yellow_Frame.label>吸頂燈(黃)(藍圖)</GLCeilingLamp_Yellow_Frame.label>
+  <GLCeilingLamp_Yellow_Frame.label>吸頂燈(黃)(建造中)</GLCeilingLamp_Yellow_Frame.label>
   <GLCeilingLamp_Yellow_Frame.description>將附近照亮的黯黃色吸頂燈。</GLCeilingLamp_Yellow_Frame.description>
 
   <GLCeilingLamp_Orange.label>吸頂燈(橙)</GLCeilingLamp_Orange.label>
   <GLCeilingLamp_Orange.description>將附近照亮的黯橙色吸頂燈。</GLCeilingLamp_Orange.description>
   <GLCeilingLamp_Orange_Blueprint.label>吸頂燈(橙)(藍圖)</GLCeilingLamp_Orange_Blueprint.label>
   <GLCeilingLamp_Orange_Blueprint_Install.label>吸頂燈(橙)(藍圖)</GLCeilingLamp_Orange_Blueprint_Install.label>
-  <GLCeilingLamp_Orange_Frame.label>吸頂燈(橙)(藍圖)</GLCeilingLamp_Orange_Frame.label>
+  <GLCeilingLamp_Orange_Frame.label>吸頂燈(橙)(建造中)</GLCeilingLamp_Orange_Frame.label>
   <GLCeilingLamp_Orange_Frame.description>將附近照亮的黯橙色吸頂燈。</GLCeilingLamp_Orange_Frame.description>
 
 
@@ -57,24 +57,52 @@
 
   <GLWallLamp.label>壁燈</GLWallLamp.label>
   <GLWallLamp.description>設計為放在牆上的圓形電燈。不阻擋工作空間並且可以放在任何前方可以通行的牆上。</GLWallLamp.description>
+  <GLWallLamp_Blueprint.label>壁燈(藍圖)</GLWallLamp_Blueprint.label>
+  <GLWallLamp_Blueprint_Install.label>壁燈(藍圖)</GLWallLamp_Blueprint_Install.label>
+  <GLWallLamp_Frame.label>壁燈(建造中)</GLWallLamp_Frame.label>
+  <GLWallLamp_Frame.description>設計為放在牆上的圓形電燈。不阻擋工作空間並且可以放在任何前方可以通行的牆上。</GLWallLamp_Frame.description>
 
   <GLWallLamp_Red.label>壁燈(紅)</GLWallLamp_Red.label>
   <GLWallLamp_Red.description>將附近照亮的紅色壁燈。</GLWallLamp_Red.description>
+  <GLWallLamp_Red_Blueprint.label>壁燈(紅)(藍圖)</GLWallLamp_Red_Blueprint.label>
+  <GLWallLamp_Red_Blueprint_Install.label>壁燈(紅)(藍圖)</GLWallLamp_Red_Blueprint_Install.label>
+  <GLWallLamp_Red_Frame.label>壁燈(紅)(建造中)</GLWallLamp_Red_Frame.label>
+  <GLWallLamp_Red_Frame.description>將附近照亮的紅色壁燈。</GLWallLamp_Red_Frame.description>
 
   <GLWallLamp_Blue.label>壁燈(藍)</GLWallLamp_Blue.label>
   <GLWallLamp_Blue.description>將附近照亮的藍色壁燈。有讓人舒適的效果。</GLWallLamp_Blue.description>
+  <GLWallLamp_Blue_Blueprint.label>壁燈(藍)(藍圖)</GLWallLamp_Blue_Blueprint.label>
+  <GLWallLamp_Blue_Blueprint_Install.label>壁燈(藍)(藍圖)</GLWallLamp_Blue_Blueprint_Install.label>
+  <GLWallLamp_Blue_Frame.label>壁燈(藍)(建造中)</GLWallLamp_Blue_Frame.label>
+  <GLWallLamp_Blue_Frame.description>將附近照亮的藍色壁燈。有讓人舒適的效果。</GLWallLamp_Blue_Frame.description>
 
   <GLWallLamp_Green.label>壁燈(綠)</GLWallLamp_Green.label>
   <GLWallLamp_Green.description>將附近照亮的綠色壁燈。有讓人舒適的效果。</GLWallLamp_Green.description>
+  <GLWallLamp_Green_Blueprint.label>壁燈(綠)(藍圖)</GLWallLamp_Green_Blueprint.label>
+  <GLWallLamp_Green_Blueprint_Install.label>壁燈(綠)(藍圖)</GLWallLamp_Green_Blueprint_Install.label>
+  <GLWallLamp_Green_Frame.label>壁燈(綠)(建造中)</GLWallLamp_Green_Frame.label>
+  <GLWallLamp_Green_Frame.description>將附近照亮的綠色壁燈。有讓人舒適的效果。</GLWallLamp_Green_Frame.description>
 
   <GLWallLamp_Violet.label>壁燈(紫)</GLWallLamp_Violet.label>
   <GLWallLamp_Violet.description>將附近照亮的紫色壁燈。</GLWallLamp_Violet.description>
+  <GLWallLamp_Violet_Blueprint.label>壁燈(紫)(藍圖)</GLWallLamp_Violet_Blueprint.label>
+  <GLWallLamp_Violet_Blueprint_Install.label>壁燈(紫)(藍圖)</GLWallLamp_Violet_Blueprint_Install.label>
+  <GLWallLamp_Violet_Frame.label>壁燈(紫)(建造中)</GLWallLamp_Violet_Frame.label>
+  <GLWallLamp_Violet_Frame.description>將附近照亮的紫色壁燈。</GLWallLamp_Violet_Frame.description>
 
   <GLWallLamp_Yellow.label>壁燈(黃)</GLWallLamp_Yellow.label>
   <GLWallLamp_Yellow.description>將附近照亮的黃色壁燈。</GLWallLamp_Yellow.description>
+  <GLWallLamp_Yellow_Blueprint.label>壁燈(黃)(藍圖)</GLWallLamp_Yellow_Blueprint.label>
+  <GLWallLamp_Yellow_Blueprint_Install.label>壁燈(黃)(藍圖)</GLWallLamp_Yellow_Blueprint_Install.label>
+  <GLWallLamp_Yellow_Frame.label>壁燈(黃)(建造中)</GLWallLamp_Yellow_Frame.label>
+  <GLWallLamp_Yellow_Frame.description>將附近照亮的黃色壁燈。</GLWallLamp_Yellow_Frame.description>
 
   <GLWallLamp_Orange.label>壁燈(橙)</GLWallLamp_Orange.label>
   <GLWallLamp_Orange.description>將附近照亮的橙色壁燈。</GLWallLamp_Orange.description>
+  <GLWallLamp_Orange_Blueprint.label>壁燈(橙)(藍圖)</GLWallLamp_Orange_Blueprint.label>
+  <GLWallLamp_Orange_Blueprint_Install.label>壁燈(橙)(藍圖)</GLWallLamp_Orange_Blueprint_Install.label>
+  <GLWallLamp_Orange_Frame.label>壁燈(橙)(建造中)</GLWallLamp_Orange_Frame.label>
+  <GLWallLamp_Orange_Frame.description>將附近照亮的橙色壁燈。</GLWallLamp_Orange_Frame.description>
 
 
   <!-- Ceiling Lights -->
@@ -118,7 +146,7 @@
   <OutdoorGroundLamp.description>只能放在室外的燈。不需要電力。</OutdoorGroundLamp.description>
   <OutdoorGroundLamp_Blueprint.label>室外埋地燈(藍圖)</OutdoorGroundLamp_Blueprint.label>
   <OutdoorGroundLamp_Blueprint_Install.label>室外埋地燈(藍圖)</OutdoorGroundLamp_Blueprint_Install.label>
-  <OutdoorGroundLamp_Frame.label>室外埋地燈(藍圖)</OutdoorGroundLamp_Frame.label>
+  <OutdoorGroundLamp_Frame.label>室外埋地燈(建造中)</OutdoorGroundLamp_Frame.label>
   <OutdoorGroundLamp_Frame.description>只能放在室外的燈。不需要電力。</OutdoorGroundLamp_Frame.description>
 
 
