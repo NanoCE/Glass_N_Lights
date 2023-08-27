@@ -5,20 +5,20 @@
 
   <GLCeilingLampDark.label>暗吸頂燈</GLCeilingLampDark.label>
   <GLCeilingLampDark.description>設計為掛在天花板上的電燈，能在大範圍內發出柔和的光線。喜歡在昏暗環境下工作的人會喜歡這種光源。</GLCeilingLampDark.description>
-  <GLCeilingLampDark_Blueprint.label>暗吸頂燈(藍圖)</GLCeilingLampDark_Blueprint.label>
-  <GLCeilingLampDark_Blueprint_Install.label>暗吸頂燈(藍圖)</GLCeilingLampDark_Blueprint_Install.label>
-  <GLCeilingLampDark_Frame.label>暗吸頂燈(建造中)</GLCeilingLampDark_Frame.label>
-  <GLCeilingLampDark_Frame.description>設計為掛在天花板上的電燈，能在大範圍內發出柔和的光線。喜歡在昏暗環境下工作的人會喜歡這種光源。</GLCeilingLampDark_Frame.description>
+  <Blueprint_GLCeilingLampDark.label>暗吸頂燈(藍圖)</Blueprint_GLCeilingLampDark.label>
+  <Blueprint_Install_GLCeilingLampDark.label>暗吸頂燈(藍圖)</Blueprint_Install_GLCeilingLampDark.label>
+  <Frame_GLCeilingLampDark.label>暗吸頂燈(建造中)</Frame_GLCeilingLampDark.label>
+  <Frame_GLCeilingLampDark.description>設計為掛在天花板上的電燈，能在大範圍內發出柔和的光線。喜歡在昏暗環境下工作的人會喜歡這種光源。</Frame_GLCeilingLampDark.description>
 
 
   <!-- Wall Lights -->
 
   <GLWallLampDark.label>暗壁燈</GLWallLampDark.label>
   <GLWallLampDark.description>設計為放在牆上的圓形電燈，能在大範圍內發出柔和的光線。喜歡在昏暗環境下工作的人會喜歡這種光源。</GLWallLampDark.description>
-  <GLWallLampDark_Blueprint.label>暗壁燈(藍圖)</GLWallLampDark_Blueprint.label>
-  <GLWallLampDark_Blueprint_Install.label>暗壁燈(藍圖)</GLWallLampDark_Blueprint_Install.label>
-  <GLWallLampDark_Frame.label>暗壁燈(建造中)</GLWallLampDark_Frame.label>
-  <GLWallLampDark_Frame.description>設計為放在牆上的圓形電燈，能在大範圍內發出柔和的光線。喜歡在昏暗環境下工作的人會喜歡這種光源。</GLWallLampDark_Frame.description>
+  <Blueprint_GLWallLampDark.label>暗壁燈(藍圖)</Blueprint_GLWallLampDark.label>
+  <Blueprint_Install_GLWallLampDark.label>暗壁燈(藍圖)</Blueprint_Install_GLWallLampDark.label>
+  <Frame_GLWallLampDark.label>暗壁燈(建造中)</Frame_GLWallLampDark.label>
+  <Frame_GLWallLampDark.description>設計為放在牆上的圓形電燈，能在大範圍內發出柔和的光線。喜歡在昏暗環境下工作的人會喜歡這種光源。</Frame_GLWallLampDark.description>
 
 
 </LanguageData>
