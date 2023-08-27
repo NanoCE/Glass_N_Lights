@@ -3,6 +3,10 @@
 
   <GlassMonitorLarge.label>玻璃電視</GlassMonitorLarge.label>
   <GlassMonitorLarge.description>高科技玻璃電視，畫面更清晰，色彩更豐富。比模糊的平面電視更有娛樂性。</GlassMonitorLarge.description>
+  <Blueprint_GlassMonitorLarge.label>玻璃電視(藍圖)</Blueprint_GlassMonitorLarge.label>
+  <Blueprint_Install_GlassMonitorLarge.label>玻璃電視(藍圖)</Blueprint_Install_GlassMonitorLarge.label>
+  <Frame_GlassMonitorLarge.label>玻璃電視(建造中)</Frame_GlassMonitorLarge.label>
+  <Frame_GlassMonitorLarge.description>高科技玻璃電視，畫面更清晰，色彩更豐富。比模糊的平面電視更有娛樂性。</Frame_GlassMonitorLarge.description>
 
 
 </LanguageData>
