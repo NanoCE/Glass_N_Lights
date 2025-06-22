@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlassworkTable.label>玻璃工坊（电力）</GlassworkTable.label>
+  <GlassworkTable.description>配备了制造玻璃所需全部设备的工作台，由电力驱动。</GlassworkTable.description>
+  <GlassworkTable_Blueprint.label>玻璃工坊（电力）（蓝图）</GlassworkTable_Blueprint.label>
+  <GlassworkTable_Blueprint_Install.label>electric glassworks (blueprint)</GlassworkTable_Blueprint_Install.label>
+  <GlassworkTable_Frame.label>玻璃工坊（电力）（建造中）</GlassworkTable_Frame.label>
+  <GlassworkTable_Frame.description>配备了制造玻璃所需全部设备的工作台，由电力驱动。</GlassworkTable_Frame.description>
+
+  <FueledGlassworkTable.label>玻璃工坊（化合燃料）</FueledGlassworkTable.label>
+  <FueledGlassworkTable.description>配备了制造玻璃所需全部设备的工作台，由化合燃料驱动。</FueledGlassworkTable.description>
+  <FueledGlassworkTable_Blueprint.label>玻璃工坊（化合燃料）（蓝图）</FueledGlassworkTable_Blueprint.label>
+  <FueledGlassworkTable_Blueprint_Install.label>玻璃工坊（化合燃料）（蓝图）</FueledGlassworkTable_Blueprint_Install.label>
+  <FueledGlassworkTable_Frame.label>玻璃工坊（化合燃料）（建造中）</FueledGlassworkTable_Frame.label>
+  <FueledGlassworkTable_Frame.description>配备了制造玻璃所需全部设备的工作台，由化合燃料驱动。</FueledGlassworkTable_Frame.description>
+
+  <ReinforcedGlassworkTable.label>钢化玻璃制作台</ReinforcedGlassworkTable.label>
+  <ReinforcedGlassworkTable.description>配备了为普通玻璃进行钢化作业所需全部设备的工作台。</ReinforcedGlassworkTable.description>
+  <ReinforcedGlassworkTable_Blueprint.label>钢化玻璃制作台（蓝图）</ReinforcedGlassworkTable_Blueprint.label>
+  <ReinforcedGlassworkTable_Blueprint_Install.label>钢化玻璃制作台（蓝图）</ReinforcedGlassworkTable_Blueprint_Install.label>
+  <ReinforcedGlassworkTable_Frame.label>钢化玻璃制作台（建造中）</ReinforcedGlassworkTable_Frame.label>
+  <ReinforcedGlassworkTable_Frame.description>配备了为普通玻璃进行钢化作业所需全部设备的工作台。</ReinforcedGlassworkTable_Frame.description>
+
+
+</LanguageData>

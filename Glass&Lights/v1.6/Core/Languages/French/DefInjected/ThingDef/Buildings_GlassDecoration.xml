@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+  </ThingDef> -->
+
+  <GlassMonitorLarge.label>Télévision en verre</GlassMonitorLarge.label>
+  <GlassMonitorLarge.description>Un téléviseur en verre avec le soutien de la technologie haut de gamme a une image cristalline et des couleurs plus riches. Il peut offrir plus de divertissement que les téléviseurs à écran plat LCD.</GlassMonitorLarge.description>
+  <GlassMonitorLarge_Blueprint.label>Télévision en verre (plan)</GlassMonitorLarge_Blueprint.label>
+  <GlassMonitorLarge_Blueprint_Install.label>Télévision en verre (installation)</GlassMonitorLarge_Blueprint_Install.label>
+  <GlassMonitorLarge_Frame.label>Télévision en verre (construction)</GlassMonitorLarge_Frame.label>
+
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlassworkTable.label>Atelier de verre (électricité)</GlassworkTable.label>
+  <GlassworkTable.description>L'établi est équipé de tout l'équipement nécessaire à la fabrication du verre et est alimenté par l'électricité.</GlassworkTable.description>
+  <GlassworkTable_Blueprint.label>Atelier de verre (électricité) (plan)</GlassworkTable_Blueprint.label>
+  <GlassworkTable_Frame.label>Atelier de verre (électricité) (construction)</GlassworkTable_Frame.label>
+
+  <FueledGlassworkTable.label>Atelier de verre (combustible chimique)</FueledGlassworkTable.label>
+  <FueledGlassworkTable.description>L'établi est équipé de tout l'équipement nécessaire à la fabrication du verre et est alimenté par des carburants chimiques.</FueledGlassworkTable.description>
+  <FueledGlassworkTable_Blueprint.label>Atelier de verre (combustible chimique) (plan)</FueledGlassworkTable_Blueprint.label>
+  <FueledGlassworkTable_Frame.label>Atelier de verre (combustible chimique) (construction)</FueledGlassworkTable_Frame.label>
+
+  <ReinforcedGlassworkTable.label>Atelier de verre renforcé</ReinforcedGlassworkTable.label>
+  <ReinforcedGlassworkTable.description>Un établi équipé de tous les équipements nécessaires à la transformation du verre ordinaire en verre trempé.</ReinforcedGlassworkTable.description>
+  <ReinforcedGlassworkTable_Blueprint.label>Atelier de verre renforcé (plan)</ReinforcedGlassworkTable_Blueprint.label>
+  <ReinforcedGlassworkTable_Frame.label>Atelier de verre renforcé (construction)</ReinforcedGlassworkTable_Frame.label>
+
+
+</LanguageData>

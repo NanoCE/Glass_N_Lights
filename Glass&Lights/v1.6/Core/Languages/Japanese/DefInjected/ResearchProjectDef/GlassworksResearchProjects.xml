@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlassworksResearch.label>ガラス</GlassworksResearch.label>
+  <GlassworksResearch.description>岩塊から透明なガラスを抽出する、ガラス製作台を作れるようになります。</GlassworksResearch.description>
+
+  <ReinforcedGlassResearch.label>強化ガラス</ReinforcedGlassResearch.label>
+  <ReinforcedGlassResearch.description>ガラスを圧縮して強化ガラスを製作する、強化ガラス製作台を作れるようになります。</ReinforcedGlassResearch.description>
+
+  <DecorativeGlassResearch.label>装飾ガラス</DecorativeGlassResearch.label>
+  <DecorativeGlassResearch.description>ガラスを窓やライトを超える用途に使用できるようになります。</DecorativeGlassResearch.description>
+
+</LanguageData>

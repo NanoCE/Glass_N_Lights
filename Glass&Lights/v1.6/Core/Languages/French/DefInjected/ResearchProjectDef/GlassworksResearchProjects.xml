@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlassworksResearch.label>Verrerie</GlassworksResearch.label>
+  <GlassworksResearch.description>Faire du verre transparent est plus difficile que prévu, mais tant que vous travaillez assez dur, vous finirez par trouver le bon chemin.</GlassworksResearch.description>
+
+  <ReinforcedGlassResearch.label>Verrerie renforcée</ReinforcedGlassResearch.label>
+  <ReinforcedGlassResearch.description>Vous pouvez rendre le verre fragile plus solide tant que vous le manipulez avec les bons outils.</ReinforcedGlassResearch.description>
+
+  <DecorativeGlassResearch.label>Verre décoratif</DecorativeGlassResearch.label>
+  <DecorativeGlassResearch.description>L'utilisation du verre ne se limite pas aux fenêtres et aux ampoules.</DecorativeGlassResearch.description>
+
+
+</LanguageData>

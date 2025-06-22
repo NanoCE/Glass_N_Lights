@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>DoBillsMakeGlass</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
+	<fixedBillGiverDefs>
+		<li>GlassworkTable</li>
+		<li>FueledGlassworkTable</li>
+	</fixedBillGiverDefs>
+    <verb>produce glass from</verb>
+    <gerund>producing glass at</gerund>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoBillsMakeLargeCircularGlass</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
+    <fixedBillGiverDefs>
+		<li>GlassworkTable</li>
+	</fixedBillGiverDefs>
+    <verb>produce large circular glass</verb>
+    <gerund>producing large circular glass</gerund>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoBillsMakeReinforcedGlass</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
+	<fixedBillGiverDefs>
+		<li>ReinforcedGlassworkTable</li>
+	</fixedBillGiverDefs>
+    <verb>produce reinforced glass</verb>
+    <gerund>producing reinforced glass</gerund>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+  </WorkGiverDef>
+  
+    <WorkGiverDef>
+    <defName>DoBillsMakeMolotov</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
+	<fixedBillGiverDefs>
+		<li>GlassworkTable</li>
+	<li>FueledGlassworkTable</li>
+	</fixedBillGiverDefs>
+    <verb>produce molotov from</verb>
+    <gerund>producing molotov at</gerund>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+  </WorkGiverDef>
+
+</Defs>

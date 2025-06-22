@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Doors -->
+
+  <AutoDoorGlass.label>Porte automatique</AutoDoorGlass.label>
+  <AutoDoorGlass.description>Sépare la pièce. L'électricité fonctionne et les gens ne ralentiront pas lorsqu'ils franchiront la porte. Laisse passer la lumière.</AutoDoorGlass.description>
+  <AutoDoorGlass_Blueprint.label>Porte automatique (plan)</AutoDoorGlass_Blueprint.label>
+  <AutoDoorGlass_Frame.label>Porte automatique (construction)</AutoDoorGlass_Frame.label>
+
+  <DoorGlass.label>Porte</DoorGlass.label>
+  <DoorGlass.description>Sépare la pièce. Laisse passer la lumière.</DoorGlass.description>
+  <DoorGlass_Blueprint.label>Porte (plan)</DoorGlass_Blueprint.label>
+  <DoorGlass_Frame.label>Porte (construction)</DoorGlass_Frame.label>
+
+
+  <!-- Walls -->
+
+  <Window.label>Fenêtre</Window.label>
+  <Window.description>Ce n'est pas différent d'un mur, mais laisse passer la lumière.</Window.description>
+  <Window_Blueprint.label>Fenêtre (plan)</Window_Blueprint.label>
+  <Window_Frame.label>Fenêtre (construction)</Window_Frame.label>
+
+
+</LanguageData>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakeGlass</defName>
+		<label>make Glass</label>
+		<description>Melt some sand into glass.</description>
+		<jobString>Making glass.</jobString>
+		<workAmount>1600</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Glass>4</Glass>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeCircularGlass</defName>
+		<label>make Circular Glass</label>
+		<description>Melt some sand into circular glass.</description>
+		<jobString>Making circular glass.</jobString>
+		<workAmount>1600</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<LargeCircularGlass>3</LargeCircularGlass>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeReinforcedGlass</defName>
+		<label>make Reinforced Glass</label>
+		<description>Turn some glass into reinforced glass.</description>
+		<jobString>Making reinforced glass.</jobString>
+		<workAmount>750</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Glass</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<ReinforcedGlass>1</ReinforcedGlass>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Glass</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeMolotov</defName>
+		<label>make Molotov</label>
+		<description>Make weapon that burns your enemies into ashes!</description>
+		<jobString>Making molotov.</jobString>
+		<workAmount>850</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Glass</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Weapon_GrenadeMolotov>1</Weapon_GrenadeMolotov>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Glass</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>
