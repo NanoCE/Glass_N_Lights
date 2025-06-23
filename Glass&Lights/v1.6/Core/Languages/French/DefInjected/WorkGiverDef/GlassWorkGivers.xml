@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsMakeGlass.verb>Faire du verre</DoBillsMakeGlass.verb>
+  <DoBillsMakeGlass.gerund>Fait du verre</DoBillsMakeGlass.gerund>
+
+  <DoBillsMakeLargeCircularGlass.verb>Faire de grands verres sphériques</DoBillsMakeLargeCircularGlass.verb>
+  <DoBillsMakeLargeCircularGlass.gerund>Fait de grands verres sphériques</DoBillsMakeLargeCircularGlass.gerund>
+
+  <DoBillsMakeReinforcedGlass.verb>Faire du verre trempé</DoBillsMakeReinforcedGlass.verb>
+  <DoBillsMakeReinforcedGlass.gerund>Fait du verre trempé</DoBillsMakeReinforcedGlass.gerund>
+
+  <DoBillsMakeMolotov.verb>Faire un cocktail Molotov</DoBillsMakeMolotov.verb>
+  <DoBillsMakeMolotov.gerund>Fait un cocktail Molotov</DoBillsMakeMolotov.gerund>
+
+
+</LanguageData>

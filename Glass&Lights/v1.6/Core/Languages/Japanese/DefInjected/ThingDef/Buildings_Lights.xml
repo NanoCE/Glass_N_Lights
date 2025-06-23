@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ceiling Lights -->
+
+  <GLCeilingLamp.label>天井灯</GLCeilingLamp.label>
+  <GLCeilingLamp.description>天井灯は辺りを照らします。</GLCeilingLamp.description>
+  <Blueprint_GLCeilingLamp.label>天井灯(設計)</Blueprint_GLCeilingLamp.label>
+  <Blueprint_Install_GLCeilingLamp.label>天井灯(移動先)</Blueprint_Install_GLCeilingLamp.label>
+  <Frame_GLCeilingLamp.label>天井灯(施工)</Frame_GLCeilingLamp.label>
+  <Frame_GLCeilingLamp.description>天井灯は辺りを照らします。</Frame_GLCeilingLamp.description>
+
+  <GLCeilingLamp_Red.label>天井灯(赤色)</GLCeilingLamp_Red.label>
+  <GLCeilingLamp_Red.description>天井灯は辺りを赤色に照らします。</GLCeilingLamp_Red.description>
+  <Blueprint_GLCeilingLamp_Red.label>天井灯(赤色)(設計)</Blueprint_GLCeilingLamp_Red.label>
+  <Blueprint_Install_GLCeilingLamp_Red.label>天井灯(赤色)(移動先)</Blueprint_Install_GLCeilingLamp_Red.label>
+  <Frame_GLCeilingLamp_Red.label>天井灯(赤色)(施工)</Frame_GLCeilingLamp_Red.label>
+  <Frame_GLCeilingLamp_Red.description>天井灯は辺りを赤色に照らします。</Frame_GLCeilingLamp_Red.description>
+
+  <GLCeilingLamp_Blue.label>天井灯(青色)</GLCeilingLamp_Blue.label>
+  <GLCeilingLamp_Blue.description>天井灯は辺りを緑色に照らします。</GLCeilingLamp_Blue.description>
+  <Blueprint_GLCeilingLamp_Blue.label>天井灯(青色)(設計)</Blueprint_GLCeilingLamp_Blue.label>
+  <Blueprint_Install_GLCeilingLamp_Blue.label>天井灯(青色)(移動先)</Blueprint_Install_GLCeilingLamp_Blue.label>
+  <Frame_GLCeilingLamp_Blue.label>天井灯(青色)(施工)</Frame_GLCeilingLamp_Blue.label>
+  <Frame_GLCeilingLamp_Blue.description>天井灯は辺りを緑色に照らします。</Frame_GLCeilingLamp_Blue.description>
+
+  <GLCeilingLamp_Green.label>天井灯(緑色)</GLCeilingLamp_Green.label>
+  <GLCeilingLamp_Green.description>天井灯は辺りを緑色に照らします。</GLCeilingLamp_Green.description>
+  <Blueprint_GLCeilingLamp_Green.label>天井灯(緑色)(設計)</Blueprint_GLCeilingLamp_Green.label>
+  <Blueprint_Install_GLCeilingLamp_Green.label>天井灯(緑色)(移動先)</Blueprint_Install_GLCeilingLamp_Green.label>
+  <Frame_GLCeilingLamp_Green.label>天井灯(緑色)(施工)</Frame_GLCeilingLamp_Green.label>
+  <Frame_GLCeilingLamp_Green.description>天井灯は辺りを緑色に照らします。</Frame_GLCeilingLamp_Green.description>
+
+  <GLCeilingLamp_Violet.label>天井灯(紫色)</GLCeilingLamp_Violet.label>
+  <GLCeilingLamp_Violet.description>天井灯は辺りを紫色に照らします。</GLCeilingLamp_Violet.description>
+  <Blueprint_GLCeilingLamp_Violet.label>天井灯(紫色)(設計)</Blueprint_GLCeilingLamp_Violet.label>
+  <Blueprint_Install_GLCeilingLamp_Violet.label>天井灯(紫色)(移動先)</Blueprint_Install_GLCeilingLamp_Violet.label>
+  <Frame_GLCeilingLamp_Violet.label>天井灯(紫色)(施工)</Frame_GLCeilingLamp_Violet.label>
+  <Frame_GLCeilingLamp_Violet.description>天井灯は辺りを紫色に照らします。</Frame_GLCeilingLamp_Violet.description>
+
+  <GLCeilingLamp_Yellow.label>天井灯(黄色)</GLCeilingLamp_Yellow.label>
+  <GLCeilingLamp_Yellow.description>天井灯は辺りを黄色に照らします。</GLCeilingLamp_Yellow.description>
+  <Blueprint_GLCeilingLamp_Yellow.label>天井灯(黄色)(設計)</Blueprint_GLCeilingLamp_Yellow.label>
+  <Blueprint_Install_GLCeilingLamp_Yellow.label>天井灯(黄色)(移動先)</Blueprint_Install_GLCeilingLamp_Yellow.label>
+  <Frame_GLCeilingLamp_Yellow.label>天井灯(黄色)(施工)</Frame_GLCeilingLamp_Yellow.label>
+  <Frame_GLCeilingLamp_Yellow.description>天井灯は辺りを黄色に照らします。</Frame_GLCeilingLamp_Yellow.description>
+
+  <GLCeilingLamp_Orange.label>天井灯(橙色)</GLCeilingLamp_Orange.label>
+  <GLCeilingLamp_Orange.description>天井灯は辺りを橙色に照らします。</GLCeilingLamp_Orange.description>
+  <Blueprint_GLCeilingLamp_Orange.label>天井灯(橙色)(設計)</Blueprint_GLCeilingLamp_Orange.label>
+  <Blueprint_Install_GLCeilingLamp_Orange.label>天井灯(橙色)(移動先)</Blueprint_Install_GLCeilingLamp_Orange.label>
+  <Frame_GLCeilingLamp_Orange.label>天井灯(橙色)(施工)</Frame_GLCeilingLamp_Orange.label>
+  <Frame_GLCeilingLamp_Orange.description>天井灯は辺りを橙色に照らします。</Frame_GLCeilingLamp_Orange.description>
+
+
+  <!-- Wall Lights -->
+
+  <GLWallLamp.label>壁灯</GLWallLamp.label>
+  <GLWallLamp.description>壁に設置する明かりです。通常よりも明るいです。</GLWallLamp.description>
+  <Blueprint_GLWallLamp.label>壁灯(設計)</Blueprint_GLWallLamp.label>
+  <Blueprint_Install_GLWallLamp.label>壁灯(移動先)</Blueprint_Install_GLWallLamp.label>
+  <Frame_GLWallLamp.label>壁灯(施工)</Frame_GLWallLamp.label>
+  <Frame_GLWallLamp.description>壁に設置する明かりです。通常よりも明るいです。</Frame_GLWallLamp.description>
+
+  <GLWallLamp_Red.label>壁灯(赤色)</GLWallLamp_Red.label>
+  <GLWallLamp_Red.description>壁に設置する明かりで範囲を赤色で照らします。</GLWallLamp_Red.description>
+  <Blueprint_GLWallLamp_Red.label>壁灯(赤色)(設計)</Blueprint_GLWallLamp_Red.label>
+  <Blueprint_Install_GLWallLamp_Red.label>壁灯(赤色)(移動先)</Blueprint_Install_GLWallLamp_Red.label>
+  <Frame_GLWallLamp_Red.label>壁灯(赤色)(施工)</Frame_GLWallLamp_Red.label>
+  <Frame_GLWallLamp_Red.description>壁に設置する明かりで範囲を赤色で照らします。</Frame_GLWallLamp_Red.description>
+
+  <GLWallLamp_Blue.label>壁灯(青色)</GLWallLamp_Blue.label>
+  <GLWallLamp_Blue.description>壁に設置する明かりで範囲を青色で照らします。快適さを改善する効果があります。</GLWallLamp_Blue.description>
+  <Blueprint_GLWallLamp_Blue.label>壁灯(青色)(設計)</Blueprint_GLWallLamp_Blue.label>
+  <Blueprint_Install_GLWallLamp_Blue.label>壁灯(青色)(移動先)</Blueprint_Install_GLWallLamp_Blue.label>
+  <Frame_GLWallLamp_Blue.label>壁灯(青色)(施工)</Frame_GLWallLamp_Blue.label>
+  <Frame_GLWallLamp_Blue.description>壁に設置する明かりで範囲を青色で照らします。快適さを改善する効果があります。</Frame_GLWallLamp_Blue.description>
+
+  <GLWallLamp_Green.label>壁灯(緑色)</GLWallLamp_Green.label>
+  <GLWallLamp_Green.description>壁に設置する明かりで範囲を緑色で照らします。快適さを改善する効果があります。</GLWallLamp_Green.description>
+  <Blueprint_GLWallLamp_Green.label>壁灯(緑色)(設計)</Blueprint_GLWallLamp_Green.label>
+  <Blueprint_Install_GLWallLamp_Green.label>壁灯(緑色)(移動先)</Blueprint_Install_GLWallLamp_Green.label>
+  <Frame_GLWallLamp_Green.label>壁灯(緑色)(施工)</Frame_GLWallLamp_Green.label>
+  <Frame_GLWallLamp_Green.description>壁に設置する明かりで範囲を緑色で照らします。快適さを改善する効果があります。</Frame_GLWallLamp_Green.description>
+
+  <GLWallLamp_Violet.label>壁灯(紫色)</GLWallLamp_Violet.label>
+  <GLWallLamp_Violet.description>壁に設置する明かりで範囲を紫色で照らします。</GLWallLamp_Violet.description>
+  <Blueprint_GLWallLamp_Violet.label>壁灯(紫色)(設計)</Blueprint_GLWallLamp_Violet.label>
+  <Blueprint_Install_GLWallLamp_Violet.label>壁灯(紫色)(移動先)</Blueprint_Install_GLWallLamp_Violet.label>
+  <Frame_GLWallLamp_Violet.label>壁灯(紫色)(施工)</Frame_GLWallLamp_Violet.label>
+  <Frame_GLWallLamp_Violet.description>壁に設置する明かりで範囲を紫色で照らします。</Frame_GLWallLamp_Violet.description>
+
+  <GLWallLamp_Yellow.label>壁灯(黄色)</GLWallLamp_Yellow.label>
+  <GLWallLamp_Yellow.description>壁に設置する明かりで範囲を黄色で照らします。</GLWallLamp_Yellow.description>
+  <Blueprint_GLWallLamp_Yellow.label>壁灯(黄色)(設計)</Blueprint_GLWallLamp_Yellow.label>
+  <Blueprint_Install_GLWallLamp_Yellow.label>壁灯(黄色)(移動先)</Blueprint_Install_GLWallLamp_Yellow.label>
+  <Frame_GLWallLamp_Yellow.label>壁灯(黄色)(施工)</Frame_GLWallLamp_Yellow.label>
+  <Frame_GLWallLamp_Yellow.description>壁に設置する明かりで範囲を黄色で照らします。</Frame_GLWallLamp_Yellow.description>
+
+  <GLWallLamp_Orange.label>壁灯(橙色)</GLWallLamp_Orange.label>
+  <GLWallLamp_Orange.description>壁に設置する明かりで範囲をオレンジ色で照らします。</GLWallLamp_Orange.description>
+  <Blueprint_GLWallLamp_Orange.label>壁灯(橙色)(設計)</Blueprint_GLWallLamp_Orange.label>
+  <Blueprint_Install_GLWallLamp_Orange.label>壁灯(橙色)(移動先)</Blueprint_Install_GLWallLamp_Orange.label>
+  <Frame_GLWallLamp_Orange.label>壁灯(橙色)(施工)</Frame_GLWallLamp_Orange.label>
+  <Frame_GLWallLamp_Orange.description>壁に設置する明かりで範囲をオレンジ色で照らします。</Frame_GLWallLamp_Orange.description>
+
+
+  <!-- Ceiling Lights -->
+
+  <!-- <CeilingLamp.label>(旧)天井灯</CeilingLamp.label>
+  <CeilingLamp.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp.description>
+  <Blueprint_Install_CeilingLamp.label>(旧)天井灯(移動先)</Blueprint_Install_CeilingLamp.label>
+
+  <CeilingLamp_Red.label>(旧)天井灯(赤色)</CeilingLamp_Red.label>
+  <CeilingLamp_Red.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Red.description>
+  <Blueprint_Install_CeilingLamp_Red.label>(旧)天井灯(赤色)(移動先)</Blueprint_Install_CeilingLamp_Red.label>
+
+  <CeilingLamp_Blue.label>(旧)天井灯(青色)</CeilingLamp_Blue.label>
+  <CeilingLamp_Blue.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Blue.description>
+  <Blueprint_Install_CeilingLamp_Blue.label>(旧)天井灯(青色)(移動先)</Blueprint_Install_CeilingLamp_Blue.label>
+
+  <CeilingLamp_Green.label>(旧)天井灯(緑色)</CeilingLamp_Green.label>
+  <CeilingLamp_Green.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Green.description>
+  <Blueprint_Install_CeilingLamp_Green.label>(旧)天井灯(緑色)(移動先)</Blueprint_Install_CeilingLamp_Green.label>
+
+  <CeilingLamp_Violet.label>(旧)天井灯(紫色)</CeilingLamp_Violet.label>
+  <CeilingLamp_Violet.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Violet.description>
+  <Blueprint_Install_CeilingLamp_Violet.label>(旧)天井灯(紫色)(移動先)</Blueprint_Install_CeilingLamp_Violet.label>
+
+  <CeilingLamp_Yellow.label>(旧)天井灯(黄色)</CeilingLamp_Yellow.label>
+  <CeilingLamp_Yellow.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Yellow.description>
+  <Blueprint_Install_CeilingLamp_Yellow.label>(旧)天井灯(黄色)(移動先)</Blueprint_Install_CeilingLamp_Yellow.label>
+
+  <CeilingLamp_Orange.label>(旧)天井灯(橙色)</CeilingLamp_Orange.label>
+  <CeilingLamp_Orange.description>これは廃止予定です。取り外すか、または新しい天井灯と交換してください。もしこれがトレーダーによって取引されていることを確認した場合は、ワークショップかフォーラムで作者に連絡してください。</CeilingLamp_Orange.description>
+  <Blueprint_Install_CeilingLamp_Orange.label>(旧)天井灯(橙色)(移動先)</Blueprint_Install_CeilingLamp_Orange.label> -->
+
+
+  <!-- Special Lights -->
+
+  <OutdoorGroundLamp.label>屋外灯</OutdoorGroundLamp.label>
+  <OutdoorGroundLamp.description>屋外にのみ設置できる電灯です。電力は不要です。</OutdoorGroundLamp.description>
+  <Blueprint_OutdoorGroundLamp.label>屋外灯(設計)</Blueprint_OutdoorGroundLamp.label>
+  <Blueprint_Install_OutdoorGroundLamp.label>屋外灯(移動先)</Blueprint_Install_OutdoorGroundLamp.label>
+  <Frame_OutdoorGroundLamp.label>屋外灯(施工)</Frame_OutdoorGroundLamp.label>
+  <Frame_OutdoorGroundLamp.description>屋外にのみ設置できる電灯です。電力は不要です。</Frame_OutdoorGroundLamp.description>
+
+</LanguageData>

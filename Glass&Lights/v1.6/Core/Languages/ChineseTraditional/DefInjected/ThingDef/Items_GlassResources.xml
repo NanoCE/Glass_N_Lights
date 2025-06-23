@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef Name="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <label>unspecified resource</label>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef> -->
+
+  <Glass.label>玻璃</Glass.label>
+  <Glass.description>非常受歡迎的透明素材即使很易碎。</Glass.description>
+  <Glass.stuffProps.stuffAdjective>玻璃</Glass.stuffProps.stuffAdjective>
+
+  <ReinforcedGlass.label>強化玻璃</ReinforcedGlass.label>
+  <ReinforcedGlass.description>比普通玻璃更堅硬，但更難加工。 適合在不影響安全性下加強牆壁。</ReinforcedGlass.description>
+  <ReinforcedGlass.stuffProps.stuffAdjective>強化玻璃</ReinforcedGlass.stuffProps.stuffAdjective>
+
+  <LargeCircularGlass.label>大型圓形玻璃</LargeCircularGlass.label>
+  <LargeCircularGlass.description>為吸頂燈而設計的大型圓形玻璃。</LargeCircularGlass.description>
+  <LargeCircularGlass.stuffProps.stuffAdjective>大型圓形玻璃</LargeCircularGlass.stuffProps.stuffAdjective>
+
+
+</LanguageData>
