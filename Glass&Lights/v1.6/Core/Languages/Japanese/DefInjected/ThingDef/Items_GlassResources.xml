@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Glass.label>ガラス</Glass.label>
+  <Glass.description>壊れやすいにもかかわらず,非常に人気のある透明な材料です.</Glass.description>
+  <Glass.stuffProps.stuffAdjective>ガラス</Glass.stuffProps.stuffAdjective>
+
+  <ReinforcedGlass.label>強化ガラス</ReinforcedGlass.label>
+  <ReinforcedGlass.description>通常のガラスよりも頑丈ですが,加工が困難です.安全性を犠牲にせずに気密性の高い壁を強化するのに適しています.</ReinforcedGlass.description>
+  <ReinforcedGlass.stuffProps.stuffAdjective>強化ガラス</ReinforcedGlass.stuffProps.stuffAdjective>
+
+  <LargeCircularGlass.label>円形ガラス</LargeCircularGlass.label>
+  <LargeCircularGlass.description>主に天井灯のために設計された円形のガラスです.</LargeCircularGlass.description>
+  <LargeCircularGlass.stuffProps.stuffAdjective>円形ガラス</LargeCircularGlass.stuffProps.stuffAdjective>
+
+</LanguageData>

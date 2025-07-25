@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlassMonitorLarge.label>ガラス製テレビ</GlassMonitorLarge.label>
+  <GlassMonitorLarge.description>クリスタルクリアな画像と豊かな色彩の高級ハイテクガラス製テレビです.通常の薄型テレビよりも面白いです.</GlassMonitorLarge.description>
+  <Blueprint_GlassMonitorLarge.label>ガラス製テレビ(設計)</Blueprint_GlassMonitorLarge.label>
+  <Blueprint_Install_GlassMonitorLarge.label>ガラス製テレビ(移動先)</Blueprint_Install_GlassMonitorLarge.label>
+  <Frame_GlassMonitorLarge.label>ガラス製テレビ(施工)</Frame_GlassMonitorLarge.label>
+  <Frame_GlassMonitorLarge.description>クリスタルクリアな画像と豊かな色彩の高級ハイテクガラス製テレビです.通常の薄型テレビよりも面白いです.</Frame_GlassMonitorLarge.description>
+
+</LanguageData>

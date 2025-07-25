@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsMakeGlass.verb>制造玻璃</DoBillsMakeGlass.verb>
+  <DoBillsMakeGlass.gerund>制造玻璃于</DoBillsMakeGlass.gerund>
+
+  <DoBillsMakeLargeCircularGlass.verb>制造大型球面玻璃</DoBillsMakeLargeCircularGlass.verb>
+  <DoBillsMakeLargeCircularGlass.gerund>制造大型球面玻璃</DoBillsMakeLargeCircularGlass.gerund>
+
+  <DoBillsMakeReinforcedGlass.verb>制造钢化玻璃</DoBillsMakeReinforcedGlass.verb>
+  <DoBillsMakeReinforcedGlass.gerund>制造钢化玻璃于</DoBillsMakeReinforcedGlass.gerund>
+
+  <DoBillsMakeMolotov.verb>制作莫洛托夫燃烧弹</DoBillsMakeMolotov.verb>
+  <DoBillsMakeMolotov.gerund>制作莫洛托夫燃烧弹于</DoBillsMakeMolotov.gerund>
+
+
+</LanguageData>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		
+			<!-- Coal/Charcoal to Fueled Glasswork Table -->	
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName = "Coal"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "FueledGlassworkTable"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+					<order>Prepend</order>
+					<value>
+						<li>Coal</li>
+					</value>
+				</match>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName = "Charcoal"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "FueledGlassworkTable"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+					<order>Prepend</order>
+					<value>
+						<li>Charcoal</li>
+					</value>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+			
+	<!-- End Coal/Charcoal -->
+
+	<!-- Rimatomics -->
+			
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimatomics</li>
+		</mods>
+		<match Class="PatchOperationSequence">			
+			<operations>
+			<!--Activates hidden reinforced glass wall in Buildings_GlassStructure.xml that has 1000hp. Rimatomics uses 1000hp to block all radiation, so this glass wall does as well. -->					
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "GLWindowRimatomics"]/costList</xpath>
+					<value>
+						<DepletedUraniumPellets>8</DepletedUraniumPellets>
+					</value>
+				</li>
+			
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "GLWindowRimatomics"]/researchPrerequisites</xpath>
+					<value>
+						<li>RimatomicsActivate</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "GLWindowRimatomics"]</xpath>
+					<value>
+						<designationCategory>Rimatomics</designationCategory>
+					</value>
+				</li>					
+			<!-- End radiation glass window -->
+			</operations>
+		</match>
+	</Operation>
+	
+<!-- 	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VanillaExpanded.VFECore</li>
+		</mods>
+		<match Class="PatchOperationSequence">			
+			<operations>								
+				<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Esquire" or defName="Knight" or defName="Praetor"]/comps[@Class="RoomRequirement_ThingAnyOf"]/things</xpath>
+						<value>
+								<li>Bed_DoubleErgonomic</li>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Knight"]/comps[@Class="RoomRequirement_ThingAnyOf"]/things</xpath>
+						<value>
+								<li>Bed_DoubleErgonomic</li>
+						</value>
+				</li>		
+				<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Praetor"]/comps[@Class="RoomRequirement_ThingAnyOf"]/things</xpath>
+						<value>
+								<li>Bed_DoubleErgonomic</li>
+						</value>
+				</li>		
+			End radiation glass window
+			</operations>
+		</match>
+	</Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Bad Hygiene</li>
+		</mods>
+		<match Class="PatchOperationSequence">			
+			<operations>	
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[defName = "Coal" and "Charcoal"]</xpath>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="LogBoiler"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+						<order>Prepend</order>
+						<value>						
+							<li>Charcoal</li>
+							<li>Coal</li>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>	 -->
+	
+</Patch>

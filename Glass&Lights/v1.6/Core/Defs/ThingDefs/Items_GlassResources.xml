@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- <ThingDef Name="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <label>unspecified resource</label>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef> -->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Glass</defName>
+		<label>glass</label>
+		<description>Transparent material that is quite popular despite being fragile.</description>
+		<graphicData>
+			<texPath>Things/Item/Glass</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MaxHitPoints>15</MaxHitPoints>
+			<MarketValue>7</MarketValue>
+			<Mass>2.8</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<stuffProps>
+			<stuffAdjective>glass</stuffAdjective>
+			<categories>
+				<li>Glass</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(205,230,250)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+		    <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+		    <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+		    <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+			<appearance>GlassGL</appearance>
+			<statFactors>
+				<MaxHitPoints>0.2</MaxHitPoints>
+				<Flammability>0</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>ReinforcedGlass</defName>
+		<label>Reinforced Glass</label>
+		<description>Stronger than normal glass but harder to work with. Good for strengthend, airtight walls without compromising security.</description>
+		<graphicData>
+			<texPath>Things/Item/ReinforcedGlass</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>18</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<stuffProps>
+			<isAirtight>true</isAirtight>
+			<stuffAdjective>Reinforced Glass</stuffAdjective>
+			<categories>
+				<li>Glass</li>
+				<li>RGlass</li>
+			</categories>
+			<color>(240,240,245)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+		    <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+		    <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+		    <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+			<appearance>GlassGL</appearance>
+			<statFactors>
+				<MaxHitPoints>1</MaxHitPoints>
+				<Flammability>0</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>LargeCircularGlass</defName>
+		<label>large circular glass</label>
+		<description>A large piece of circular glass designed for anything from ceiling lights to art pieces..</description>
+		<graphicData>
+			<texPath>Things/Item/CircularGlass</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<stuffProps>
+			<stuffAdjective>large circular glass</stuffAdjective>
+			<categories>
+				<li>Glassy</li>
+			</categories>
+			<color>(240,240,245)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>1</MaxHitPoints>
+				<Flammability>0</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

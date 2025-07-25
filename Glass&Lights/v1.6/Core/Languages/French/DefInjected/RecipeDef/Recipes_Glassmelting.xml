@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeGlass.label>Faire du verre</MakeGlass.label>
+  <MakeGlass.description>Faire du verre</MakeGlass.description>
+  <MakeGlass.jobString>Fait du verre</MakeGlass.jobString>
+
+  <MakeCircularGlass.label>Faire du verre circulaire</MakeCircularGlass.label>
+  <MakeCircularGlass.description>Faire du verre circulaire</MakeCircularGlass.description>
+  <MakeCircularGlass.jobString>Fait du verre circulaire</MakeCircularGlass.jobString>
+
+  <MakeReinforcedGlass.label>Faire du verre renforcé</MakeReinforcedGlass.label>
+  <MakeReinforcedGlass.description>Faire du verre renforcé</MakeReinforcedGlass.description>
+  <MakeReinforcedGlass.jobString>Fait du verre renforcé</MakeReinforcedGlass.jobString>
+
+  <MakeMolotov.label>Faire un cocktail molotov</MakeMolotov.label>
+  <MakeMolotov.description>Faire un cocktail molotov</MakeMolotov.description>
+  <MakeMolotov.jobString>Fait un cocktail molotov</MakeMolotov.jobString>
+
+
+</LanguageData>

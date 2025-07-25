@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsMakeGlass.verb>ガラス製作に使用</DoBillsMakeGlass.verb>
+  <DoBillsMakeGlass.gerund>でガラスを作る</DoBillsMakeGlass.gerund>
+
+  <DoBillsMakeLargeCircularGlass.verb>円形ガラス製作に使用</DoBillsMakeLargeCircularGlass.verb>
+  <DoBillsMakeLargeCircularGlass.gerund>で円形ガラスを作る</DoBillsMakeLargeCircularGlass.gerund>
+
+  <DoBillsMakeReinforcedGlass.verb>強化ガラス製作に使用</DoBillsMakeReinforcedGlass.verb>
+  <DoBillsMakeReinforcedGlass.gerund>で強化ガラスを作る</DoBillsMakeReinforcedGlass.gerund>
+
+  <DoBillsMakeMolotov.verb>モロトフ製作に使用</DoBillsMakeMolotov.verb>
+  <DoBillsMakeMolotov.gerund>でモロトフを作る</DoBillsMakeMolotov.gerund>
+
+</LanguageData>

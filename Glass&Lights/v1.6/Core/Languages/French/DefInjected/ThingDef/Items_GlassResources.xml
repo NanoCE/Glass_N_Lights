@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Glass.label>verre</Glass.label>
+  <Glass.description>Bien qu'assez fragile, le verre est toujours un matériau transparent populaire.</Glass.description>
+  <Glass.stuffProps.stuffAdjective>verre</Glass.stuffProps.stuffAdjective>
+
+  <ReinforcedGlass.label>verre trempé</ReinforcedGlass.label>
+  <ReinforcedGlass.description>Le verre trempé est plus résistant que le verre ordinaire, mais il est également plus difficile à manipuler.</ReinforcedGlass.description>
+  <ReinforcedGlass.stuffProps.stuffAdjective>verre trempé</ReinforcedGlass.stuffProps.stuffAdjective>
+
+  <LargeCircularGlass.label>Grand verre sphérique</LargeCircularGlass.label>
+  <LargeCircularGlass.description>Un grand morceau de verre sphérique a un large éventail d'applications, des plafonniers aux oeuvres d'art.</LargeCircularGlass.description>
+  <LargeCircularGlass.stuffProps.stuffAdjective>Grand verre sphérique</LargeCircularGlass.stuffProps.stuffAdjective>
+
+
+</LanguageData>

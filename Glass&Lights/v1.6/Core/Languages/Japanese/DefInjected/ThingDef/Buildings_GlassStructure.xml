@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Doors -->
+
+  <AutoDoorGlass.label>自動ドア</AutoDoorGlass.label>
+  <AutoDoorGlass.description>部屋を隔てる自動扉です.自動で開閉するので通過はスムーズになります.光を透過します.</AutoDoorGlass.description>
+  <Blueprint_AutoDoorGlass.label>自動ドア(設計)</Blueprint_AutoDoorGlass.label>
+  <Frame_AutoDoorGlass.label>自動ドア(施工)</Frame_AutoDoorGlass.label>
+  <Frame_AutoDoorGlass.description>部屋を隔てる自動扉です.自動で開閉するので通過はスムーズになります.光を透過します.</Frame_AutoDoorGlass.description>
+
+  <DoorGlass.label>ドア</DoorGlass.label>
+  <DoorGlass.description>部屋を隔てる手動扉です.手で開け閉めしないといけない分だけ移動が遅くなります.光を透過します.</DoorGlass.description>
+  <Blueprint_DoorGlass.label>ドア(設計)</Blueprint_DoorGlass.label>
+  <Frame_DoorGlass.label>ドア(施工)</Frame_DoorGlass.label>
+  <Frame_DoorGlass.description>部屋を隔てる手動扉です.手で開け閉めしないといけない分だけ移動が遅くなります.光を透過します.</Frame_DoorGlass.description>
+
+  <!-- Walls -->
+
+  <Window.label>窓</Window.label>
+  <Window.description>壁として機能しますが,光を透過させます.</Window.description>
+  <Blueprint_Window.label>窓(設計)</Blueprint_Window.label>
+  <Frame_Window.label>窓(施工)</Frame_Window.label>
+  <Frame_Window.description>壁として機能しますが,光を透過させます.</Frame_Window.description>
+	
+	<!-- Hidden objects (See Glass&Lights_Patches.xml patch operations) -->
+
+  <GLWindowRimatomics.label>対放射線窓</GLWindowRimatomics.label>
+  <GLWindowRimatomics.description>劣化ウランで補強された非常に頑丈な窓で,向こう側が透けて見えますが放射線を完全に遮断します.</GLWindowRimatomics.description>
+
+</LanguageData>
