@@ -2,15 +2,15 @@
 <LanguageData>
 
   <MakeGlass.label>ガラスを作る</MakeGlass.label>
-  <MakeGlass.description>ガラスを作る。</MakeGlass.description>
+  <MakeGlass.description>ガラスを作る.</MakeGlass.description>
   <MakeGlass.jobString>ガラスを製作中</MakeGlass.jobString>
 
   <MakeCircularGlass.label>円形ガラスを作る</MakeCircularGlass.label>
-  <MakeCircularGlass.description>円形ガラスを作る。</MakeCircularGlass.description>
+  <MakeCircularGlass.description>円形ガラスを作る.</MakeCircularGlass.description>
   <MakeCircularGlass.jobString>円形ガラスを製作中</MakeCircularGlass.jobString>
 
   <MakeReinforcedGlass.label>強化ガラスを作る</MakeReinforcedGlass.label>
-  <MakeReinforcedGlass.description>強化ガラスを作る。</MakeReinforcedGlass.description>
+  <MakeReinforcedGlass.description>強化ガラスを作る.</MakeReinforcedGlass.description>
   <MakeReinforcedGlass.jobString>強化ガラスを製作中</MakeReinforcedGlass.jobString>
 
   <MakeMolotov.label>モロトフを作る</MakeMolotov.label>
