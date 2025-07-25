@@ -60,7 +60,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>ReinforcedGlass</defName>
 		<label>Reinforced Glass</label>
-		<description>Stronger than normal glass but harder to work with. Good for strengthend walls without compromising security.</description>
+		<description>Stronger than normal glass but harder to work with. Good for strengthend, airtight walls without compromising security.</description>
 		<graphicData>
 			<texPath>Things/Item/ReinforcedGlass</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -75,6 +75,7 @@
 			<li>Manufactured</li>
 		</thingCategories>
 		<stuffProps>
+			<isAirtight>true</isAirtight>
 			<stuffAdjective>Reinforced Glass</stuffAdjective>
 			<categories>
 				<li>Glass</li>

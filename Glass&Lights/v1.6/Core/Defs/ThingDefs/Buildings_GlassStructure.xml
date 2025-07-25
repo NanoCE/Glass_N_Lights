@@ -29,6 +29,7 @@
     <blockLight>false</blockLight>
     <drawerType>RealtimeOnly</drawerType>
     <building>
+			<isStuffableAirtight>true</isStuffableAirtight>
       <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
       <soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
       <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
@@ -175,6 +176,7 @@
 			<Steel>2</Steel>
 		</costList>
     <building>
+			<isStuffableAirtight>true</isStuffableAirtight>
       <isInert>true</isInert>
 			<canPlaceOverWall>true</canPlaceOverWall>
 			<ai_chillDestination>false</ai_chillDestination>
@@ -244,6 +246,7 @@
 			<Steel>5</Steel>
 		</costList>
 		<building>
+			<isStuffableAirtight>true</isStuffableAirtight>
 			<isInert>true</isInert>
 			<canPlaceOverWall>true</canPlaceOverWall>
 			<blueprintGraphicData>
