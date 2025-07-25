@@ -1,35 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- <ThingDef Name="ResourceBase" Abstract="True">
-    <thingClass>ThingWithComps</thingClass>
-    <label>unspecified resource</label>
-    <category>Item</category>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-    <altitudeLayer>Item</altitudeLayer>
-    <stackLimit>75</stackLimit>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-    </comps>
-    <alwaysHaulable>true</alwaysHaulable>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <rotatable>false</rotatable>
-    <pathCost>15</pathCost>
-  </ThingDef> -->
-
+  
+  <!-- EN: glass -->
   <Glass.label>玻璃</Glass.label>
+  <!-- EN: Transparent material that is quite popular despite being fragile. -->
   <Glass.description>非常受歡迎的透明素材即使很易碎。</Glass.description>
+  <!-- EN: glass -->
   <Glass.stuffProps.stuffAdjective>玻璃</Glass.stuffProps.stuffAdjective>
-
-  <ReinforcedGlass.label>強化玻璃</ReinforcedGlass.label>
-  <ReinforcedGlass.description>比普通玻璃更堅硬，但更難加工。 適合在不影響安全性下加強牆壁。</ReinforcedGlass.description>
-  <ReinforcedGlass.stuffProps.stuffAdjective>強化玻璃</ReinforcedGlass.stuffProps.stuffAdjective>
-
+  
+  <!-- EN: large circular glass -->
   <LargeCircularGlass.label>大型圓形玻璃</LargeCircularGlass.label>
-  <LargeCircularGlass.description>為吸頂燈而設計的大型圓形玻璃。</LargeCircularGlass.description>
+  <!-- EN: A large piece of circular glass designed for anything from ceiling lights to art pieces.. -->
+  <LargeCircularGlass.description>一大片圓形玻璃，設計用來製作吸頂燈、藝術品等各式物品。</LargeCircularGlass.description>
+  <!-- EN: large circular glass -->
   <LargeCircularGlass.stuffProps.stuffAdjective>大型圓形玻璃</LargeCircularGlass.stuffProps.stuffAdjective>
-
-
+  
+  <!-- EN: Reinforced Glass -->
+  <ReinforcedGlass.label>強化玻璃</ReinforcedGlass.label>
+  <!-- EN: Stronger than normal glass but harder to work with. Good for strengthend, airtight walls without compromising security. -->
+  <ReinforcedGlass.description>比普通玻璃更堅固，但更難加工。適合用來建造強化的氣密牆，且無須犧牲安全性。</ReinforcedGlass.description>
+  <!-- EN: Reinforced Glass -->
+  <ReinforcedGlass.stuffProps.stuffAdjective>強化玻璃</ReinforcedGlass.stuffProps.stuffAdjective>
+  
 </LanguageData>

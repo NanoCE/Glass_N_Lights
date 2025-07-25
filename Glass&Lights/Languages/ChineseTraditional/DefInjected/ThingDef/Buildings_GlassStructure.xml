@@ -1,34 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Doors -->
-
+  
+  <!-- EN: autodoor -->
   <AutoDoorGlass.label>自動門</AutoDoorGlass.label>
+  <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. Allows light to pass through. -->
   <AutoDoorGlass.description>用來分隔房間。有電力運作時，讓人們可以在通行時不會減速。可以透光。</AutoDoorGlass.description>
-  <Blueprint_AutoDoorGlass.label>玻璃自動門(藍圖)</Blueprint_AutoDoorGlass.label>
-  <Frame_AutoDoorGlass.label>玻璃自動門(建造中)</Frame_AutoDoorGlass.label>
-  <Frame_AutoDoorGlass.description>用來分隔房間。有電力運作時，讓人們可以在通行時不會減速。可以透光。</Frame_AutoDoorGlass.description>
-
+  
+  <!-- EN: door -->
   <DoorGlass.label>門</DoorGlass.label>
-  <DoorGlass.description>用來分隔房間。可以透光。</DoorGlass.description>
-  <Blueprint_DoorGlass.label>玻璃門(藍圖)</Blueprint_DoorGlass.label>
-  <Frame_DoorGlass.label>玻璃門(建造中)</Frame_DoorGlass.label>
-  <Frame_DoorGlass.description>用來分隔房間。可以透光。</Frame_DoorGlass.description>
-
-
-  <!-- Walls -->
-
-  <Window.label>窗</Window.label>
-  <Window.description>像一堵牆但是可以透光。</Window.description>
-  <Blueprint_Window.label>玻璃窗(藍圖)</Blueprint_Window.label>
-  <Frame_Window.label>玻璃窗(建造中)</Frame_Window.label>
-  <Frame_Window.description>像一堵牆但是可以透光。</Frame_Window.description>
-
-
-  <!-- Hidden objects (See Glass&Lights_Patches.xml patch operations) -->
-
+  <!-- EN: Divides rooms. Simple doors must be manually opened, which slows people down. Allows light to pass through. -->
+  <DoorGlass.description>用來分隔房間。必須手動開關的門，人們在通行時會減速。可以透光。</DoorGlass.description>
+  
+  <!-- EN: DU Window -->
   <GLWindowRimatomics.label>貧鈾窗</GLWindowRimatomics.label>
-  <GLWindowRimatomics.description>一個使用貧鈾加固的非常堅固的窗戶，能夠提供完整的防輻射保護，同時仍然透明可見。</GLWindowRimatomics.description>
-
-
+  <!-- EN: A very strong window that is reinforced with depleted uranium, providing full shielding against radiation while still being see-through. -->
+  <GLWindowRimatomics.description>使用貧鈾強化的非常堅固的窗戶，能夠提供完整的輻射保護，同時仍然透明可見。</GLWindowRimatomics.description>
+  
+  <!-- EN: window -->
+  <Window.label>窗</Window.label>
+  <!-- EN: It's like a wall but it lets light through. -->
+  <Window.description>像一堵牆但是可以透光。</Window.description>
+  
 </LanguageData>

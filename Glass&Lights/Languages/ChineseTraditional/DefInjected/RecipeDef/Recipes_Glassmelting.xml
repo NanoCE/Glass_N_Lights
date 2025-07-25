@@ -1,21 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <MakeGlass.label>製作玻璃</MakeGlass.label>
-  <MakeGlass.description>把一些沙子熔成玻璃</MakeGlass.description>
-  <MakeGlass.jobString>製作玻璃</MakeGlass.jobString>
-
+  
+  <!-- EN: make Circular Glass -->
   <MakeCircularGlass.label>製作圓形玻璃</MakeCircularGlass.label>
+  <!-- EN: Melt some sand into circular glass. -->
   <MakeCircularGlass.description>把一些沙子熔成圓形玻璃</MakeCircularGlass.description>
+  <!-- EN: Making circular glass. -->
   <MakeCircularGlass.jobString>製作圓形玻璃</MakeCircularGlass.jobString>
-
-  <MakeReinforcedGlass.label>製作強化玻璃</MakeReinforcedGlass.label>
-  <MakeReinforcedGlass.description>把一些玻璃製成強化玻璃</MakeReinforcedGlass.description>
-  <MakeReinforcedGlass.jobString>製作強化玻璃</MakeReinforcedGlass.jobString>
-
+  
+  <!-- EN: make Glass -->
+  <MakeGlass.label>製作玻璃</MakeGlass.label>
+  <!-- EN: Melt some sand into glass. -->
+  <MakeGlass.description>把一些沙子熔成玻璃</MakeGlass.description>
+  <!-- EN: Making glass. -->
+  <MakeGlass.jobString>製作玻璃</MakeGlass.jobString>
+  
+  <!-- EN: make Molotov -->
   <MakeMolotov.label>製作莫洛托夫燃燒瓶</MakeMolotov.label>
+  <!-- EN: Make weapon that burns your enemies into ashes! -->
   <MakeMolotov.description>製作把你的敵人燒成灰燼的武器!</MakeMolotov.description>
+  <!-- EN: Making molotov. -->
   <MakeMolotov.jobString>製作莫洛托夫燃燒瓶</MakeMolotov.jobString>
-
-
+  
+  <!-- EN: make Reinforced Glass -->
+  <MakeReinforcedGlass.label>製作強化玻璃</MakeReinforcedGlass.label>
+  <!-- EN: Turn some glass into reinforced glass. -->
+  <MakeReinforcedGlass.description>把一些玻璃製成強化玻璃</MakeReinforcedGlass.description>
+  <!-- EN: Making reinforced glass. -->
+  <MakeReinforcedGlass.jobString>製作強化玻璃</MakeReinforcedGlass.jobString>
+  
 </LanguageData>
