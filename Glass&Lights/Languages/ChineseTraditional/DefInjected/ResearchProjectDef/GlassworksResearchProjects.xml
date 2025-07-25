@@ -1,14 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <GlassworksResearch.label>玻璃製品</GlassworksResearch.label>
-  <GlassworksResearch.description>製作透明玻璃比看起來更難，但是只要努力，你會找到正確的方法。</GlassworksResearch.description>
-
-  <ReinforcedGlassResearch.label>強化玻璃</ReinforcedGlassResearch.label>
-  <ReinforcedGlassResearch.description>玻璃很脆弱，但是用上正確的工具就可以使它更堅硬。</ReinforcedGlassResearch.description>
-
+  
+  <!-- EN: decorative glass -->
   <DecorativeGlassResearch.label>裝飾玻璃</DecorativeGlassResearch.label>
+  <!-- EN: Glass can be used for more than just windows and lights. -->
   <DecorativeGlassResearch.description>玻璃可以不只是用在窗戶和燈上。</DecorativeGlassResearch.description>
-
-
+  
+  <!-- EN: glassworks -->
+  <GlassworksResearch.label>玻璃製品</GlassworksResearch.label>
+  <!-- EN: Making clear glass is harder than it seems but with some hard work you will find the right formula. -->
+  <GlassworksResearch.description>製作透明玻璃比看起來更難，但是只要努力，你會找到正確的方法。</GlassworksResearch.description>
+  
+  <!-- EN: reinforced glass -->
+  <ReinforcedGlassResearch.label>強化玻璃</ReinforcedGlassResearch.label>
+  <!-- EN: Glass is fragile but with the right tools you can make it stronger. -->
+  <ReinforcedGlassResearch.description>玻璃很脆弱，但是用上正確的工具就可以使它更堅硬。</ReinforcedGlassResearch.description>
+  
 </LanguageData>
