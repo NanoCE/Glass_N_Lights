@@ -1,8 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- Used for objects that use circular glass -->
+
   <Glassy.label>玻璃質</Glassy.label>
+
+
+  <!-- Used for objects that use normal and reinforced glass -->
+
   <Glass.label>玻璃</Glass.label>
+
+
+  <!-- Used for objects that only use reinforced glass -->
+
   <RGlass.label>強化玻璃</RGlass.label>
+
 
 </LanguageData>
