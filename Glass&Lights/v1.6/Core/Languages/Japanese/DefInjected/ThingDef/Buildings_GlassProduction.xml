@@ -2,24 +2,24 @@
 <LanguageData>
 
   <GlassworkTable.label>ガラス制作台(電気)</GlassworkTable.label>
-  <GlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台で、大量の電気を消費します。</GlassworkTable.description>
+  <GlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台で,大量の電気を消費します.</GlassworkTable.description>
   <Blueprint_GlassworkTable.label>ガラス制作台(電気)(設計)</Blueprint_GlassworkTable.label>
   <Blueprint_Install_GlassworkTable.label>ガラス制作台(電気)(移動先)</Blueprint_Install_GlassworkTable.label>
   <Frame_GlassworkTable.label>ガラス制作台(電気)(施工)</Frame_GlassworkTable.label>
-  <Frame_GlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台で、大量の電気を消費します。</Frame_GlassworkTable.description>
+  <Frame_GlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台で,大量の電気を消費します.</Frame_GlassworkTable.description>
 
   <FueledGlassworkTable.label>ガラス制作台(薪式)</FueledGlassworkTable.label>
-  <FueledGlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台です。電気の代わりに薪(燃料)を使用します。円形ガラスは熱が安定しないため電気式でしか作れません。</FueledGlassworkTable.description>
+  <FueledGlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台です.電気の代わりに薪(燃料)を使用します.円形ガラスは熱が安定しないため電気式でしか作れません.</FueledGlassworkTable.description>
   <Blueprint_FueledGlassworkTable.label>ガラス制作台(薪式)(設計)</Blueprint_FueledGlassworkTable.label>
   <Blueprint_Install_FueledGlassworkTable.label>ガラス制作台(薪式)(移動先)</Blueprint_Install_FueledGlassworkTable.label>
   <Frame_FueledGlassworkTable.label>ガラス制作台(薪式)(施工)</Frame_FueledGlassworkTable.label>
-  <Frame_FueledGlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台です。電気の代わりに薪(燃料)を使用します。円形ガラスは熱が安定しないため電気式でしか作れません。</Frame_FueledGlassworkTable.description>
+  <Frame_FueledGlassworkTable.description>ガラスを作るのに必要な道具を揃えた作業台です.電気の代わりに薪(燃料)を使用します.円形ガラスは熱が安定しないため電気式でしか作れません.</Frame_FueledGlassworkTable.description>
 
   <ReinforcedGlassworkTable.label>強化ガラス製作台</ReinforcedGlassworkTable.label>
-  <ReinforcedGlassworkTable.description>通常のガラスから強化ガラスを製作する作業台です。</ReinforcedGlassworkTable.description>
+  <ReinforcedGlassworkTable.description>通常のガラスから強化ガラスを製作する作業台です.</ReinforcedGlassworkTable.description>
   <Blueprint_ReinforcedGlassworkTable.label>強化ガラス製作台(設計)</Blueprint_ReinforcedGlassworkTable.label>
   <Blueprint_Install_ReinforcedGlassworkTable.label>強化ガラス製作台(移動先)</Blueprint_Install_ReinforcedGlassworkTable.label>
   <Frame_ReinforcedGlassworkTable.label>強化ガラス製作台(施工)</Frame_ReinforcedGlassworkTable.label>
-  <Frame_ReinforcedGlassworkTable.description>通常のガラスから強化ガラスを製作する作業台です。</Frame_ReinforcedGlassworkTable.description>
+  <Frame_ReinforcedGlassworkTable.description>通常のガラスから強化ガラスを製作する作業台です.</Frame_ReinforcedGlassworkTable.description>
 
 </LanguageData>
